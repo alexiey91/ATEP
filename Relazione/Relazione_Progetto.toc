@@ -1,0 +1,11 @@
+\select@language {english}
+\select@language {italian}
+\contentsline {chapter}{Descrizione Progetto}{1}{chapter*.1}
+\contentsline {section}{\numberline {1}Sede legale e fiscale}{1}{section.0.1}
+\contentsline {section}{\numberline {2}Sistema Fiscale}{1}{section.0.2}
+\contentsline {subsection}{\numberline {2.1}Persone Giuridiche}{1}{subsection.0.2.1}
+\contentsline {subsubsection}{Imposta sul reddito aziendale}{2}{section*.5}
+\contentsline {subsubsection}{IVA}{2}{section*.7}
+\contentsline {subsection}{\numberline {2.2}Persone Fisiche}{2}{subsection.0.2.2}
+\contentsline {section}{\numberline {3}Gruppo Sistelia}{2}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}ReteTurismo}{2}{subsection.0.3.1}
