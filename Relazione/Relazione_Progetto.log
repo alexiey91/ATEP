@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  20 DEC 2016 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  20 DEC 2016 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1981,36 +1981,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
  []
 
 
-Overfull \hbox (33.37463pt too wide) detected at line 64
- 
- []
-
-
-Overfull \hbox (33.37463pt too wide) detected at line 65
- 
- []
-
-
-Overfull \hbox (33.37463pt too wide) detected at line 66
- 
- []
-
-
-Overfull \hbox (33.37463pt too wide) detected at line 67
- 
- []
-
-
-Overfull \hbox (33.37463pt too wide) detected at line 68
- 
- []
-
-
 Overfull \hbox (33.37463pt too wide) detected at line 69
  
  []
 
-) [2] [3] (./acronimi.tex
+
+Overfull \hbox (33.37463pt too wide) detected at line 70
+ 
+ []
+
+
+Overfull \hbox (33.37463pt too wide) detected at line 71
+ 
+ []
+
+
+Overfull \hbox (33.37463pt too wide) detected at line 72
+ 
+ []
+
+
+Overfull \hbox (33.37463pt too wide) detected at line 73
+ 
+ []
+
+
+Overfull \hbox (33.37463pt too wide) detected at line 74
+ 
+ []
+
+[2]) [3] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
 Package acronym Info: Label `acro:TVSH' newly defined as it shall be overridden
@@ -2033,7 +2033,7 @@ Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
 Here is how much of TeX's memory you used:
  43776 strings out of 493029
  1009628 string characters out of 6136235
- 1223158 words of memory out of 5000000
+ 1224381 words of memory out of 5000000
  46559 multiletter control sequences out of 15000+600000
  55631 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2047,7 +2047,7 @@ blic/eurosym/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (6 pages, 103523 bytes).
+Output written on Relazione_Progetto.pdf (6 pages, 103807 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams
