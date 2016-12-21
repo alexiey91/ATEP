@@ -34,7 +34,16 @@
 \lstset{basicstyle=\small\ttfamily}
 \usepackage{tikz}
 \usepackage{tikz-uml}
-\usetikzlibrary{matrix,backgrounds}
+\usetikzlibrary{arrows,shapes,positioning,shadows,trees,matrix,backgrounds}
+
+\tikzset{
+  basic/.style  = {draw, text width=4cm, drop shadow, font=\sffamily, rectangle},
+  root/.style   = {basic, rounded corners=2pt, thin, align=center,
+                   fill=green!30},
+  level 2/.style = {basic, rounded corners=10pt, thin,align=center, fill=green!60,
+                   text width=6em},
+  level 3/.style = {basic, thin, align=left, fill=pink!60, text width=8em}
+}
 
 		%
 		% 	inserimento codice
@@ -75,6 +84,10 @@
 \usepackage{multicol}
 \setlength{\columnsep}{2cm}
 		%
-		% 
+		% allineamento decimali tabella
 		%
-\usepackage{dcolumn}		
+\usepackage{dcolumn}
+		%
+		% inserimento note a piè di pagina
+		%
+\usepackage{footnote}		
