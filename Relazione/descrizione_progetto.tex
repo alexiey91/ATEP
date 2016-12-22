@@ -42,33 +42,73 @@ esportazioni e sui servizi internazionali come per esempio il trasporto di merci
 \subsection[Persone Fisiche]{Persone Fisiche}
 Una persona fisica, invece, è soggetta al pagamento delle tasse relative ai guadagni realizzati all'interno del territorio albanese, se non è residente, altrimenti deve pagare le tasse su tutti i guadagni realizzati anche all'estero.
 Sono previste le seguenti aliquote:\newline
-\begin{center}
- \begin{tabular}{SS[table-comparator = true]}
+\newpage
+\begin{savenotes}
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{D{,}{,}{5.2}D{,}{,}{5.2}c}
  \toprule
- 	{Aliquota Applicata (\%)} & {Reddito Mensile(ALL)} \\
+ 	\multicolumn{2}{c}{\textbf{Reddito da lavoro mensile (in ALL)}} & \textbf{Aliquota} \\
+ 	Da & Fino\ a & \\
  \midrule
- 	0 & < 30000 \\
- 	13 & \numrange{30001}{130000} \\
- 	23 & > 130001 \\
+ 	0 & 30000 & 0\% \\
+ 	30001 & 130000 & 13\% dell'importo superiore ad ALL 30000\\
+ 	130001 & \ & ALL 13000 + 23\% dell'importo superiore ad ALL 130000 \\
  \bottomrule
  \end{tabular} 
-\end{center}
-Si deve precisare, però che l'applicazione dell'aliquota del:
-\begin{itemize}
-	\item \textbf{13\%} riguarda soltanto la parte eccedente i 30001 ALL.
-	\item \textbf{23\%} riguarda soltanto la parte eccedente i 130001 ALL. \newline In questo caso però è prevista anche una quota fissa pari a 13000 ALL; 
-\end{itemize}
+\end{table}
+\end{savenotes}
+
 Nel nostro caso avremmo la seguente situazione:
 
+\begin{savenotes}
 \begin{table}[htb]
 \centering
+ \caption{Stipendi Dipendenti}
+ \begin{tabular}{rD{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{Centralinista} & \multicolumn{1}{c}{Manager} & \multicolumn{1}{c}{CEO} \\
+ \midrule
+ 	Reddito Imponibile Mensile (\euro)& 500,00 & 1000,00 & 5000,00 \\ 
+ 	Imposta sui Redditi (\euro)& 36,43\footnote{(aliquota del 13,00 \%) pari a (500,00-219,77)*0,13} & 201,43\footnote{(aliquota del 23,00 \%) pari a (1000,00-952,31)*0,23+95,23} & 1026,19 \footnote{(aliquota del 23,00 \%) pari a (5000,00-952,31)*0,23+95,23}\\
+	Contributi Previdenziali (11,20 \%)(\euro) & 56,00 & 112,00 & 560,00 \\
+	Stipendio Netto (\euro) & 407,57 & 686,57 & 3413,81 \\ 	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Costo Azienda Dipendenti}
+ \begin{tabular}{rD{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{Centralinista} & \multicolumn{1}{c}{Manager} & \multicolumn{1}{c}{CEO} & \multicolumn{1}{c}{TOTALE} \\
+ \midrule
+ 	Reddito Imponibile Mensile (\euro)& 500,00 & 1000,00 & 5000,00 & \\ 
+	Contributi Previdenziali (16,70 \%)(\euro) & 83,50 & 167,00 & 835,00 & \\
+	\textbf{Costo Mensile Singolo Dipendente} (\euro) & 583,50 & 1167,00 & 5835,00 & \\ 	
+	num. dipendenti & 30 & 3 & 1 & \\
+	\textbf{Costo Mensile Dipendenti} (\euro) & 17505,00 & 3501,00 & 5835,00 & 26841,00\\ 	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+\begin{comment}
+
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Situazione Stipendi Dipendenti}
  \begin{tabular}{rD{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
  \toprule
  	& \multicolumn{1}{c}{Centralinista} & \multicolumn{1}{c}{Manager} & \multicolumn{1}{c}{CEO} & \multicolumn{1}{c}{\textbf{TOTALE}} \\
  \midrule
- 	stipendio mensile netto (\euro)& 500,00 & 1000,00 & 5000,00 & 6500,00\\ 
- 	aliquota tasse (\%) &  13,00 & 23,00 & 23,00 & \- \\
- 	quota tasse (\euro)& 36,43 & 106,20 & 1026,19 & 1168,82\\
+ 	Reddito Imponibile Mensile (\euro)& 500,00 & 1000,00 & 5000,00 & 6500,00\\ 
+ 	aliquota Imposta sui Redditi (\%) &  13,00 & 23,00 & 23,00 & \- \\
+ 	quota Imposta sui Redditi (\euro)& 36,43\footnote{(500,00-219,77)*0,13} & 201,43\footnote{(1000,00-952,31)*0,23+95,23} & 1026,19 \footnote{(5000,00-952,31)*0,23+95,23}& 1168,82\\
  	stipendio mensile lordo (\euro)& 536,43 & 1106,20 & 6026,19 & 7668,82\\
  	stipendio annuale lordo (\euro)& 6437,16 & 13274,40 & 72314,28 & 92025,84\\
  	numero dipendenti & 30 & 3 & 1 & 34\\ 
@@ -77,6 +117,8 @@ Nel nostro caso avremmo la seguente situazione:
  \bottomrule
  \end{tabular} 
 \end{table}
+\end{savenotes}
+\end{comment}
 \section[Gruppo Sistelia]{Gruppo Sistelia}
 
 \subsection[ReteTurismo]{ReteTurismo}
