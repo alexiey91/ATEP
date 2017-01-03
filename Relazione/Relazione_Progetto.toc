@@ -8,5 +8,5 @@
 \contentsline {subsubsection}{Imposta sul reddito aziendale}{2}{section*.5}
 \contentsline {subsubsection}{IVA}{2}{section*.7}
 \contentsline {subsection}{\numberline {3.2}Persone Fisiche}{2}{subsection.0.3.2}
-\contentsline {section}{\numberline {4}Gruppo Sistelia}{3}{section.0.4}
-\contentsline {subsection}{\numberline {4.1}ReteTurismo}{3}{subsection.0.4.1}
+\contentsline {section}{\numberline {4}Gruppo Sistelia}{4}{section.0.4}
+\contentsline {subsection}{\numberline {4.1}ReteTurismo}{4}{subsection.0.4.1}
