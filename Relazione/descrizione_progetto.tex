@@ -52,7 +52,7 @@ Sono previste le seguenti aliquote:\newline
  	Da & Fino\ a & \\
  \midrule
  	0 & 30000 & 0\% \\
- 	30001 & 130000 & 13\% dell'importo superiore ad ALL 30000\\
+ 	30001 & 130000& 13\% dell'importo superiore ad ALL 30000\\
  	130001 & \ & ALL 13000 + 23\% dell'importo superiore ad ALL 130000 \\
  \bottomrule
  \end{tabular} 
@@ -76,6 +76,9 @@ per semplicità riportiamo la precedente tabella con i valori riportati in \text
  \end{tabular} 
 \end{table}
 \end{savenotes}
+
+
+
 
 Nel nostro caso avremmo la seguente situazione:
 
@@ -137,37 +140,249 @@ Nel nostro caso avremmo la seguente situazione:
  \end{tabular} 
 \end{table}
 \end{savenotes}
-\end{comment}
 
-\newpage 
+\end{comment}
+\newpage
+
+\section[CAPEX]{CAPEX}
+
+
+%
+%	Tabella relativa ai CAPEX sostenuti al momento della costituzione della nostra società
+%
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{CAPEX}
+ \begin{tabular}{p{7cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{Prezzo unitario (\euro)} & \multicolumn{1}{c}{Quantita'} &\multicolumn{1}{c}{\textbf{TOTALE (\euro)}} \\
+ \midrule
+	& & & \\ 	
+ 	\makebox[7cm][l]{\textbf{Attrezzatura Sistelia}} & & & \\ 
+	\makebox[7cm][r]{Pacchetto Clienti e servizi \footnote{Soluzione Full}} & 20989,00 & 1 & 20989,00 \\
+	\makebox[7cm][r]{Software Gestione Personale} & 1890,00 & 1 & 1890,00 \\
+	\makebox[7cm][r]{Servizio Supporto} & 102,00 & 48 & 4896,00 \\
+	\makebox[7cm][r]{File Server Gestione Rete Informatica} & 2490,00 & 1 & 2490,00 \\
+	& & & \\
+ 	\makebox[7cm][l]{\textbf{Attrezzatura Ufficio}} & & & \\
+	\makebox[7cm][r]{Postazioni} & 100,83 & 17 & 1714,00 \\ 	 	
+	\makebox[7cm][r]{Sedie} & 65,00 & 18 & 1170,00 \\
+	\makebox[7cm][r]{Laptop} & 469,00 & 4 & 1876,00 \\
+	\makebox[7cm][r]{Spedizione Postazione (25 Kg)} & 492,25 & 17 & 8368,25 \\
+	\makebox[7cm][r]{Spedizione Sedie (7,5 Kg)} & 154,28 & 18 & 2776,95 \\
+	\makebox[7cm][r]{Caparra 2 mesi} & 10000,00 & 1 & 10000,00 \\
+	\makebox[7cm][l]{\textbf{TOTALE}} & & & 56170,20 \\		
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+\section[OPEX]{OPEX}
+
+Nei primi due mesi di attività prevediamo i seguenti OPEX:
+
+%
+%	Tabella relativa ai OPEX sostenuti nei mesi di Gennaio e Febbraio
+%
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{OPEX (Gennaio-Febbraio)}
+ \begin{tabular}{p{5cm}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{\textbf{Costo Mensile (\euro)}} \\
+ \midrule
+	& \\ 	
+ 	\makebox[5cm][l]{\textbf{Utenze}} & \\ 
+	\makebox[5cm][r]{Telefono \footnote{comprende anche l'abbonamento ADSL}} & 36,00 \\
+	\makebox[5cm][r]{Abbonamento Skype \footnote{Abbonamento World unlimited mins}} & 15,86 \\	
+	\makebox[5cm][r]{Acqua} & 45,88 \\
+	\makebox[5cm][r]{Luce} & 31,17 \\
+	\makebox[5cm][r]{Gas} & 252,62 \\
+	& \\ 	
+ 	\makebox[5cm][l]{\textbf{Sorveglianza 24h}} & 19710,00 \\
+	& \\ 	
+ 	\makebox[5cm][l]{\textbf{Pulizie}} & 8880,00 \\ 	
+ 	& \\
+ 	\makebox[5cm][l]{\textbf{Cancelleria}} & 500,00 \\ 
+ 	& \\
+	\makebox[5cm][l]{Stipendi Dipendenti} & 25437,69 \\ 	 	
+	& \\
+	\makebox[5cm][l]{\textbf{TOTALE (\euro)}} & 54909,22 \\		
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+Nei successivi mesi, invece, si deve considerare aggiungere alla stima precedente il costo dell'affitto ( 5000,00 \euro ) non considerati precedentemente, perchè anticipati nella caparra iniziale:
+
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{OPEX (Marzo \ldots Dicembre)}
+ \begin{tabular}{p{3cm}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{\textbf{Costo Mensile (\euro)}} \\
+ \midrule
+	& \\ 	
+ 	\makebox[3cm][c]{\textbf{OPEX (base)\footnote{calcolati nella tabella precedente}}} & 54909,22\\ 
+	\makebox[3cm][c]{\textbf{Affitto Locale}} & 5000,00 \\
+	& \\
+	\makebox[3cm][c]{\textbf{TOTALE (\euro)}} & 59909,22 \\		
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+\subsection[Acqua]{Acqua}
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Bolletta dell'Acqua}
+ \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	\textbf{Base Stima Consumo}& \multicolumn{1}{c}{\textbf{Quantita' \si{m^3}}} & \multicolumn{1}{c}{\textbf{Costo (LEK)}} & \multicolumn{1}{c}{\textbf{Costo (\euro)}}\\
+ \midrule
+	\makebox[4cm][c]{giornaliero} & 1,87 & 280,50 & 2,05\\
+	\makebox[4cm][c]{mensile} & 41,14 & 6171,00 & 45,88\\	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+\subsection[Luce]{Luce}
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Bolletta della Luce}
+ \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	\textbf{Base Stima Consumo}& \multicolumn{1}{c}{\textbf{Quantita' (kWh)}} & \multicolumn{1}{c}{\textbf{Costo (\euro)}}\\
+ \midrule
+	\makebox[4cm][c]{annuale} & 5343,00 &  347,01\\
+	\makebox[4cm][c]{mensile} & 445,25 & 31,77 \\	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+\subsection[Gas]{Gas}
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Bolletta del Gas}
+ \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	\textbf{Base Stima Consumo}& \multicolumn{1}{c}{\textbf{Quantita' (mln \si{m^3})}} & \multicolumn{1}{c}{\textbf{Costo (\$)}} & \multicolumn{1}{c}{\textbf{Costo (\euro)}}\\
+ \midrule
+	\makebox[4cm][c]{annuale} & 81,00 & 3159,00 & 3031,44\\
+	\makebox[4cm][c]{mensile} & 6,75 & 263,25 & 252,62\\	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
 \section[Gruppo Sistelia]{Gruppo Sistelia}
 
 \subsection[ReteTurismo]{ReteTurismo}
 
- 	\[ y = a * x + b\]
+\section[Analisi Rischi]{Analisi Rischi}
+
+\subsection[Malattia Dipendenti]{Malattia Dipendenti}
 
  \begin{tabular}{SS[table-format=2]}
  \toprule
- 	{Anno} & {Numero Abbonati} \\
+ 	{Anno} & {Giorni Malattia} \\
  \midrule
- 	2010 & 4515000 \\
- 	2011 & 4831000 \\
- 	2012 & 4900000 \\
- 	2013 & 4700000 \\
- 	2014 & 4723000 \\
- 	2015 & 4740000 \\
+ 	1990 & 10,7 \\
+ 	1991 & 11,1 \\
+ 	1992 & 11,1 \\
+ 	1993 & 11,4 \\
+ 	1994 & 11,4 \\
+ 	1995 & 11,6 \\
+	1996 & 11,5 \\ 
+	1997 & 11,3 \\
+	1998 & 11,2 \\
+	1999 & 11,5 \\
+	2000 & 11,6 \\
+	2001 & 11,8 \\
+	2002 & 12,1 \\
+	2003 & 12,2 \\
+	2004 & 11,8 \\
+	2006 & 11,4 \\
+	2007 & 11,4 \\
+	2008 & 11,6 \\
+	2009 & 11,7 \\
+	2010 & 11,6 \\
+	2011 & 11,6 \\
+	2012 & 11,7 \\							  
+	2013 & 11,8 \\
+	2014 & 11,8 \\
+
  \bottomrule
  \end{tabular} 
 
- \begin{tikzpicture}
-	\begin{axis}[ xlabel=$Anno Solare$, ylabel=$Numero Abbonati$, grid=major	
-	]
+ La regressione calcolata è di tipo logaritmica ed e' pari a:
+ 
+ \[ f(x) = 0,293204 * ln(12,53 * 10^{15} * x )\]
+
+ \begin{tikzpicture}[scale=1.2]
+ \pgfkeys {
+			/pgf/number format/.cd,
+			set decimal separator={,{\!}},
+			set thousands separator={}}
+	\begin{axis}[ xlabel=$Anno$, ylabel=$Giorni Malattia$, grid=major, legend style={anchor=south, at={(0.7,0.1)}} ]
 		
-		\addplot coordinates{( 2010, 4515000) 
-							  ( 2011, 4831000)
-							  ( 2012, 4900000)
-							  ( 2013, 4700000)
-							  ( 2014, 4723000)
-							  ( 2015, 4740000)};
+		\addplot coordinates{( 1990, 10.7) 
+							  ( 1991, 11.1)
+							  ( 1992, 11.1)
+							  ( 1993, 11.4)
+							  ( 1994, 11.4)
+							  ( 1995, 11.6)
+							  ( 1996, 11.5) 
+							  ( 1997, 11.3)
+							  ( 1998, 11.2)
+							  ( 1999, 11.5)
+							  ( 2000, 11.6)
+							  ( 2001, 11.8)
+							  ( 2002, 12.1)
+							  ( 2003, 12.2)
+							  ( 2004, 11.8)
+							  ( 2006, 11.4)
+							  ( 2007, 11.4)
+							  ( 2008, 11.6)
+							  ( 2009, 11.7)
+							  ( 2010, 11.6)
+							  ( 2011, 11.6)
+							  ( 2012, 11.7)							  
+							  ( 2013, 11.8)
+							  ( 2014, 11.8)
+							  };
+							  
+		\addplot coordinates{( 1990, 10.87) 
+							  ( 1991, 11.07)
+							  ( 1992, 11.19)
+							  ( 1993, 11.27)
+							  ( 1994, 11.34)
+							  ( 1995, 11.39)
+							  ( 1996, 11.44) 
+							  ( 1997, 11.48)
+							  ( 1998, 11.51)
+							  ( 1999, 11.54)
+							  ( 2000, 11.57)
+							  ( 2001, 11.60)
+							  ( 2002, 11.62)
+							  ( 2003, 11.64)
+							  ( 2004, 11.66)
+							  ( 2006, 11.68)
+							  ( 2007, 11.70)
+							  ( 2008, 11.72)
+							  ( 2009, 11.73)
+							  ( 2010, 11.75)
+							  ( 2011, 11.76)
+							  ( 2012, 11.77)		
+							  ( 2013, 11.79)
+							  ( 2014, 11.80)
+							  };
+				\legend{$campioni$,$f(x)$}
 	\end{axis}
 \end{tikzpicture}

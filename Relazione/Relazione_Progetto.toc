@@ -8,5 +8,12 @@
 \contentsline {subsubsection}{Imposta sul reddito aziendale}{2}{section*.5}
 \contentsline {subsubsection}{IVA}{2}{section*.7}
 \contentsline {subsection}{\numberline {3.2}Persone Fisiche}{2}{subsection.0.3.2}
-\contentsline {section}{\numberline {4}Gruppo Sistelia}{4}{section.0.4}
-\contentsline {subsection}{\numberline {4.1}ReteTurismo}{4}{subsection.0.4.1}
+\contentsline {section}{\numberline {4}CAPEX}{4}{section.0.4}
+\contentsline {section}{\numberline {5}OPEX}{4}{section.0.5}
+\contentsline {subsection}{\numberline {5.1}Acqua}{6}{subsection.0.5.1}
+\contentsline {subsection}{\numberline {5.2}Luce}{6}{subsection.0.5.2}
+\contentsline {subsection}{\numberline {5.3}Gas}{6}{subsection.0.5.3}
+\contentsline {section}{\numberline {6}Gruppo Sistelia}{6}{section.0.6}
+\contentsline {subsection}{\numberline {6.1}ReteTurismo}{6}{subsection.0.6.1}
+\contentsline {section}{\numberline {7}Analisi Rischi}{6}{section.0.7}
+\contentsline {subsection}{\numberline {7.1}Malattia Dipendenti}{6}{subsection.0.7.1}
