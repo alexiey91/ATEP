@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  10 JAN 2017 12:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  10 JAN 2017 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2026,7 +2026,92 @@ Overfull \hbox (4.5pt too wide) detected at line 95
 $[]\OT1/cmr/m/n/12 88[][][]$ 
  []
 
-[3] [4]
+[3]
+Overfull \hbox (9.1388pt too wide) detected at line 279
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 280
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 281
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 282
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 283
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 284
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 285
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 286
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 287
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 288
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 289
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 290
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 291
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 292
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 293
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 294
+ 
+ []
+
+
+Overfull \hbox (9.1388pt too wide) detected at line 295
+ 
+ []
+
+
 Overfull \hbox (9.1388pt too wide) detected at line 296
  
  []
@@ -2061,93 +2146,8 @@ Overfull \hbox (9.1388pt too wide) detected at line 302
  
  []
 
-
-Overfull \hbox (9.1388pt too wide) detected at line 303
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 304
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 305
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 306
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 307
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 308
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 309
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 310
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 311
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 312
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 313
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 314
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 315
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 316
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 317
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 318
- 
- []
-
-
-Overfull \hbox (9.1388pt too wide) detected at line 319
- 
- []
-
-[5]
-Overfull \vbox (168.09216pt too high) has occurred while \output is active []
+[4] [5]
+Overfull \vbox (33.2572pt too high) has occurred while \output is active []
 
 
 [6]) [7] (./acronimi.tex
@@ -2168,10 +2168,10 @@ Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
 (rerunfilecheck)             Checksum: 636F7877FDCB17C4820DADF955DD916D;933.
  ) 
 Here is how much of TeX's memory you used:
- 44179 strings out of 493029
- 1017505 string characters out of 6136235
- 1246512 words of memory out of 5000000
- 46915 multiletter control sequences out of 15000+600000
+ 44176 strings out of 493029
+ 1017470 string characters out of 6136235
+ 1255508 words of memory out of 5000000
+ 46914 multiletter control sequences out of 15000+600000
  60282 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,103p,10391b,2161s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2195,10 +2195,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (10 pages, 128030 bytes).
+Output written on Relazione_Progetto.pdf (10 pages, 127669 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
  229 words of extra memory for PDF output out of 10000 (max. 10000000)
 
