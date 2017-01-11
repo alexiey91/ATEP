@@ -15,5 +15,6 @@
 \contentsline {subsection}{\numberline {5.3}Gas}{6}{subsection.0.5.3}
 \contentsline {section}{\numberline {6}Gruppo Sistelia}{6}{section.0.6}
 \contentsline {subsection}{\numberline {6.1}ReteTurismo}{6}{subsection.0.6.1}
-\contentsline {section}{\numberline {7}Analisi Rischi}{6}{section.0.7}
-\contentsline {subsection}{\numberline {7.1}Malattia Dipendenti}{6}{subsection.0.7.1}
+\contentsline {section}{\numberline {7}Analisi Rischi}{7}{section.0.7}
+\contentsline {subsection}{\numberline {7.1}Variazione Tasso Cambio}{7}{subsection.0.7.1}
+\contentsline {subsection}{\numberline {7.2}Malattia Dipendenti}{11}{subsection.0.7.2}
