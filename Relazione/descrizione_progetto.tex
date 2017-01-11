@@ -369,3 +369,74 @@ Gli OPEX stimati mensilmente sono:
 				\legend{$campioni$,$f(x)$}
 	\end{axis}
 \end{tikzpicture}
+
+Quindi, si osserva che la nostra stima per l'anno 2016 di nostro interesse, il numero di giorni di malattia per singolo dipendente si assesta intorno ai:
+ 	
+ \[		x = 26 \] 
+ 
+( perche' il 2016 rappresenterebbe il 26 e-simo  valore nel nostro intervallo di campioni )
+ \[		f(26) = 11,82 ( consideriamo 12 )	\]
+ 
+consideriamo le seguenti ipotesi per ogni singolo centralinista: 
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Assunzioni iniziali in un singolo mese}
+ \begin{tabular}{p{7cm}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{\textbf{Quantita'}} \\
+ \midrule 	
+	\makebox[7cm][r]{Giorni lavorativi} & 18,50\\
+	\makebox[7cm][r]{Giorni assenza} & 12,00\\	
+ 	\makebox[7cm][r]{Probabilita' di stipulare un contratto (\%)\footnote{dati istat}} & 15,60\\
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+%
+%	Numero chiamate centralinisti
+%
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Numero contratti centralinisti}
+ \begin{tabular}{p{7cm}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{\textbf{Singolo Centralinista}} & \multicolumn{1}{c}{\textbf{30 Centralinisti}} \\
+ \midrule 		
+	\makebox[7cm][r]{Numero chiamate giornaliere} & 94,00 & 2820\\
+ 	\makebox[7cm][r]{Numero chiamate mensili} & 1739,00\footnote{(94,00*18,50)} & 52170\\
+ 	\makebox[7cm][r]{Contratti stipulati mensilmente} & 271,29 & 8138,52\\ 	
+ 	\makebox[7cm][r]{Chiamate mensili in caso di assenza per 12 giorni} & 611,00\footnote{(94,00*(18,50-12,00))} & 18330\\
+ 	\makebox[7cm][r]{Contratti stipulati in caso di assenza per 12 giorni} & 95,32\footnote{(611*0,156)} & 2859,48\\ 	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+ 
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Variazione Fatturato}
+ \begin{tabular}{p{8cm}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{\textbf{VAN PAREGGIO}} & \multicolumn{1}{c}{\textbf{VAN CASO REALE}} \\
+ \midrule
+ 	\makebox[8cm][r]{Probabilita' di successo di un contratto (\%)} & 11,54 & 15,00\\
+ \midrule
+	\makebox[8cm][r]{Numero contratti stipulati (1 mese)} & 8138,52 & 8138,52\\
+	\makebox[8cm][r]{Numero contratti stipulati (30 malati in 1 mese)} & 2859,48 & 2859,48\\
+ \midrule	
+	\makebox[8cm][r]{Numero contratti successo (1 mese)} & 939,50 & 1220,78\\
+	\makebox[8cm][r]{Numero contratti successo (30 malati in 1 mese)} & 329,98 & 428,92\\
+ \midrule	
+	\makebox[8cm][r]{Fatturato Lordo (\euro) (1 mese)} & 75160,00 & 97662,40\\
+	\makebox[8cm][r]{Fatturato Lordo (\euro) (30 malati in 1 mese)} & 26398,72 & 34313,76\\	
+ \midrule	
+	\makebox[8cm][r]{Fatturato Netto (\euro) (1 mese)} & 65314,04 & 84917,46\\
+	\makebox[8cm][r]{Fatturato Netto (\euro) (30 malati in 1 mese)} & 22953,69 & 29835,81\\	
+ \bottomrule
+ \end{tabular} 
+\end{table}\
+\end{savenotes}
