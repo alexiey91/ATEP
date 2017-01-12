@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  12 JAN 2017 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  12 JAN 2017 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1969,44 +1969,44 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./descrizione_progetto.te
 x
 Capitolo 1.
-Package acronym Info: Label `acro:OPEX' newly defined as it shall be overridden
-
-although it is yet undefined on input line 4.
+Package acronym Info: Label `acro:ANV' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 4.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 7.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+Package acronym Info: Label `acro:UE' newly defined as it shall be overridden
+although it is yet undefined on input line 14.
+ [1
+
+
+]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 17.
+
 (./organigramma.tex
 LaTeX Font Info:    Try loading font information for T1+phv on input line 9.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 39--7
+Underfull \hbox (badness 10000) in paragraph at lines 39--19
 
  []
 
-Package acronym Info: Label `acro:UE' newly defined as it shall be overridden
-although it is yet undefined on input line 9.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 11.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
- [1
-
-
-]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
 Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
-[2]
+[3]
 Overfull \hbox (34.13266pt too wide) in paragraph at lines 49--59
  [][] 
  []
@@ -2026,20 +2026,20 @@ Overfull \hbox (4.5pt too wide) detected at line 95
 $[]\OT1/cmr/m/n/12 88[][][]$ 
  []
 
-) [3] (./elenco_costi.tex [4]
+) [4] (./elenco_costi.tex [5]
 Capitolo 2.
-(./analisi_CAPEX.tex) (./analisi_OPEX.tex [5
+(./analisi_CAPEX.tex) (./analisi_OPEX.tex [6
 
-])) [6] (./analisi_VAN_WACC.tex
-[7]
+])) [7] (./analisi_VAN_WACC.tex
+[8]
 Capitolo 3.
-) [8
+) [9
 
 ] (./analisi_rischi.tex
 Capitolo 4.
-(./analisi_rischi_tassocambio.tex [9
+(./analisi_rischi_tassocambio.tex [10
 
-] [10] [11] [12]
+] [11] [12] [13]
 Overfull \hbox (38.88428pt too wide) in paragraph at lines 211--222
  [][] 
  []
@@ -2164,7 +2164,7 @@ Overfull \hbox (9.1388pt too wide) detected at line 28
  
  []
 
-[13] [14]
+[14] [15]
 Overfull \hbox (4.5pt too wide) detected at line 134
 $[]\OT1/cmr/m/n/12 00[][][]$ 
  []
@@ -2184,13 +2184,13 @@ Overfull \hbox (7.52457pt too wide) in paragraph at lines 148--167
  [][] 
  []
 
-) (./analisi_rischi_guastopostazioni.tex)) [15] [16] (./acronimi.tex
+) (./analisi_rischi_guastopostazioni.tex)) [16] [17] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 11.
-) [17]
-(./bibliografia.tex) [18
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 14.
+) [18]
+(./bibliografia.tex) [19
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 28.
@@ -2199,12 +2199,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 28.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 28.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 28.
 Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-(rerunfilecheck)             Checksum: F513727B6275612D9D1A072019440274;1260.
+(rerunfilecheck)             Checksum: 60DA81ABADF935FBCC70390848C40FA0;1192.
  ) 
 Here is how much of TeX's memory you used:
- 44235 strings out of 493029
- 1018339 string characters out of 6136235
- 1246916 words of memory out of 5000000
+ 44236 strings out of 493029
+ 1018327 string characters out of 6136235
+ 1246960 words of memory out of 5000000
  46925 multiletter control sequences out of 15000+600000
  63130 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2235,10 +2235,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (19 pages, 138887 bytes).
+Output written on Relazione_Progetto.pdf (20 pages, 144265 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
+ 339 PDF objects out of 1000 (max. 8388607)
  287 compressed objects within 3 object streams
- 78 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 79 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 

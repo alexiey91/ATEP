@@ -1,25 +1,24 @@
 \select@language {english}
 \select@language {italian}
 \contentsline {chapter}{\numberline {1}Descrizione Progetto}{1}{chapter.1}
-\contentsline {section}{\numberline {1}Organigramma Aziendale}{1}{section.1.1}
-\contentsline {section}{\numberline {2}Sede legale e fiscale}{1}{section.1.2}
-\contentsline {section}{\numberline {3}Sistema Fiscale}{2}{section.1.3}
-\contentsline {subsection}{\numberline {3.1}Persone Giuridiche}{2}{subsection.1.3.1}
+\contentsline {section}{\numberline {1}Organigramma Aziendale}{2}{section.1.1}
+\contentsline {section}{\numberline {2}Sistema Fiscale}{2}{section.1.2}
+\contentsline {subsection}{\numberline {2.1}Persone Giuridiche}{2}{subsection.1.2.1}
 \contentsline {subsubsection}{Imposta sul reddito aziendale}{2}{section*.4}
-\contentsline {subsubsection}{IVA}{2}{section*.6}
-\contentsline {subsection}{\numberline {3.2}Persone Fisiche}{2}{subsection.1.3.2}
-\contentsline {section}{\numberline {4}Gruppo Sistelia}{3}{section.1.4}
-\contentsline {subsection}{\numberline {4.1}ReteTurismo}{3}{subsection.1.4.1}
-\contentsline {chapter}{\numberline {2}Elenco Costi CAPEX-OPEX}{5}{chapter.2}
-\contentsline {section}{\numberline {1}CAPEX}{5}{section.2.1}
-\contentsline {section}{\numberline {2}OPEX}{5}{section.2.2}
-\contentsline {subsection}{\numberline {2.1}Acqua}{6}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2}Luce}{6}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.3}Gas}{6}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}Analisi VAN-WACC}{8}{chapter.3}
-\contentsline {chapter}{\numberline {4}Analisi Rischi}{9}{chapter.4}
-\contentsline {section}{\numberline {1}Variazione Tasso Cambio}{9}{section.4.1}
-\contentsline {section}{\numberline {2}Malattia Dipendenti}{14}{section.4.2}
-\contentsline {section}{\numberline {3}Tasso Guasto Postazioni}{16}{section.4.3}
-\contentsline {chapter}{Elenco Acronimi}{17}{section.4.3}
-\contentsline {chapter}{Bibliografia}{18}{section*.7}
+\contentsline {subsubsection}{IVA}{3}{section*.6}
+\contentsline {subsection}{\numberline {2.2}Persone Fisiche}{3}{subsection.1.2.2}
+\contentsline {section}{\numberline {3}Gruppo Sistelia}{4}{section.1.3}
+\contentsline {subsection}{\numberline {3.1}ReteTurismo}{4}{subsection.1.3.1}
+\contentsline {chapter}{\numberline {2}Elenco Costi CAPEX-OPEX}{6}{chapter.2}
+\contentsline {section}{\numberline {1}CAPEX}{6}{section.2.1}
+\contentsline {section}{\numberline {2}OPEX}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.1}Acqua}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2}Luce}{7}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Gas}{7}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Analisi VAN-WACC}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Analisi Rischi}{10}{chapter.4}
+\contentsline {section}{\numberline {1}Variazione Tasso Cambio}{10}{section.4.1}
+\contentsline {section}{\numberline {2}Malattia Dipendenti}{15}{section.4.2}
+\contentsline {section}{\numberline {3}Tasso Guasto Postazioni}{17}{section.4.3}
+\contentsline {chapter}{Elenco Acronimi}{18}{section.4.3}
+\contentsline {chapter}{Bibliografia}{19}{section*.7}
