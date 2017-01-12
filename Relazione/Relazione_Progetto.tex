@@ -1,6 +1,6 @@
 \documentclass[a4paper, 12pt]{report}
 \title{Relazione_Progetto_ATEP}
-\author{Stefano Agostini, Davide Nanni, Alessandro Tonchei, Alessandro Valenti}
+\author{Stefano Agostini, Davide Nanni, Alessandro Valenti}
 \usepackage{package}
 
 \begin{document}
@@ -11,17 +11,18 @@
 \pagenumbering{arabic}
 \newpage
 \setcounter{page}{1}  
-\addcontentsline{toc}{chapter}{Descrizione Progetto}
 \newpage
 \input{descrizione_progetto.tex}
 \newpage
-\input{analisi_CAPEX.tex}
+\input{elenco_costi.tex}
 \newpage
-\input{analisi_OPEX.tex}
+\input{analisi_VAN_WACC.tex}
 \newpage
 \input{analisi_rischi.tex}
 \newpage
+\addcontentsline{toc}{chapter}{Elenco Acronimi}
 \input{acronimi.tex}
 \newpage
+\addcontentsline{toc}{chapter}{\bibname}
 \input{bibliografia.tex}
 \end{document}

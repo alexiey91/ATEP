@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  19 DEC 2016 10:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  12 JAN 2017 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,22 +283,17 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 32.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--37
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
 
  []
 
@@ -306,11 +301,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--37
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./immagini/LOGOATENEO.jpg>
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
  (./frontespizio.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `frontespizio.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -326,10 +321,10 @@ Here is how much of TeX's memory you used:
 fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on frontespizio.pdf (1 page, 436687 bytes).
+Output written on frontespizio.pdf (1 page, 435861 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 34 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
