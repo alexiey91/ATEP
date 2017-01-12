@@ -4,8 +4,8 @@
 \contentsline {section}{\numberline {1}Organigramma Aziendale}{2}{section.1.1}
 \contentsline {section}{\numberline {2}Sistema Fiscale}{2}{section.1.2}
 \contentsline {subsection}{\numberline {2.1}Persone Giuridiche}{2}{subsection.1.2.1}
-\contentsline {subsubsection}{Imposta sul reddito aziendale}{2}{section*.4}
-\contentsline {subsubsection}{IVA}{3}{section*.6}
+\contentsline {subsubsection}{Imposta sul reddito aziendale}{3}{section*.5}
+\contentsline {subsubsection}{IVA}{3}{section*.7}
 \contentsline {subsection}{\numberline {2.2}Persone Fisiche}{3}{subsection.1.2.2}
 \contentsline {section}{\numberline {3}Gruppo Sistelia}{4}{section.1.3}
 \contentsline {subsection}{\numberline {3.1}ReteTurismo}{4}{subsection.1.3.1}
@@ -21,4 +21,4 @@
 \contentsline {section}{\numberline {2}Malattia Dipendenti}{15}{section.4.2}
 \contentsline {section}{\numberline {3}Tasso Guasto Postazioni}{17}{section.4.3}
 \contentsline {chapter}{Elenco Acronimi}{18}{section.4.3}
-\contentsline {chapter}{Bibliografia}{19}{section*.7}
+\contentsline {chapter}{Bibliografia}{19}{section*.8}
