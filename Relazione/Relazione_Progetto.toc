@@ -19,6 +19,6 @@
 \contentsline {chapter}{\numberline {4}Analisi Rischi}{10}{chapter.4}
 \contentsline {section}{\numberline {1}Variazione Tasso Cambio}{10}{section.4.1}
 \contentsline {section}{\numberline {2}Malattia Dipendenti}{15}{section.4.2}
-\contentsline {section}{\numberline {3}Tasso Guasto Postazioni}{17}{section.4.3}
-\contentsline {chapter}{Elenco Acronimi}{18}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusioni e Sviluppi Futuri}{17}{chapter.5}
+\contentsline {chapter}{Elenco Acronimi}{18}{chapter.5}
 \contentsline {chapter}{Bibliografia}{19}{section*.8}
