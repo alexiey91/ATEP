@@ -7,6 +7,7 @@
 \contentsline {subsubsection}{Imposta sul reddito aziendale}{3}{section*.5}
 \contentsline {subsubsection}{IVA}{3}{section*.7}
 \contentsline {subsection}{\numberline {2.2}Persone Fisiche}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {2.3}Apertura Societ\IeC {\`a} a responsabilit\IeC {\`a} limitata}{4}{subsection.1.2.3}
 \contentsline {section}{\numberline {3}Gruppo Sistelia}{4}{section.1.3}
 \contentsline {subsection}{\numberline {3.1}ReteTurismo}{4}{subsection.1.3.1}
 \contentsline {chapter}{\numberline {2}Elenco Costi CAPEX-OPEX}{6}{chapter.2}

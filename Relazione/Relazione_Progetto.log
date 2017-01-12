@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  12 JAN 2017 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  12 JAN 2017 23:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2004,18 +2004,18 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
 Package acronym Info: Label `acro:UE' newly defined as it shall be overridden
-although it is yet undefined on input line 18.
+although it is yet undefined on input line 17.
  [1
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
 Package acronym Info: Label `acro:CEO' newly defined as it shall be overridden
-although it is yet undefined on input line 25.
+although it is yet undefined on input line 24.
 
 (./organigramma.tex
-Underfull \hbox (badness 10000) in paragraph at lines 35--1
+Underfull \hbox (badness 10000) in paragraph at lines 34--1
 
  []
 
@@ -2023,41 +2023,42 @@ LaTeX Font Info:    Try loading font information for T1+phv on input line 9.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 39--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--37
 
  []
 
+(./sistema_fiscale_albania.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 43.
-[2]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+ [2]
 Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
-although it is yet undefined on input line 46.
+although it is yet undefined on input line 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 [3]
-Overfull \hbox (34.13266pt too wide) in paragraph at lines 71--81
+Overfull \hbox (34.13266pt too wide) in paragraph at lines 29--39
  [][] 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 116
+Overfull \hbox (4.5pt too wide) detected at line 70
 $[]\OT1/cmr/m/n/12 19[][][]$ 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 116
+Overfull \hbox (4.5pt too wide) detected at line 70
 $[]\OT1/cmr/m/n/12 66[][][]$ 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 117
+Overfull \hbox (4.5pt too wide) detected at line 71
 $[]\OT1/cmr/m/n/12 88[][][]$ 
  []
 
-) [4] (./elenco_costi.tex [5]
+)) [4] (./elenco_costi.tex [5]
 Capitolo 2.
 (./analisi_CAPEX.tex) (./analisi_OPEX.tex [6
 
@@ -2243,13 +2244,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
 Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-(rerunfilecheck)             Checksum: 7B6D19C080930CF0A9DA5DF4881B9483;1185.
+(rerunfilecheck)             Checksum: 32AEF33F4500815E51A08F0086438FAE;1287.
  ) 
 Here is how much of TeX's memory you used:
- 45264 strings out of 493029
- 1042790 string characters out of 6136235
- 1257903 words of memory out of 5000000
- 47936 multiletter control sequences out of 15000+600000
+ 45271 strings out of 493029
+ 1042965 string characters out of 6136235
+ 1257943 words of memory out of 5000000
+ 47939 multiletter control sequences out of 15000+600000
  63130 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,86p,10391b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2279,10 +2280,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (20 pages, 141513 bytes).
+Output written on Relazione_Progetto.pdf (20 pages, 141973 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
