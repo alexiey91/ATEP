@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  13 JAN 2017 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  13 JAN 2017 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1982,6 +1982,11 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (./Relazione_Progetto.toc
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
+Package acronym Info: Label `acro:ANV S.r.l.' newly defined as it shall be over
+ridden
+although it is yet undefined on input line 3.
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 3.
 )
 \tf@toc=\write8
 \openout8 = `Relazione_Progetto.toc'.
@@ -1992,11 +1997,6 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./descrizione_progetto.te
 x
 Capitolo 1.
-Package acronym Info: Label `acro:ANV S.r.l.' newly defined as it shall be over
-ridden
-although it is yet undefined on input line 5.
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 5.
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 7.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
@@ -2027,51 +2027,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--37
 
  []
 
-(./sistema_fiscale_albania.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
- [2]
-Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
+NOTE: coordinate (2Y5.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y4.5833334e0],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y4.1666669e0],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y3.7500003e0],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y3.3333337e0],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.9166672e0],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.5000006e0],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.083334e0],3Y0.0e0]) has been dropped because it is unboun
+ded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y1.6666675e0],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y1.2500009e0],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y8.333344e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y4.166677e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y9.9e-7],3Y0.0e0]) has been dropped because it is unbounded 
+(in y). (see also unbounded coords=jump). 
 [3]
-Overfull \hbox (34.13266pt too wide) in paragraph at lines 29--39
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 130.
+) [4] (./sistema_fiscale_albania.tex
+Capitolo 2.
+Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+[5
+
+] [6]
+Overfull \hbox (34.13266pt too wide) in paragraph at lines 32--42
  [][] 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 70
+Overfull \hbox (4.5pt too wide) detected at line 73
 $[]\OT1/cmr/m/n/12 19[][][]$ 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 70
+Overfull \hbox (4.5pt too wide) detected at line 73
 $[]\OT1/cmr/m/n/12 66[][][]$ 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 71
+Overfull \hbox (4.5pt too wide) detected at line 74
 $[]\OT1/cmr/m/n/12 88[][][]$ 
  []
 
-)) [4] (./elenco_costi.tex [5]
-Capitolo 2.
-(./analisi_CAPEX.tex) (./analisi_OPEX.tex [6
-
-])) [7] (./analisi_VAN_WACC.tex
-[8]
+) [7] (./elenco_costi.tex [8]
 Capitolo 3.
-) [9
+(./analisi_CAPEX.tex) (./analisi_OPEX.tex [9
+
+])) [10] (./analisi_VAN_WACC.tex
+[11]
+Capitolo 4.
+) [12
 
 ] (./analisi_rischi.tex
-Capitolo 4.
-(./analisi_rischi_tassocambio.tex [10
+Capitolo 5.
+(./analisi_rischi_tassocambio.tex [13
 
-] [11] [12] [13])
+] [14] [15] [16])
 (./analisi_rischi_malattiadipendenti.tex
 Overfull \hbox (9.1388pt too wide) detected at line 5
  
@@ -2192,14 +2228,14 @@ Overfull \hbox (9.1388pt too wide) detected at line 28
  
  []
 
-[14]
+[17]
 Overfull \hbox (7.52457pt too wide) in paragraph at lines 118--137
  [][] 
  []
 
-)) [15] (./conclusioni_sviluppi_futuri.tex [16]
-Capitolo 5.
-) [17
+)) [18] (./conclusioni_sviluppi_futuri.tex [19]
+Capitolo 6.
+) [20
 
 ] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
@@ -2214,33 +2250,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 \T1/ptm/m/n/10.95 l'equivalente al-ba-ne-se del-l'i-ta-lia-na
  []
 
-) [18] (./bibliografia.tex
+) [21] (./bibliografia.tex
 Overfull \hbox (63.70374pt too wide) in paragraph at lines 6--8
 [][]\T1/ptm/m/n/12 http://www.ambtirana.esteri.it/ambasciata_tirana/it/i_rappor
 ti_bilaterali/cooperazione_politica/accordi[][] 
  []
 
-) [19
+) [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
  (./Relazione_Progetto.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
 Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-(rerunfilecheck)             Checksum: 32AEF33F4500815E51A08F0086438FAE;1287.
+(rerunfilecheck)             Checksum: 4E422FD3C7C98B5844176FF146561BB0;1438.
  ) 
 Here is how much of TeX's memory you used:
- 45269 strings out of 493029
- 1042939 string characters out of 6136235
- 1257943 words of memory out of 5000000
- 47939 multiletter control sequences out of 15000+600000
- 63130 words of font info for 85 fonts, out of 8000000 for 9000
+ 45803 strings out of 493029
+ 1058164 string characters out of 6136235
+ 1282933 words of memory out of 5000000
+ 48462 multiletter control sequences out of 15000+600000
+ 65898 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,20n,86p,10391b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
-st, replaced by a fixed one
+ 62i,20n,103p,10391b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
 , replaced by a fixed one
@@ -2253,16 +2298,17 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/eurosym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosy
-m/feymr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (20 pages, 141917 bytes).
+ic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/euro
+sym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on Relazione_Progetto.pdf (23 pages, 160085 bytes).
 PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 83 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
