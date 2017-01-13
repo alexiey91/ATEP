@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  12 JAN 2017 23:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  13 JAN 2017 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2193,22 +2193,7 @@ Overfull \hbox (9.1388pt too wide) detected at line 28
  []
 
 [14]
-Overfull \hbox (4.5pt too wide) detected at line 61
-$[]\OT1/cmr/m/n/12 00[][][]$ 
- []
-
-
-Overfull \hbox (4.5pt too wide) detected at line 63
-$[]\OT1/cmr/m/n/12 00[][][]$ 
- []
-
-
-Overfull \hbox (4.5pt too wide) detected at line 64
-$[]\OT1/cmr/m/n/12 32[][][]$ 
- []
-
-
-Overfull \hbox (7.52457pt too wide) in paragraph at lines 75--94
+Overfull \hbox (7.52457pt too wide) in paragraph at lines 118--137
  [][] 
  []
 
@@ -2247,21 +2232,15 @@ Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
 (rerunfilecheck)             Checksum: 32AEF33F4500815E51A08F0086438FAE;1287.
  ) 
 Here is how much of TeX's memory you used:
- 45271 strings out of 493029
- 1042965 string characters out of 6136235
+ 45269 strings out of 493029
+ 1042939 string characters out of 6136235
  1257943 words of memory out of 5000000
  47939 multiletter control sequences out of 15000+600000
  63130 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,86p,10391b,983s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
-, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
 , replaced by a fixed one
@@ -2280,10 +2259,10 @@ b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (20 pages, 141973 bytes).
+Output written on Relazione_Progetto.pdf (20 pages, 141917 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 83 named destinations out of 1000 (max. 500000)
  277 words of extra memory for PDF output out of 10000 (max. 10000000)
 

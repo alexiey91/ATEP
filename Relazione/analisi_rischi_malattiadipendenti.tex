@@ -29,6 +29,29 @@
 
  \bottomrule
  \end{tabular} 
+
+Prendendo in esame il campione caratterizzato dai valori precedentemente esposti, si possono calcolare le seguenti statistiche di interesse:
+
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Statistiche}
+ \begin{tabular}{p{5cm}D{,}{,}{5.5}}
+ \toprule
+ 	\multicolumn{1}{c}{\textbf{Statistica}} & \multicolumn{1}{c}{\textbf{Valore}} \\
+ \midrule 		
+	\makebox[5cm][r]{Media Campionaria} & 12,03913\\
+ 	\makebox[5cm][r]{Varianza Campionaria Corretta} & 0,38525\\
+ 	\makebox[5cm][r]{Deviazione Standard Corretta} & 0,62068\\	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes} 
+ 
+Da questi valori si può determinare il seguente intervallo di confidenza con il 95 \% di attendibilità
+
+\[	\left [ 11,4184 ; 12,6598 \right]		\] 
+ 
  
 consideriamo le seguenti ipotesi per ogni singolo centralinista: 
 \begin{savenotes}
@@ -39,7 +62,8 @@ consideriamo le seguenti ipotesi per ogni singolo centralinista:
  \toprule
  	& \multicolumn{1}{c}{\textbf{Quantita'}} \\
  \midrule 	
-	\makebox[7cm][r]{Giorni lavorativi} & 18,50\\
+	\makebox[7cm][r]{Giorni lavorativi in un mese} & 18,50\\
+	\makebox[7cm][r]{Giorni lavorativi in un anno} & 222,00\\
 	\makebox[7cm][r]{Giorni assenza} & 12,00\\	
  	\makebox[7cm][r]{Probabilita' di stipulare un contratto (\%)\footnote{dati istat}} & 15,60\\
  \bottomrule
@@ -52,10 +76,28 @@ consideriamo le seguenti ipotesi per ogni singolo centralinista:
 \begin{savenotes}
 \begin{table}[htb]
 \centering
+ \caption{Numero contratti 29 centralinisti}
+ \begin{tabular}{p{5cm}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{\textbf{Quantità}} \\
+ \midrule 		
+	\makebox[5cm][r]{Numero chiamate annuali} & 605172,00\\
+ 	\makebox[5cm][r]{Numero contratti annuali} & 94406,83 \\
+ 	\makebox[5cm][r]{Numero contratti mensili} & 7867,24\\  	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+\begin{comment}
+
+\begin{savenotes}
+\begin{table}[htb]
+\centering
  \caption{Numero contratti centralinisti}
  \begin{tabular}{p{7cm}D{,}{,}{5.2}D{,}{,}{5.2}}
  \toprule
- 	& \multicolumn{1}{c}{\textbf{Singolo Centralinisti}} & \multicolumn{1}{c}{\textbf{30 Centralinisti}} \\
+ 	& \multicolumn{1}{c}{\textbf{Singolo Centralinista}} & \multicolumn{1}{c}{\textbf{29 Centralinisti}} \\
  \midrule 		
 	\makebox[7cm][r]{Numero chiamate giornaliere} & 94,00 & 2820\\
  	\makebox[7cm][r]{Numero chiamate mensili} & 1739,00\footnote{(94,00*18,50)} & 52170\\
@@ -67,6 +109,7 @@ consideriamo le seguenti ipotesi per ogni singolo centralinista:
 \end{table}
 \end{savenotes}
 
+\end{comment}
  
 \begin{savenotes}
 \begin{table}[htb]
