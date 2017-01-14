@@ -20,9 +20,10 @@
 \contentsline {subsection}{\numberline {2.1}Acqua}{11}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {2.2}Luce}{11}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {2.3}Gas}{11}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {5}Analisi Indicatori VAN-WACC}{13}{chapter.5}
+\contentsline {chapter}{\numberline {5}Indicatori VAN-WACC-Punto di Pareggio}{13}{chapter.5}
 \contentsline {section}{\numberline {1}VAN}{13}{section.5.1}
 \contentsline {section}{\numberline {2}WACC}{13}{section.5.2}
+\contentsline {section}{\numberline {3}Analisi di Pareggio}{13}{section.5.3}
 \contentsline {chapter}{\numberline {6}Analisi Rischi}{14}{chapter.6}
 \contentsline {section}{\numberline {1}Variazione Tasso Cambio}{14}{section.6.1}
 \contentsline {section}{\numberline {2}Malattia Dipendenti}{19}{section.6.2}
