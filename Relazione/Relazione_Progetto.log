@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  13 JAN 2017 17:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  14 JAN 2017 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2029,11 +2029,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--37
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+) [2] (./analisi_guadagni.tex
+Capitolo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
 
+[3
+
+]
 NOTE: coordinate (2Y5.0e0],3Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 NOTE: coordinate (2Y4.5833334e0],3Y0.0e0]) has been dropped because it is unbou
@@ -2060,54 +2065,58 @@ NOTE: coordinate (2Y4.166677e-1],3Y0.0e0]) has been dropped because it is unbou
 nded (in y). (see also unbounded coords=jump). 
 NOTE: coordinate (2Y9.9e-7],3Y0.0e0]) has been dropped because it is unbounded 
 (in y). (see also unbounded coords=jump). 
-[3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 130.
-) [4] (./sistema_fiscale_albania.tex
-Capitolo 2.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 89.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
+[5]) [6] (./sistema_fiscale_albania.tex
+Capitolo 3.
 Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
 although it is yet undefined on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
-
- []
-
-[5
-
-] [6]
-Overfull \hbox (34.13266pt too wide) in paragraph at lines 32--42
+Overfull \hbox (34.13266pt too wide) in paragraph at lines 31--41
  [][] 
  []
 
+[7
 
-Overfull \hbox (4.5pt too wide) detected at line 73
+]
+Overfull \hbox (4.5pt too wide) detected at line 72
 $[]\OT1/cmr/m/n/12 19[][][]$ 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 73
+Overfull \hbox (4.5pt too wide) detected at line 72
 $[]\OT1/cmr/m/n/12 66[][][]$ 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 74
+Overfull \hbox (4.5pt too wide) detected at line 73
 $[]\OT1/cmr/m/n/12 88[][][]$ 
  []
 
-) [7] (./elenco_costi.tex [8]
-Capitolo 3.
-(./analisi_CAPEX.tex) (./analisi_OPEX.tex [9
-
-])) [10] (./analisi_VAN_WACC.tex
-[11]
+) [8] (./elenco_costi.tex [9]
 Capitolo 4.
-) [12
+(./analisi_CAPEX.tex) (./analisi_OPEX.tex [10
+
+])) [11] (./analisi_VAN_WACC.tex
+[12]
+Capitolo 5.
+) [13
 
 ] (./analisi_rischi.tex
-Capitolo 5.
-(./analisi_rischi_tassocambio.tex [13
+Capitolo 6.
+(./analisi_rischi_tassocambio.tex [14
 
-] [14] [15] [16])
+] [15] [16] [17])
 (./analisi_rischi_malattiadipendenti.tex
 Overfull \hbox (9.1388pt too wide) detected at line 5
  
@@ -2228,14 +2237,14 @@ Overfull \hbox (9.1388pt too wide) detected at line 28
  
  []
 
-[17]
+[18]
 Overfull \hbox (7.52457pt too wide) in paragraph at lines 118--137
  [][] 
  []
 
-)) [18] (./conclusioni_sviluppi_futuri.tex [19]
-Capitolo 6.
-) [20
+)) [19] (./conclusioni_sviluppi_futuri.tex [20]
+Capitolo 7.
+) [21
 
 ] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
@@ -2250,28 +2259,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 \T1/ptm/m/n/10.95 l'equivalente al-ba-ne-se del-l'i-ta-lia-na
  []
 
-) [21] (./bibliografia.tex
+) [22] (./bibliografia.tex
 Overfull \hbox (63.70374pt too wide) in paragraph at lines 6--8
 [][]\T1/ptm/m/n/12 http://www.ambtirana.esteri.it/ambasciata_tirana/it/i_rappor
 ti_bilaterali/cooperazione_politica/accordi[][] 
  []
 
-) [22
+) [23
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
  (./Relazione_Progetto.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
-Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-(rerunfilecheck)             Checksum: 4E422FD3C7C98B5844176FF146561BB0;1438.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 34.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
+
+
+Package rerunfilecheck Warning: File `Relazione_Progetto.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Relazione_Progetto.out':
+(rerunfilecheck)             Before: 2098DCF398BA548D30F43A12D1C376A0;1711
+(rerunfilecheck)             After:  D0EB7A66AABA113F9B252D3773A729BC;1812.
  ) 
 Here is how much of TeX's memory you used:
- 45803 strings out of 493029
- 1058164 string characters out of 6136235
- 1282933 words of memory out of 5000000
- 48462 multiletter control sequences out of 15000+600000
+ 45836 strings out of 493029
+ 1058818 string characters out of 6136235
+ 1280475 words of memory out of 5000000
+ 48479 multiletter control sequences out of 15000+600000
  65898 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,103p,10391b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2305,10 +2321,10 @@ sym/feybr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr
 texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (23 pages, 160085 bytes).
+Output written on Relazione_Progetto.pdf (24 pages, 164296 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 

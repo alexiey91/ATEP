@@ -4,22 +4,28 @@
 \contentsline {section}{\numberline {1}Organigramma Aziendale}{2}{section.1.1}
 \contentsline {section}{\numberline {2}Sistelia Group S.r.l.}{2}{section.1.2}
 \contentsline {subsection}{\numberline {2.1}ReteTurismo}{2}{subsection.1.2.1}
-\contentsline {chapter}{\numberline {2}Sistema Fiscale Albanese}{5}{chapter.2}
-\contentsline {section}{\numberline {1}Persone Giuridiche}{5}{section.2.1}
-\contentsline {subsection}{\numberline {1.1}Imposta sul reddito aziendale}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {1.2}IVA}{5}{subsection.2.1.2}
-\contentsline {section}{\numberline {2}Persone Fisiche}{5}{section.2.2}
-\contentsline {section}{\numberline {3}Apertura Societ\IeC {\`a} a responsabilit\IeC {\`a} limitata}{7}{section.2.3}
-\contentsline {chapter}{\numberline {3}Elenco Costi CAPEX-OPEX}{9}{chapter.3}
-\contentsline {section}{\numberline {1}CAPEX}{9}{section.3.1}
-\contentsline {section}{\numberline {2}OPEX}{9}{section.3.2}
-\contentsline {subsection}{\numberline {2.1}Acqua}{10}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {2.2}Luce}{10}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {2.3}Gas}{10}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Analisi VAN-WACC}{12}{chapter.4}
-\contentsline {chapter}{\numberline {5}Analisi Rischi}{13}{chapter.5}
-\contentsline {section}{\numberline {1}Variazione Tasso Cambio}{13}{section.5.1}
-\contentsline {section}{\numberline {2}Malattia Dipendenti}{18}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclusioni e Sviluppi Futuri}{20}{chapter.6}
-\contentsline {chapter}{Elenco Acronimi}{21}{chapter.6}
-\contentsline {chapter}{Bibliografia}{22}{section*.6}
+\contentsline {chapter}{\numberline {2}Stima Fatturato}{3}{chapter.2}
+\contentsline {section}{\numberline {1}Numero Potenziali Viaggiatori}{3}{section.2.1}
+\contentsline {section}{\numberline {2}Volume Traffico Generato Dipendenti}{5}{section.2.2}
+\contentsline {section}{\numberline {3}Fatturato Mensile}{5}{section.2.3}
+\contentsline {chapter}{\numberline {3}Sistema Fiscale Albanese}{7}{chapter.3}
+\contentsline {section}{\numberline {1}Persone Giuridiche}{7}{section.3.1}
+\contentsline {subsection}{\numberline {1.1}Imposta sul reddito aziendale}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {1.2}IVA}{7}{subsection.3.1.2}
+\contentsline {section}{\numberline {2}Persone Fisiche}{7}{section.3.2}
+\contentsline {section}{\numberline {3}Apertura Societ\IeC {\`a} a responsabilit\IeC {\`a} limitata}{8}{section.3.3}
+\contentsline {chapter}{\numberline {4}Elenco Costi CAPEX-OPEX}{10}{chapter.4}
+\contentsline {section}{\numberline {1}CAPEX}{10}{section.4.1}
+\contentsline {section}{\numberline {2}OPEX}{10}{section.4.2}
+\contentsline {subsection}{\numberline {2.1}Acqua}{11}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {2.2}Luce}{11}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {2.3}Gas}{11}{subsection.4.2.3}
+\contentsline {chapter}{\numberline {5}Analisi VAN-WACC}{13}{chapter.5}
+\contentsline {section}{\numberline {1}VAN}{13}{section.5.1}
+\contentsline {section}{\numberline {2}WACC}{13}{section.5.2}
+\contentsline {chapter}{\numberline {6}Analisi Rischi}{14}{chapter.6}
+\contentsline {section}{\numberline {1}Variazione Tasso Cambio}{14}{section.6.1}
+\contentsline {section}{\numberline {2}Malattia Dipendenti}{19}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusioni e Sviluppi Futuri}{21}{chapter.7}
+\contentsline {chapter}{Elenco Acronimi}{22}{chapter.7}
+\contentsline {chapter}{Bibliografia}{23}{section*.6}
