@@ -12,19 +12,25 @@
 \BOOKMARK [2][-]{subsection.3.1.2}{IVA}{section.3.1}% 12
 \BOOKMARK [1][-]{section.3.2}{Persone Fisiche}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.3}{Apertura Societ\340 a responsabilit\340 limitata}{chapter.3}% 14
-\BOOKMARK [0][-]{chapter.4}{Elenco Costi CAPEX-OPEX}{}% 15
-\BOOKMARK [1][-]{section.4.1}{CAPEX}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{OPEX}{chapter.4}% 17
-\BOOKMARK [2][-]{subsection.4.2.1}{Acqua}{section.4.2}% 18
-\BOOKMARK [2][-]{subsection.4.2.2}{Luce}{section.4.2}% 19
-\BOOKMARK [2][-]{subsection.4.2.3}{Gas}{section.4.2}% 20
-\BOOKMARK [0][-]{chapter.5}{Indicatori VAN-WACC-Punto di Pareggio}{}% 21
-\BOOKMARK [1][-]{section.5.1}{VAN}{chapter.5}% 22
-\BOOKMARK [1][-]{section.5.2}{WACC}{chapter.5}% 23
-\BOOKMARK [1][-]{section.5.3}{Analisi di Pareggio}{chapter.5}% 24
-\BOOKMARK [0][-]{chapter.6}{Analisi Rischi}{}% 25
-\BOOKMARK [1][-]{section.6.1}{Variazione Tasso Cambio}{chapter.6}% 26
-\BOOKMARK [1][-]{section.6.2}{Malattia Dipendenti}{chapter.6}% 27
-\BOOKMARK [0][-]{chapter.7}{Conclusioni e Sviluppi Futuri}{}% 28
-\BOOKMARK [0][-]{chapter.7}{Elenco Acronimi}{}% 29
-\BOOKMARK [0][-]{section*.10}{Bibliografia}{}% 30
+\BOOKMARK [0][-]{chapter.4}{Analisi Costi}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Metodo ABC}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{CAPEX}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{OPEX}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.3.1}{Acqua}{section.4.3}% 19
+\BOOKMARK [2][-]{subsection.4.3.2}{Luce}{section.4.3}% 20
+\BOOKMARK [2][-]{subsection.4.3.3}{Gas}{section.4.3}% 21
+\BOOKMARK [0][-]{chapter.5}{Indicatori VAN-WACC}{}% 22
+\BOOKMARK [1][-]{section.5.1}{VAN}{chapter.5}% 23
+\BOOKMARK [2][-]{subsection.5.1.1}{Break-even period}{section.5.1}% 24
+\BOOKMARK [2][-]{subsection.5.1.2}{Caso di Studio}{section.5.1}% 25
+\BOOKMARK [3][-]{subsubsection.5.1.2.1}{Caso Teorico}{subsection.5.1.2}% 26
+\BOOKMARK [3][-]{subsubsection.5.1.2.2}{Caso UNIFORME}{subsection.5.1.2}% 27
+\BOOKMARK [3][-]{subsubsection.5.1.2.3}{Caso OTTIMO}{subsection.5.1.2}% 28
+\BOOKMARK [3][-]{subsubsection.5.1.2.4}{Caso PEGGIORE}{subsection.5.1.2}% 29
+\BOOKMARK [1][-]{section.5.2}{WACC}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Analisi Rischi}{}% 31
+\BOOKMARK [1][-]{section.6.1}{Variazione Tasso Cambio}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.2}{Malattia Dipendenti}{chapter.6}% 33
+\BOOKMARK [0][-]{chapter.7}{Conclusioni e Sviluppi Futuri}{}% 34
+\BOOKMARK [0][-]{chapter.7}{Elenco Acronimi}{}% 35
+\BOOKMARK [0][-]{section*.10}{Bibliografia}{}% 36

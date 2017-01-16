@@ -14,16 +14,22 @@
 \contentsline {subsection}{\numberline {1.2}IVA}{7}{subsection.3.1.2}
 \contentsline {section}{\numberline {2}Persone Fisiche}{7}{section.3.2}
 \contentsline {section}{\numberline {3}Apertura Societ\IeC {\`a} a responsabilit\IeC {\`a} limitata}{8}{section.3.3}
-\contentsline {chapter}{\numberline {4}Elenco Costi CAPEX-OPEX}{10}{chapter.4}
-\contentsline {section}{\numberline {1}CAPEX}{10}{section.4.1}
-\contentsline {section}{\numberline {2}OPEX}{10}{section.4.2}
-\contentsline {subsection}{\numberline {2.1}Acqua}{11}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {2.2}Luce}{11}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {2.3}Gas}{11}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {5}Indicatori VAN-WACC-Punto di Pareggio}{13}{chapter.5}
+\contentsline {chapter}{\numberline {4}Analisi Costi}{10}{chapter.4}
+\contentsline {section}{\numberline {1}Metodo ABC}{10}{section.4.1}
+\contentsline {section}{\numberline {2}CAPEX}{10}{section.4.2}
+\contentsline {section}{\numberline {3}OPEX}{10}{section.4.3}
+\contentsline {subsection}{\numberline {3.1}Acqua}{11}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {3.2}Luce}{11}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {3.3}Gas}{11}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Indicatori VAN-WACC}{13}{chapter.5}
 \contentsline {section}{\numberline {1}VAN}{13}{section.5.1}
-\contentsline {section}{\numberline {2}WACC}{14}{section.5.2}
-\contentsline {section}{\numberline {3}Analisi di Pareggio}{15}{section.5.3}
+\contentsline {subsection}{\numberline {1.1}Break-even period}{14}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {1.2}Caso di Studio}{15}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Caso Teorico}{15}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Caso UNIFORME}{15}{subsubsection.5.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Caso OTTIMO}{15}{subsubsection.5.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Caso PEGGIORE}{15}{subsubsection.5.1.2.4}
+\contentsline {section}{\numberline {2}WACC}{15}{section.5.2}
 \contentsline {chapter}{\numberline {6}Analisi Rischi}{16}{chapter.6}
 \contentsline {section}{\numberline {1}Variazione Tasso Cambio}{16}{section.6.1}
 \contentsline {section}{\numberline {2}Malattia Dipendenti}{21}{section.6.2}

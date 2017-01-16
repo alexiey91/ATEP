@@ -1,4 +1,4 @@
-\chapter[Indicatori VAN-WACC-Punto di Pareggio]{Indicatori VAN-WACC-Punto di Pareggio}
+\chapter[Indicatori VAN-WACC]{Indicatori VAN-WACC}
 \section[VAN]{VAN}
 	\begin{equation}
 	\label{eq:van}
@@ -44,8 +44,7 @@ Un punto importante della funzione \ref{eq:andamento_van_flussi} è quello per c
  	\end{split}
 	\end{equation}
 
-Il valore $x$ corrispondente è pari alla quantità di flussi di cassa mensili minimi che dovremmo avere per rendere il progetto remunerativo. Il valore del flusso di cassa per cui è soddisfatta \ref{eq:van_zero}, è quello che devo avere per rientrare dell'investimento iniziale.
-Si osserva, quindi, come ponendo:
+Il valore $x$ corrispondente è pari alla quantità di flussi di cassa mensili minimi che dovremmo avere per rendere il progetto remunerativo. Il valore del flusso di cassa per cui è soddisfatta \ref{eq:van_zero} è, ponendo:
 			
 	\begin{equation}
 	\label{eq:van_pareggio_1}
@@ -54,13 +53,51 @@ Si osserva, quindi, come ponendo:
  	\end{split}
 	\end{equation}			
 
-ottengo il valore ( in \euro ):
+pari a (in \euro):
 			
 	\begin{eqnarray}
 	\label{eq:van_pareggio_2}
-		x & = & \frac{702749,72	}{10,7528}	 	\nonumber \\
+		x & = & \frac{702749,72	}{10,7528}	 	\nonumber \\[1.5ex] 
 		  & = & 65355,04
 	\end{eqnarray}
+
+\subsection[Break-even period]{Break-even period}
+	Si analizza, infine, il \textbf{punto di pareggio}, ovvero la quantità di chiamate necessarie per avere un fatturato tale da ricoprire l'investimento iniziale, in modo tale da chiudere il periodo di riferimento senza perdite né profitti.
+
+Il \textbf{break even period} (periodo di pareggio), ovvero il periodo di tempo necessario per il recupero dell'esborso iniziale è quindi pari a:   	
+
+\subsection[Caso di Studio]{Caso di Studio}
+
+
+\subsubsection[Caso Teorico]{Caso Teorico}
+
+%
+%	Tabella relativa al caso teorico in cui non ci siano malati durante un anno
+%
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Caso di studio Variazione VAN}
+ \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{7.4}}
+ \toprule
+ 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
+ \midrule	
+ 	\makebox[4cm][r]{Pareggio} & 65355,07 & 939,18 & 0,00 & 0,1154\\ 
+	\makebox[4cm][r]{Ottimo} & 553419,36 & 8138,52 & 5248057,65 & 1,0000\\
+	\makebox[4cm][r]{Caso di Studio 20,0 \%} & 110683,87 & 1627,70 & 487411,50 & 0,2000\\
+	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 83012,90 & 1220,78 & 189871,11 & 0,1500 \\
+	\makebox[4cm][r]{Caso di Studio 12,5 \%} & 69177,42 & 1017,32 & 41100,92 & 0,1250 \\
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+
+\subsubsection[Caso UNIFORME]{Caso UNIFORME}
+
+\subsubsection[Caso OTTIMO]{Caso OTTIMO} 
+
+\subsubsection[Caso PEGGIORE]{Caso PEGGIORE}
 
 
 \section[WACC]{WACC}
@@ -92,9 +129,4 @@ Il nostro valore del \ac{WACC}, quindi, sarà pari a:
 	\begin{split}
 		WACC = \frac{30000}{65000} \cdot 0,044 \cdot ( 1 - 0,15 ) = 0,01726 
 	\end{split}
-	\end{equation}	
-
-\section[Analisi di Pareggio]{Analisi di Pareggio}
-Si analizza, infine, il \textbf{punto di pareggio}, ovvero la quantità di chiamate necessarie per avere un fatturato tale da ricoprire l'investimento iniziale, in modo tale da chiudere il periodo di riferimento senza perdite né profitti.
-
-Il \textbf{break even period} (periodo di pareggio), ovvero il periodo di tempo necessario per il recupero dell'esborso iniziale è quindi pari a:   	
+	\end{equation}
