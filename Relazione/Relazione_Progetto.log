@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  16 JAN 2017 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  16 JAN 2017 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1810,7 +1810,11 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@out=\write5
 \tcb@record@out=\write6
 )
-(./Relazione_Progetto.aux)
+(./Relazione_Progetto.aux
+
+LaTeX Warning: Label `eq:consumo_acqua_giorno_azienda' multiply defined.
+
+)
 \openout1 = `Relazione_Progetto.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1828,8 +1832,7 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \c@lstlisting=\count362
@@ -2106,14 +2109,14 @@ $[]\OT1/cmr/m/n/12 88[][][]$
 Capitolo 4.
 (./analisi_metodo_abc.tex) (./analisi_CAPEX.tex) (./analisi_OPEX.tex [10
 
-]))
-[11] (./analisi_VAN_WACC.tex [12]
+]
+[11])) [12] [13] (./analisi_VAN_WACC.tex
 Capitolo 5.
 Package acronym Info: Label `acro:TIR' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:VAN' newly defined as it shall be overridden
 although it is yet undefined on input line 17.
-[13
+[14
 
 ]
 Overfull \hbox (47.50967pt too wide) in paragraph at lines 81--92
@@ -2130,19 +2133,19 @@ Overfull \hbox (47.50967pt too wide) in paragraph at lines 105--113
  [][] 
  []
 
-[14]
+[15]
 Package acronym Info: Label `acro:Fibank Albania' newly defined as it shall be 
 overridden
 although it is yet undefined on input line 170.
- [15]
+ [16]
 Package acronym Info: Label `acro:WACC' newly defined as it shall be overridden
 
 although it is yet undefined on input line 179.
-) [16] (./analisi_rischi.tex
+) [17] (./analisi_rischi.tex
 Capitolo 6.
-(./analisi_rischi_tassocambio.tex [17
+(./analisi_rischi_tassocambio.tex [18
 
-] [18] [19] [20])
+] [19] [20] [21])
 (./analisi_rischi_malattiadipendenti.tex
 Overfull \hbox (9.1388pt too wide) detected at line 5
  
@@ -2263,14 +2266,14 @@ Overfull \hbox (9.1388pt too wide) detected at line 28
  
  []
 
-[21]
+[22]
 Overfull \hbox (7.52457pt too wide) in paragraph at lines 118--137
  [][] 
  []
 
-)) [22] (./conclusioni_sviluppi_futuri.tex [23]
+)) [23] (./conclusioni_sviluppi_futuri.tex [24]
 Capitolo 7.
-) [24
+) [25
 
 ] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
@@ -2285,13 +2288,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 \T1/ptm/m/n/10.95 l'equivalente al-ba-ne-se del-l'i-ta-lia-na
  []
 
-) [25] (./bibliografia.tex
+) [26] (./bibliografia.tex
 Overfull \hbox (63.70374pt too wide) in paragraph at lines 6--8
 [][]\T1/ptm/m/n/12 http://www.ambtirana.esteri.it/ambasciata_tirana/it/i_rappor
 ti_bilaterali/cooperazione_politica/accordi[][] 
  []
 
-) [26
+) [27
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
@@ -2301,13 +2304,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
 (rerunfilecheck)             Checksum: 24327186A35C1671D577F768A6AF8A77;2307.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 45965 strings out of 493029
- 1060857 string characters out of 6136235
- 1280270 words of memory out of 5000000
- 48570 multiletter control sequences out of 15000+600000
- 65898 words of font info for 87 fonts, out of 8000000 for 9000
+ 45993 strings out of 493029
+ 1061441 string characters out of 6136235
+ 1280555 words of memory out of 5000000
+ 48587 multiletter control sequences out of 15000+600000
+ 66015 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,103p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not ex
@@ -2342,10 +2349,10 @@ e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on Relazione_Progetto.pdf (28 pages, 194463 bytes).
+Output written on Relazione_Progetto.pdf (29 pages, 198854 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 476 compressed objects within 5 object streams
- 141 named destinations out of 1000 (max. 500000)
+ 560 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 152 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)
 

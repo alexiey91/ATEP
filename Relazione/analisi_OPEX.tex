@@ -37,6 +37,51 @@ Gli OPEX stimati mensilmente sono:
 
 
 \subsection[Acqua]{Acqua}
+Considerando un consumo medio giornaliero di $ 55 \: litri $ per persona, corrispondenti a:
+	\begin{equation}
+	\label{eq:consumo_acqua_giorno_dipendente}
+	\begin{split}
+		\frac{55}{1000} = 0,055 \: m^3
+	\end{split}
+	\end{equation}	
+per la nostra azienda si stima, quindi un consumo giornaliero, per 34 persone, di:
+	\begin{equation}
+	\label{eq:consumo_acqua_giorno_azienda}
+	\begin{split}
+		\frac{55}{1000} \cdot 34 = 1,87 \: m^3
+	\end{split}
+	\end{equation}	
+quindi, in un mese ( 22 giorni lavorativi effettivi ):	
+	\begin{equation}
+	\label{eq:consumo_acqua_giorno_azienda}
+	\begin{split}
+		\frac{55}{1000} \cdot 34 \cdot 22 = 41,14 \: m^3
+	\end{split}
+	\end{equation}	
+In Albania, la bolletta dell'acqua prevede le seguenti voci:
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Costo \si{m^3} acqua}
+ \begin{tabular}{p{4cm}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{\textbf{Costo (LEK) per \si{m^3}}}\\
+ \midrule
+	\makebox[4cm][r]{Acqua Potabile} & 120\\
+	\makebox[4cm][r]{Servizio Fognatura} & 30\\
+	\makebox[4cm][r]{\textbf{TOTALE}} & 150\\	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+Si prevede, quindi, una bolletta mensile (LEK):
+	\begin{equation}
+	\label{eq:bolletta_acqua_azienda}
+	\begin{split}
+		41,14 \cdot 150 = 6171 \: ( \simeq 45,88 \: \mbox{\euro}) 
+	\end{split}
+	\end{equation}	
+In sintesi:
 \begin{savenotes}
 \begin{table}[htb]
 \centering
@@ -52,6 +97,22 @@ Gli OPEX stimati mensilmente sono:
 \end{table}
 \end{savenotes}
 \subsection[Luce]{Luce}
+Considerando un consumo medio annuale di $ 39 \: kWh/m^2 $ per un ufficio,
+prevediamo, avendo un ufficio di $ 137 \: m^2 $ un consumo medio \textbf{mensile} pari a:
+	\begin{equation}
+	\label{eq:consumo_luce_mensile}
+	\begin{split}
+		\frac{39 \cdot 137}{12} = 445,25 \: kWh 
+	\end{split}
+	\end{equation}	 
+quindi, dovremmo prevedere un costo mensile pari a:
+	\begin{equation}
+	\label{eq:bolletta_luce_mensile}
+	\begin{split}
+		445,25 \cdot 0,07 = 31,77 \: \mbox{\euro} 
+	\end{split}
+	\end{equation}	
+
 \begin{savenotes}
 \begin{table}[htb]
 \centering
@@ -67,6 +128,27 @@ Gli OPEX stimati mensilmente sono:
 \end{table}
 \end{savenotes}
 \subsection[Gas]{Gas}
+Considerando un consumo medio annuale di $ 81 \cdot 10^6 \: m^3 $ e il costo di trasmissione a Tirana pari a $ 39 \: \$ $ per milione di metri cubi, possiamo determinare:
+\begin{itemize}
+\item la \textbf{bolletta annuale}
+	\begin{equation}
+	\label{eq:bolletta_gas_annuale}
+	\begin{split}
+		81 \cdot 39 = 3159 \: \$ 
+	\end{split}
+	\end{equation}	
+\item la \textbf{bolletta mensile}
+	\begin{equation}
+	\label{eq:bolletta_gas_mensile}
+	\begin{split}
+		\frac{81 \cdot 39}{12} = 263,25 \: \$ \: ( \simeq 252,62 \: \mbox{\euro} )\footnotemark
+	\end{split}
+	\end{equation}		
+\end{itemize}
+
+\footnotetext{ cambio 1 \mbox{\euro} : 1,0425 \$}
+
+
 \begin{savenotes}
 \begin{table}[htb]
 \centering
@@ -81,3 +163,7 @@ Gli OPEX stimati mensilmente sono:
  \end{tabular} 
 \end{table}
 \end{savenotes}
+
+	\begin{tcolorbox}[colframe=blue!75!black,adjusted title=\textbf{Osservazione!}]
+		I calcoli effettuati in precedenza sono puramente teorici, in quanto si è stimato un consumo uniforme di acqua, luce e gas durante l'arco dell'anno. Ovviamente, ciò non corrisponde alla realtà in quanto nei mesi invernali si ha un consumo maggiore ed in quelli primaverili ed estivi uno minore. 
+	\end{tcolorbox}

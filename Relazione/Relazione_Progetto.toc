@@ -19,20 +19,20 @@
 \contentsline {section}{\numberline {2}CAPEX}{10}{section.4.2}
 \contentsline {section}{\numberline {3}OPEX}{10}{section.4.3}
 \contentsline {subsection}{\numberline {3.1}Acqua}{11}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {3.2}Luce}{11}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {3.3}Gas}{11}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Indicatori VAN-WACC}{13}{chapter.5}
-\contentsline {section}{\numberline {1}VAN}{13}{section.5.1}
-\contentsline {subsection}{\numberline {1.1}Break-even period}{14}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {1.2}Caso di Studio}{15}{subsection.5.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Caso Teorico}{15}{subsubsection.5.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}Caso UNIFORME}{15}{subsubsection.5.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.3}Caso OTTIMO}{15}{subsubsection.5.1.2.3}
-\contentsline {subsubsection}{\numberline {1.2.4}Caso PEGGIORE}{15}{subsubsection.5.1.2.4}
-\contentsline {section}{\numberline {2}WACC}{15}{section.5.2}
-\contentsline {chapter}{\numberline {6}Analisi Rischi}{17}{chapter.6}
-\contentsline {section}{\numberline {1}Variazione Tasso Cambio}{17}{section.6.1}
-\contentsline {section}{\numberline {2}Malattia Dipendenti}{22}{section.6.2}
-\contentsline {chapter}{\numberline {7}Conclusioni e Sviluppi Futuri}{24}{chapter.7}
-\contentsline {chapter}{Elenco Acronimi}{25}{chapter.7}
-\contentsline {chapter}{Bibliografia}{26}{section*.10}
+\contentsline {subsection}{\numberline {3.2}Luce}{12}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {3.3}Gas}{12}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Indicatori VAN-WACC}{14}{chapter.5}
+\contentsline {section}{\numberline {1}VAN}{14}{section.5.1}
+\contentsline {subsection}{\numberline {1.1}Break-even period}{15}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {1.2}Caso di Studio}{16}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Caso Teorico}{16}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Caso UNIFORME}{16}{subsubsection.5.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Caso OTTIMO}{16}{subsubsection.5.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Caso PEGGIORE}{16}{subsubsection.5.1.2.4}
+\contentsline {section}{\numberline {2}WACC}{16}{section.5.2}
+\contentsline {chapter}{\numberline {6}Analisi Rischi}{18}{chapter.6}
+\contentsline {section}{\numberline {1}Variazione Tasso Cambio}{18}{section.6.1}
+\contentsline {section}{\numberline {2}Malattia Dipendenti}{23}{section.6.2}
+\contentsline {chapter}{\numberline {7}Conclusioni e Sviluppi Futuri}{25}{chapter.7}
+\contentsline {chapter}{Elenco Acronimi}{26}{chapter.7}
+\contentsline {chapter}{Bibliografia}{27}{section*.10}
