@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  16 JAN 2017 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  16 JAN 2017 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2120,18 +2120,29 @@ Overfull \hbox (47.50967pt too wide) in paragraph at lines 81--92
  [][] 
  []
 
+
+Overfull \hbox (5.87494pt too wide) detected at line 110
+$[]\OT1/cmr/m/n/12 078$ 
+ []
+
+
+Overfull \hbox (47.50967pt too wide) in paragraph at lines 105--113
+ [][] 
+ []
+
 [14]
 Package acronym Info: Label `acro:Fibank Albania' newly defined as it shall be 
 overridden
-although it is yet undefined on input line 117.
+although it is yet undefined on input line 170.
+ [15]
 Package acronym Info: Label `acro:WACC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 126.
-) [15] (./analisi_rischi.tex
+although it is yet undefined on input line 179.
+) [16] (./analisi_rischi.tex
 Capitolo 6.
-(./analisi_rischi_tassocambio.tex [16
+(./analisi_rischi_tassocambio.tex [17
 
-] [17] [18] [19])
+] [18] [19] [20])
 (./analisi_rischi_malattiadipendenti.tex
 Overfull \hbox (9.1388pt too wide) detected at line 5
  
@@ -2252,14 +2263,14 @@ Overfull \hbox (9.1388pt too wide) detected at line 28
  
  []
 
-[20]
+[21]
 Overfull \hbox (7.52457pt too wide) in paragraph at lines 118--137
  [][] 
  []
 
-)) [21] (./conclusioni_sviluppi_futuri.tex [22]
+)) [22] (./conclusioni_sviluppi_futuri.tex [23]
 Capitolo 7.
-) [23
+) [24
 
 ] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
@@ -2274,13 +2285,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 \T1/ptm/m/n/10.95 l'equivalente al-ba-ne-se del-l'i-ta-lia-na
  []
 
-) [24] (./bibliografia.tex
+) [25] (./bibliografia.tex
 Overfull \hbox (63.70374pt too wide) in paragraph at lines 6--8
 [][]\T1/ptm/m/n/12 http://www.ambtirana.esteri.it/ambasciata_tirana/it/i_rappor
 ti_bilaterali/cooperazione_politica/accordi[][] 
  []
 
-) [25
+) [26
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
@@ -2292,8 +2303,8 @@ Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
 (rerunfilecheck)             Checksum: 24327186A35C1671D577F768A6AF8A77;2307.
  ) 
 Here is how much of TeX's memory you used:
- 45961 strings out of 493029
- 1060823 string characters out of 6136235
+ 45965 strings out of 493029
+ 1060857 string characters out of 6136235
  1280270 words of memory out of 5000000
  48570 multiletter control sequences out of 15000+600000
  65898 words of font info for 87 fonts, out of 8000000 for 9000
@@ -2331,10 +2342,10 @@ e/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on Relazione_Progetto.pdf (27 pages, 193326 bytes).
+Output written on Relazione_Progetto.pdf (28 pages, 194463 bytes).
 PDF statistics:
- 533 PDF objects out of 1000 (max. 8388607)
- 469 compressed objects within 5 object streams
- 137 named destinations out of 1000 (max. 500000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
+ 141 named destinations out of 1000 (max. 500000)
  397 words of extra memory for PDF output out of 10000 (max. 10000000)
 
