@@ -19,18 +19,21 @@
 \BOOKMARK [2][-]{subsection.4.3.1}{Acqua}{section.4.3}% 19
 \BOOKMARK [2][-]{subsection.4.3.2}{Luce}{section.4.3}% 20
 \BOOKMARK [2][-]{subsection.4.3.3}{Gas}{section.4.3}% 21
-\BOOKMARK [0][-]{chapter.5}{Indicatori VAN-WACC}{}% 22
-\BOOKMARK [1][-]{section.5.1}{VAN}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.1.1}{Break-even period}{section.5.1}% 24
-\BOOKMARK [2][-]{subsection.5.1.2}{Caso di Studio}{section.5.1}% 25
-\BOOKMARK [3][-]{subsubsection.5.1.2.1}{Caso Teorico}{subsection.5.1.2}% 26
-\BOOKMARK [3][-]{subsubsection.5.1.2.2}{Caso UNIFORME}{subsection.5.1.2}% 27
-\BOOKMARK [3][-]{subsubsection.5.1.2.3}{Caso OTTIMO}{subsection.5.1.2}% 28
-\BOOKMARK [3][-]{subsubsection.5.1.2.4}{Caso PEGGIORE}{subsection.5.1.2}% 29
-\BOOKMARK [1][-]{section.5.2}{WACC}{chapter.5}% 30
-\BOOKMARK [0][-]{chapter.6}{Analisi Rischi}{}% 31
-\BOOKMARK [1][-]{section.6.1}{Variazione Tasso Cambio}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.2}{Malattia Dipendenti}{chapter.6}% 33
-\BOOKMARK [0][-]{chapter.7}{Conclusioni e Sviluppi Futuri}{}% 34
-\BOOKMARK [0][-]{chapter.7}{Elenco Acronimi}{}% 35
-\BOOKMARK [0][-]{section*.10}{Bibliografia}{}% 36
+\BOOKMARK [0][-]{chapter.5}{Indicatori WACC-VAN}{}% 22
+\BOOKMARK [1][-]{section.5.1}{WACC}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.2}{VAN}{chapter.5}% 24
+\BOOKMARK [2][-]{subsection.5.2.1}{Break-even period}{section.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.2.2}{Caso di Studio}{section.5.2}% 26
+\BOOKMARK [0][-]{chapter.6}{Analisi Rischi}{}% 27
+\BOOKMARK [1][-]{section.6.1}{Variazione Tasso Cambio}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{Malattia Dipendenti}{chapter.6}% 29
+\BOOKMARK [0][-]{chapter.7}{Conclusioni e Sviluppi Futuri}{}% 30
+\BOOKMARK [0][-]{section*.10}{Appendici}{}% 31
+\BOOKMARK [0][-]{Appendice.1.Alph1}{Stimatori}{}% 32
+\BOOKMARK [1][-]{section.1.Alph1.1}{Media Campionaria}{Appendice.1.Alph1}% 33
+\BOOKMARK [1][-]{section.1.Alph1.2}{Varianza e Deviazione Standard Campionaria Corretta}{Appendice.1.Alph1}% 34
+\BOOKMARK [1][-]{section.1.Alph1.3}{Intervalli di Confidenza}{Appendice.1.Alph1}% 35
+\BOOKMARK [0][-]{Appendice.1.Alph2}{Calcolo Stimatori Tasso di Cambio}{}% 36
+\BOOKMARK [0][-]{Appendice.1.Alph3}{Calcolo Stimatori Malattie Dipendenti}{}% 37
+\BOOKMARK [0][-]{Appendice.1.Alph3}{Elenco Acronimi}{}% 38
+\BOOKMARK [0][-]{section*.11}{Bibliografia}{}% 39

@@ -1,0 +1,14 @@
+\begin{appendices}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+\makeatletter
+\addtocontents{toc}{%
+  \begingroup
+  \let\protect\l@chapter\protect\l@section
+  \let\protect\l@section\protect\l@subsection
+}
+\makeatother
+	\input{appendici_stimatori.tex}
+	\input{appendici_calcolo_stimatori_tasso_cambio.tex}
+	\input{appendici_calcolo_stimatori_malattie_dipendenti.tex}
+\addtocontents{toc}{\endgroup}
+\end{appendices}
