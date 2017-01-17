@@ -26,8 +26,8 @@
 			/pgf/number format/.cd,
 			set decimal separator={,{\!}},
 			set thousands separator={}}
-	\begin{axis}[ xlabel=$VAN$, 
-				   ylabel=$Flussi mensili$, 
+	\begin{axis}[ xlabel=$Flussi\: mensili (\mbox{\euro})$, 
+				   ylabel=$VAN$, 
 				   grid=major ]
 		
 		\addplot[domain=0:160000, color=blue, line width=1pt]{10.7528 * x - 702749.72};
