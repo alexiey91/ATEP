@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  18 JAN 2017 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  18 JAN 2017 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2141,22 +2141,62 @@ although it is yet undefined on input line 8.
 ]
 Package acronym Info: Label `acro:VAN' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fi
+llbetween.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillb
+etween.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryintersections.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
+s.code.tex
+\pgf@intersect@solutions=\count377
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecor
+ations.softclip.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbe
+tween.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.de
+corations.softclip.code.tex))
+Package pgfplots info on input line 80: fill between: found 'clip=true'. Prepar
+ing pgfplotsextra instruction with clip path for layer 'pre main'...
+Package pgfplots info on input line 82: fill between: activating layered graphi
+cs
+\pgf@layerbox@axis background=\box166
+\pgf@layerboxsaved@axis background=\box167
+\pgf@layerbox@axis grid=\box168
+\pgf@layerboxsaved@axis grid=\box169
+\pgf@layerbox@axis ticks=\box170
+\pgf@layerboxsaved@axis ticks=\box171
+\pgf@layerbox@axis lines=\box172
+\pgf@layerboxsaved@axis lines=\box173
+\pgf@layerbox@axis tick labels=\box174
+\pgf@layerboxsaved@axis tick labels=\box175
+\pgf@layerbox@pre main=\box176
+\pgf@layerboxsaved@pre main=\box177
+\pgf@layerbox@axis descriptions=\box178
+\pgf@layerboxsaved@axis descriptions=\box179
+\pgf@layerbox@axis foreground=\box180
+\pgf@layerboxsaved@axis foreground=\box181
+Package pgfplots info on input line 82: Setting layers 'axis background,axis gr
+id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis 
+foreground'...
  [16]
-Overfull \hbox (47.50967pt too wide) in paragraph at lines 80--91
+Overfull \hbox (47.50967pt too wide) in paragraph at lines 104--115
  [][] 
  []
 
 
-Overfull \hbox (5.87494pt too wide) detected at line 109
+Overfull \hbox (5.87494pt too wide) detected at line 133
 $[]\OT1/cmr/m/n/12 078$ 
  []
 
 
-Overfull \hbox (47.50967pt too wide) in paragraph at lines 104--112
+Overfull \hbox (47.50967pt too wide) in paragraph at lines 128--136
  [][] 
  []
 
-)) [17] (./analisi_rischi.tex [18]
+[17])) [18] (./analisi_rischi.tex
 Capitolo 6.
 (./analisi_rischi_tassocambio.tex [19
 
@@ -2340,13 +2380,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46259 strings out of 493029
- 1066482 string characters out of 6136235
- 1285259 words of memory out of 5000000
- 48802 multiletter control sequences out of 15000+600000
+ 46780 strings out of 493029
+ 1082744 string characters out of 6136235
+ 1353621 words of memory out of 5000000
+ 49301 multiletter control sequences out of 15000+600000
  66943 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,20n,103p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,20n,107p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -2379,7 +2419,7 @@ texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (34 pages, 215046 bytes).
+Output written on Relazione_Progetto.pdf (34 pages, 218400 bytes).
 PDF statistics:
  649 PDF objects out of 1000 (max. 8388607)
  575 compressed objects within 6 object streams

@@ -16,8 +16,8 @@
 	L'andamento del \ac{VAN} in funzione dei flussi mensili è rappresentabile dalla seguente formula, calcolata tenendo conto del \textbf{tasso di sconto} $r$ pari a (\ref{eq:wacc_tax_value}):	
 	\begin{eqnarray}
 	\label{eq:andamento_van_flussi}
- 		y(x) & = & 10,7528 \cdot ( x - 60131,27 ) - 56170,20		\nonumber \\
- 			 & = & 10,7528 \cdot x - 702749,72
+ 		y(x) & = & 10,7528 \cdot ( x - 60\thinspace 131,27 ) - 56\thinspace 170,20		\nonumber \\
+ 			 & = & 10,7528 \cdot x - 702\thinspace 749,72
 	\end{eqnarray}
 
  \begin{tikzpicture}[scale=1.2]
@@ -48,17 +48,41 @@ Il valore $x$ corrispondente è pari alla quantità di flussi di cassa mensili m
 	\begin{equation}
 	\label{eq:van_pareggio_1}
 	\begin{split}
- 		10,7528 \cdot x - 702749,72 = 0	
+ 		10,7528 \cdot x - 702\thinspace 749,72 = 0	
  	\end{split}
 	\end{equation}			
 
-pari a (in \euro):
+pari a:
 			
 	\begin{eqnarray}
 	\label{eq:van_pareggio_2}
-		x & = & \frac{702749,72	}{10,7528}	 	\nonumber \\[1.5ex] 
-		  & = & 65355,04
+		x & = & \frac{702\thinspace 749,72	}{10,7528}	 	\nonumber \\[1.5ex] 
+		  & = &  65\thinspace 355,04 \: \mbox{\euro} 
 	\end{eqnarray}
+
+
+\usepgfplotslibrary{fillbetween}
+
+\begin{tikzpicture}[scale=1.2]
+ \pgfkeys {
+			/pgf/number format/.cd,
+			set decimal separator={,{\!}},
+			set thousands separator={}}
+
+    \begin{axis}[thick,smooth, xlabel=$Flussi \: mensili \:(\mbox{\euro})$, ylabel=$VAN$, grid=major]    
+
+		\addplot coordinates{( 65535, 0) };
+							  
+        \addplot+[domain=0:65535, name path=A,red,line width=1pt, no markers] {10.7528 * x - 702749.72};
+        \addplot+[domain=65535:160000, name path=C,green,line width=1pt, no markers] {10.7528 * x - 702749.72};
+        \addplot+[domain=0:160000, name path=B, draw=none,black, no markers] {0};
+
+        \addplot[domain=0:65535, red!20] fill between[of=A and B];
+        \addplot[domain=65535:160000, green!20] fill between[of=C and B];
+    \end{axis}
+\end{tikzpicture}
+
+
 
 \subsection[Break-even period]{Break-even period}
 	Si analizza, infine, il \textbf{punto di pareggio}, ovvero la quantità di chiamate necessarie per avere un fatturato tale da ricoprire l'investimento iniziale, in modo tale da chiudere il periodo di riferimento senza perdite né profitti.
@@ -81,11 +105,11 @@ Il \textbf{break even period} (periodo di pareggio), ovvero il periodo di tempo 
  \toprule
  	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
  \midrule	
- 	\makebox[4cm][r]{Pareggio} & 65355,07 & 939,18 & 0,00 & 0,1154\\ 
-	\makebox[4cm][r]{Ottimo} & 553419,36 & 8138,52 & 5248057,65 & 1,0000\\
-	\makebox[4cm][r]{Caso di Studio 20,0 \%} & 110683,87 & 1627,70 & 487411,50 & 0,2000\\
-	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 83012,90 & 1220,78 & 189871,11 & 0,1500 \\
-	\makebox[4cm][r]{Caso di Studio 12,5 \%} & 69177,42 & 1017,32 & 41100,92 & 0,1250 \\
+ 	\makebox[4cm][r]{Pareggio} & 65\thinspace 355,07 & 939,18 & 0,00 & 0,1154\\ 
+	\makebox[4cm][r]{Ottimo} & 553\thinspace 419,36 & 8\thinspace 138,52 & 5\thinspace 248\thinspace 057,65 & 1,0000\\
+	\makebox[4cm][r]{Caso di Studio 20,0 \%} & 110\thinspace 683,87 & 1\thinspace 627,70 & 487\thinspace 411,50 & 0,2000\\
+	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 83\thinspace 012,90 & 1\thinspace 220,78 & 189\thinspace 871,11 & 0,1500 \\
+	\makebox[4cm][r]{Caso di Studio 12,5 \%} & 69\thinspace 177,42 & 1\thinspace 017,32 & 41\thinspace 100,92 & 0,1250 \\
  \bottomrule
  \end{tabular} 
 \end{table}
@@ -105,8 +129,8 @@ Il \textbf{break even period} (periodo di pareggio), ovvero il periodo di tempo 
  \toprule
  	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
  \midrule	 
-	\makebox[4cm][r]{Ottimo} & 615888,00 & 7698,60 & 4926392,37 & 1,0000\\
-	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 92406,24 & 1155,078 & 141831,90 & 0,1500 \\
+	\makebox[4cm][r]{Ottimo} & 615\thinspace 888,00 & 7\thinspace 698,60 & 4\thinspace 926\thinspace 392,37 & 1,0000\\
+	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 92\thinspace 406,24 & 1\thinspace 155,078 & 141\thinspace 831,90 & 0,1500 \\
  \bottomrule
  \end{tabular} 
 \end{table}
@@ -125,7 +149,7 @@ Il \textbf{break even period} (periodo di pareggio), ovvero il periodo di tempo 
  \toprule
  	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}} \\
  \midrule	 
-	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 39592,80 & 494,91 & 150010,00 \\
+	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 39\thinspace 592,80 & 494,91 & 150\thinspace 010,00 \\
  \bottomrule
  \end{tabular} 
 \end{table}
@@ -144,7 +168,7 @@ Il \textbf{break even period} (periodo di pareggio), ovvero il periodo di tempo 
  \toprule
  	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}} \\
  \midrule	 
-	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 29034,40 & 362,93 & 132972,00 \\
+	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 29\thinspace 034,40 & 362,93 & 132\thinspace 972,00 \\
  \bottomrule
  \end{tabular} 
 \end{table}
