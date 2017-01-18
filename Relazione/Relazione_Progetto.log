@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  17 JAN 2017 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  18 JAN 2017 09:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2094,30 +2094,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
 [6]) [7] (./sistema_fiscale_albania.tex
 Capitolo 3.
-Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
-although it is yet undefined on input line 7.
 
-Overfull \hbox (34.13266pt too wide) in paragraph at lines 31--41
+Overfull \hbox (34.13266pt too wide) in paragraph at lines 11--21
  [][] 
+ []
+
+
+Overfull \hbox (4.5pt too wide) detected at line 55
+$[]\OT1/cmr/m/n/12 19[][][]$ 
+ []
+
+
+Overfull \hbox (4.5pt too wide) detected at line 55
+$[]\OT1/cmr/m/n/12 66[][][]$ 
+ []
+
+
+Overfull \hbox (4.5pt too wide) detected at line 56
+$[]\OT1/cmr/m/n/12 88[][][]$ 
  []
 
 [8
 
 ]
-Overfull \hbox (4.5pt too wide) detected at line 72
-$[]\OT1/cmr/m/n/12 19[][][]$ 
- []
-
-
-Overfull \hbox (4.5pt too wide) detected at line 72
-$[]\OT1/cmr/m/n/12 66[][][]$ 
- []
-
-
-Overfull \hbox (4.5pt too wide) detected at line 73
-$[]\OT1/cmr/m/n/12 88[][][]$ 
- []
-
+Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
+although it is yet undefined on input line 67.
 ) [9] (./elenco_costi.tex [10]
 Capitolo 4.
 (./analisi_metodo_abc.tex) (./analisi_CAPEX.tex) (./analisi_OPEX.tex [11
@@ -2308,12 +2309,12 @@ Appendice C.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 25.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
 Package acronym Info: Label `acro:S.r.l.' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 31.
+although it is yet undefined on input line 34.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 \T1/ptm/m/n/10.95 l'equivalente al-ba-ne-se del-l'i-ta-lia-na
  []
 
@@ -2332,17 +2333,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-(rerunfilecheck)             Checksum: 545B8B4BF36B43A0E9217453AA47EE78;2543.
+(rerunfilecheck)             Checksum: 214B60B61986F64522D4128BDBDF2DC4;2855.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46240 strings out of 493029
- 1066213 string characters out of 6136235
- 1283105 words of memory out of 5000000
- 48791 multiletter control sequences out of 15000+600000
+ 46256 strings out of 493029
+ 1066443 string characters out of 6136235
+ 1285227 words of memory out of 5000000
+ 48800 multiletter control sequences out of 15000+600000
  66943 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,20n,103p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2378,10 +2379,10 @@ texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (34 pages, 212683 bytes).
+Output written on Relazione_Progetto.pdf (34 pages, 214530 bytes).
 PDF statistics:
- 617 PDF objects out of 1000 (max. 8388607)
- 543 compressed objects within 6 object streams
- 168 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 646 PDF objects out of 1000 (max. 8388607)
+ 572 compressed objects within 6 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 
