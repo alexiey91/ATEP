@@ -3,6 +3,7 @@
 
 \section[Persone Fisiche]{Persone Fisiche}
 \subsection[Imposta sui Redditi]{Imposta sui Redditi}
+\label{sec:imposta_redditi_albania}
 Una persona fisica, invece, è soggetta al pagamento delle tasse relative ai guadagni realizzati all'interno del territorio albanese, se non è residente, altrimenti deve pagare le tasse su tutti i guadagni realizzati anche all'estero.
 Sono previste le seguenti aliquote:\newline
 \begin{savenotes}
@@ -32,42 +33,83 @@ per semplicità riportiamo la precedente tabella con i valori riportati in \text
  	Da & Fino\ a & \\
  \midrule
  	0 & 219,77 & 0\% \\
- 	219,77 & 952,31 & 13\% dell'importo superiore ad \euro \hspace{0,0150625cm} 219,77\\
+ 	219,77 & 952,31 & 13\% dell'importo superiore ad \euro \: 219,77\\
  	952,31 & \ & \euro \hspace{0,0150625cm} 95,23 + 23\% dell'importo superiore ad \euro \hspace{0,0150625cm} 952,31 \\
  \bottomrule
  \end{tabular} 
 \end{table}
 \end{savenotes}
 \subsection[Previdenza Sociale]{Previdenza Sociale}
-In base alla legge \textbf{n. 7703 del 11/05/1993} \textit{Sulla previdenza sociale nella Repubblica d'Albania} e alla legge \textbf{n. 10383 del 24/02/2011} \textit{Sulla previdenza obbligatoria sanitaria nella Repubblica d'Albania} e successive modifiche, i datori di lavoro e i dipendenti sono tenuti a versare i contributi obbligatori per la previdenza sociale e sanitaria.
-Il datore di lavoro deve versare mensilmente , per ogni dipendente, all'\ac{ISSH} una quota pari al \textit{27,9 \%} dello stipendio lordo percepito da ogni dipendente.
+\label{sec:previdenza_sociale_albania}
+In base alla legge \textbf{n. 7703 del 11/05/1993} \textit{"Sulla previdenza sociale nella Repubblica d'Albania"} e alla legge \textbf{n. 10383 del 24/02/2011} \textit{"Sulla previdenza obbligatoria sanitaria nella Repubblica d'Albania"} e successive modifiche, i datori di lavoro e i dipendenti sono tenuti a versare i contributi obbligatori per la previdenza sociale e sanitaria. \newline
+Il datore di lavoro deve versare mensilmente , per ogni dipendente, all'\ac{ISSH}, agendo come \textbf{sostituto d'imposta}, una quota pari al \textit{27,9 \%} dello stipendio lordo percepito da ogni dipendente.
 Della quota prevista, però:
 \begin{itemize}
 \item il \textbf{16,7 \%} è a carico del datore di lavoro;
 \item il \textbf{11,2 \%} è a carico del dipendente;
 \end{itemize}
-I contributi previsti verranno detratti dallo stipendio percepito e versato dal datore di lavoro che agirà pertanto come \textbf{sostituto d'imposta}.
+In sintesi, quindi, dato lo stipendio dell'i-esimo dipendente:
+\begin{equation}
+\label{eq:stipendio_dip}
+S_i
+\end{equation}
+la sua \underline{quota prevista} per la previdenza sociale è pari a:
+\begin{equation}
+\label{eq:quota_issh}
+quota \: issh = 0,279 \cdot S_i
+\end{equation}
+ma la (\ref{eq:quota_issh}) \underline{non} deve pagata interamente dal dipendente, che dovrà pagare solamente:
+\begin{equation}
+\label{eq:quota_issh_dip}
+quota \: dip = 0,112 \cdot S_i
+\end{equation}
+mentre la rimanente parte dovrà essere corrisposta da parte dell'azienda:
+\begin{equation}
+\label{eq:quota_issh_dip_azienda}
+quota \: dip \:azienda = 0,167 \cdot S_i
+\end{equation}
+ma la (\ref{eq:quota_issh_dip_azienda}) \underline{non verrà detratta} dallo stipendio del dipendente i-esimo, ma verrà pagata come quota esterna ad esso.
 
-
-\subsection[Calcolo Contributi]{Calcolo Contributi}
-Nel nostro caso avremmo la seguente situazione:
-
+\subsection[Calcolo Contributi Singolo Dipendente]{Calcolo Contributi Singolo Dipendente}
+Tenendo conto, quindi, delle imposte (\ref{sec:imposta_redditi_albania}) e (\ref{sec:previdenza_sociale_albania}), la busta paga dei dipendenti che ricoprono il ruolo di \textit{Centralinista}, \textit{Manager} e \textit{CEO} sarà costituita rispettivamente dalle seguenti voci: 
 \begin{savenotes}
 \begin{table}[htb]
 \centering
- \caption{Stipendi Dipendenti}
+ \caption{Busta Paga Dipendenti}
  \begin{tabular}{rD{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
  \toprule
  	& \multicolumn{1}{c}{Centralinista} & \multicolumn{1}{c}{Manager} & \multicolumn{1}{c}{CEO} \\
  \midrule
  	Reddito Imponibile Mensile (\euro)& 459,67 & 947,90 & 5\thinspace 163,83 \\ 
- 	Imposta sui Redditi (\euro)& 31,19\footnote{(aliquota del 13,00 \%) pari a (459,67-219,77)*0,13} & 94,66\footnote{(aliquota del 13,00 \%) pari a (947,90-219,77)*0,13} & 1\thinspace 063,88 \footnote{(aliquota del 23,00 \%) pari a (5163,83-952,31)*0,23+95,23}\\
+ \midrule 	
+ 	Imposta sui Redditi (\euro)& 31,19\footnote{scaglione del 13,00\: \%} & 94,66\footnote{scaglione del 13,00\: \%} & 1\thinspace 063,88 \footnote{scaglione del 23,00\: \%}\\
 	Previdenza Sociale (11,20 \%)(\euro) & 51,48 & 106,16 & 578,35 \\
+ \midrule	
 	Stipendio Netto (\euro) & 377,00 & 747,08 & 3\thinspace 521,60 \\ 	
  \bottomrule
  \end{tabular} 
 \end{table}
 \end{savenotes}
+
+Si osserva, in pratica, nel caso del calcolo dell'imposta sui redditi, come, in base allo stipendio imponibile, sia il \textit{Centralinista} sia il \textit{Manager} rientrano nello scaglione del $13 \:\%$, pertanto la loro quota prevista è pari a:
+\begin{eqnarray}
+\label{eq:imposta_redditi_centralinista}
+quota \: centralinista & = & (459,67-219,77) \cdot 0,13 \nonumber \\
+					 & = & 31,187 \: \mbox{\euro} \: \simeq 31,19 \: \mbox{\euro} 
+\end{eqnarray}
+
+\begin{eqnarray}
+\label{eq:imposta_redditi_manager}
+quota \: manager & = & (947,90-219,77) \cdot 0,13 \nonumber \\
+					 & = & 94,6569 \: \mbox{\euro} \: \simeq 94,66 \: \mbox{\euro}
+\end{eqnarray} 
+
+mentre il \textit{CEO} rientra nello scaglione del $23 \:\%$, pertanto la sua quota sarà pari a:
+\begin{eqnarray}
+\label{eq:imposta_redditi_ceo}
+quota \: ceo & = & (5\thinspace 163,83-952,31) \cdot 0,23 + 95,23 \nonumber \\
+					 & = & 1\thinspace 063,8796 \: \mbox{\euro} \: \simeq 1\thinspace 063,88 \: \mbox{\euro}
+\end{eqnarray} 
 
 
 \section[Persone Giuridiche]{Persone Giuridiche}
