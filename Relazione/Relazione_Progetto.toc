@@ -11,13 +11,13 @@
 \contentsline {chapter}{\numberline {3}Sistema Fiscale Albanese}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Persone Fisiche}{8}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Imposta sui Redditi}{8}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Contributi Previdenziali}{8}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Calcolo Contributi}{8}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.2}Previdenza Sociale}{8}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Calcolo Contributi}{9}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Persone Giuridiche}{9}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Imposta sul reddito aziendale}{9}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}IVA}{9}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Apertura Societ\IeC {\`a} a responsabilit\IeC {\`a} limitata}{9}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Costo Complessivo Dipendenti}{9}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.2}IVA}{10}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Apertura Societ\IeC {\`a} a responsabilit\IeC {\`a} limitata}{10}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Costo Complessivo Dipendenti}{10}{subsection.3.2.4}
 \contentsline {chapter}{\numberline {4}Analisi Costi}{11}{chapter.4}
 \contentsline {section}{\numberline {4.1}Metodo ABC}{11}{section.4.1}
 \contentsline {section}{\numberline {4.2}CAPEX}{11}{section.4.2}
@@ -38,7 +38,7 @@
 \contentsline {section}{\numberline {6.1}Variazione Tasso Cambio}{19}{section.6.1}
 \contentsline {section}{\numberline {6.2}Malattia Dipendenti}{24}{section.6.2}
 \contentsline {chapter}{\numberline {7}Conclusioni e Sviluppi Futuri}{26}{chapter.7}
-\contentsline {chapter}{Appendici}{27}{section*.10}
+\contentsline {chapter}{Appendici}{27}{section*.11}
 \setcounter {tocdepth}{2}
 \begingroup \let \l@chapter \l@section \let \l@section \l@subsection 
 \contentsline {chapter}{\numberline {A}Stimatori}{28}{Appendice.1.Alph1}
@@ -49,4 +49,4 @@
 \contentsline {chapter}{\numberline {C}Calcolo Stimatori Malattie Dipendenti}{30}{Appendice.1.Alph3}
 \endgroup 
 \contentsline {chapter}{Elenco Acronimi}{31}{Appendice.1.Alph3}
-\contentsline {chapter}{Bibliografia}{32}{section*.11}
+\contentsline {chapter}{Bibliografia}{32}{section*.12}
