@@ -86,10 +86,10 @@ La funzione \ref{eq:reg_num_viaggi} presenta, in particolare le seguenti caratte
  \toprule
  	\multicolumn{1}{c}{\textbf{Parametro}} & \multicolumn{1}{c}{\textbf{Valore}} \\
  \midrule 		
-	\makebox[3cm][c]{\textbf{AIC}\footnote{\textit{\textbf{A}kaike's \textbf{I}nformation \textbf{C}riterion} è un metodo di valutazione e il confronto tra modelli statistici}} & 8.42376\\
- 	\makebox[3cm][c]{\textbf{BIC}\footnote{\textit{\textbf{B}ayesian \textbf{I}nformation \textbf{C}riterion} è un criterio per la selezionedi un modello tra una classe di modelli parametrici}} & 6.58264\\
- 	\makebox[3cm][c]{\textbf{$(R^{2})$}\footnote{varianza campionaria}} & 0.99965\\  	
- 	\makebox[3cm][c]{\textbf{adjusted $(R^{2})$}\footnote{varianza campionaria corretta}} & 0.99931\\
+	\makebox[3cm][c]{\textbf{AIC}\footnote{\textit{\textbf{A}kaike's \textbf{I}nformation \textbf{C}riterion} è un metodo di valutazione e il confronto tra modelli statistici}} & 8,42376\\
+ 	\makebox[3cm][c]{\textbf{BIC}\footnote{\textit{\textbf{B}ayesian \textbf{I}nformation \textbf{C}riterion} è un criterio per la selezionedi un modello tra una classe di modelli parametrici}} & 6,58264\\
+ 	\makebox[3cm][c]{\textbf{$(R^{2})$}\footnote{varianza campionaria}} & 0,99965\\  	
+ 	\makebox[3cm][c]{\textbf{adjusted $(R^{2})$}\footnote{varianza campionaria corretta}} & 0,99931\\
  \bottomrule
  \end{tabular} 
 \end{table}
@@ -106,13 +106,19 @@ in particolare, il dato ricercato è pari a:
 	\end{tcolorbox}
 \section[Volume Traffico Generato Dipendenti]{Volume Traffico Generato Dipendenti}
 Dai dati forniti da varie fonti di call center abbiamo stimato che il \textbf{tempo medio di una chiamata} (compresa di digitazione e attesa) è pari a:
-\begin{center}
-	\textit{ 3,5 minuti }
-\end{center}
+	\begin{equation}
+	\label{eq:durata_media_chiamate}
+	\begin{split}
+		3 \: minuti \: e \: 30 \: secondi \: = \: 3,5 \: minuti  
+	\end{split}
+	\end{equation}
 Considerando, quindi, che in una giornata un operatore è al lavoro per circa:
-\begin{center}
-	\textit{ 5 ore e 30 minuti }
-\end{center}
+	\begin{equation}
+	\label{eq:durata_orario_lavoro}
+	\begin{split}
+		5 \: ore \: e \: 30 \: minuti \: = \: 5,5 \: ore  
+	\end{split}
+	\end{equation}
 Possiamo stimare che in una giornata un centralinista è in grado di effettuare un numero di chiamate pari a:
 	\begin{equation}
 	\label{eq:num_chiamate_singolo_operatore_giorno}
@@ -124,14 +130,14 @@ se un anno lavorativo è costituito da 222 giorni effettivi, allora in un anno o
 	\begin{equation}
 	\label{eq:num_chiamate_singolo_operatore_anno}
 	\begin{split}
-		94 \cdot 222 = 20868 
+		94 \cdot 222 = 20\thinspace 868 
 	\end{split}
 	\end{equation}
 in totale, quindi tutti i dipendenti (30) generano (in un anno) un traffico pari a:
 	\begin{equation}
 	\label{eq:num_chiamate_azienda_anno}
 	\begin{split}
-		20868 \cdot 30 = 624040 
+		20868 \cdot 30 = 624\thinspace 040 
 	\end{split}
 	\end{equation}
 \section[Fatturato Mensile]{Fatturato Mensile}
