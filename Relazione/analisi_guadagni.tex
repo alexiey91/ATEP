@@ -137,7 +137,7 @@ in totale, quindi tutti i dipendenti (30) generano (in un anno) un traffico pari
 	\begin{equation}
 	\label{eq:num_chiamate_azienda_anno}
 	\begin{split}
-		20868 \cdot 30 = 624\thinspace 040 
+		20\thinspace 868 \cdot 30 = 624\thinspace 040 
 	\end{split}
 	\end{equation}
 \section[Fatturato Mensile]{Fatturato Mensile}
@@ -145,31 +145,60 @@ Dai dati stimati in precedenza, in particolare
 \newline
 \begin{center}
 	\begin{tabular}{rr}
-		numero di chiamate azienda annuali & 624040,00 \\
-		tasso di successo viaggio (\%) & 15,60 \\ 
+		numero di chiamate azienda annuali & 624\thinspace 040,00 \\
+		tasso di successo viaggio (\%) & 15,60 \\
+		tasso di successo firma contratto (\%) & 15,00 \\	
 	\end{tabular}
 \end{center}
 possiamo determinare:
 \begin{itemize}
 \item il \textbf{numero medio contratti stipulati in un anno}
 	\begin{equation}
-	\label{eq:num_contratti_anno}
+	\label{eq:num_contratti_teorico_anno}
 	\begin{split}
-		624040 \cdot 0,1560 = 97350,24
+		\underbrace{624\thinspace 040 \cdot 0,1560}_{numero\: di\: clienti\: stipulano \: contratto \: viaggio } = 97\thinspace 350,24
 	\end{split}
 	\end{equation}
-\item il \textbf{fatturato annuale netto}
+
+\item il \textbf{numero medio contratti stipulati in un anno (realistico)}
+	\begin{equation}
+	\label{eq:num_contratti_realistico_anno}
+	\begin{split}
+		\underbrace{\underbrace{624\thinspace 040 \cdot 0,1560 \cdot 0,15}_{numero\: clienti\: interessati \: viaggio } \cdot 0,15}_{numero \: clienti \: stipulano \: contratto} = 14\thinspace 602,54
+	\end{split}
+	\end{equation}
+
+\item il \textbf{fatturato annuale}
+	\begin{equation}
+	\label{eq:fatturato_teorico_anno_netto}
+	\begin{split}
+		97\thinspace 350,24 \cdot 80,00 = 7\thinspace 788\thinspace 019,20 \: \mbox{\euro} 
+	\end{split}
+	\end{equation}	
+	
+\item il \textbf{fatturato annuale (realistico)}
 	\begin{equation}
 	\label{eq:fatturato_anno_netto}
 	\begin{split}
-		97350,24 \cdot 80,00 = 7788019,20 \: \mbox{\euro} 
+		14\thinspace 602,54 \cdot 80,00 = 1\thinspace 168\thinspace 202,88 \: \mbox{\euro} 
 	\end{split}
 	\end{equation}
-\item il \textbf{fatturato mensile netto} 
+
+\item il \textbf{fatturato mensile}
+	\begin{equation}
+	\label{eq:fatturato_teorico_anno_netto}
+	\begin{split}
+		\frac{7\thinspace 788\thinspace 019,20 \: \mbox{\euro}}{12} = 649\thinspace 001,60 \: \mbox{\euro} 
+	\end{split}
+	\end{equation}	
+
+	
+\item il \textbf{fatturato mensile (realistico)} 
 	\begin{equation}
 	\label{eq:fatturato_mensile_netto}
 	\begin{split}
-		\frac{7788019,20}{12} = 649001,60 \: \mbox{\euro}
+		\frac{1\thinspace 168\thinspace 202,88}{12} = 97\thinspace 350,24 \: \mbox{\euro}
 	\end{split}
 	\end{equation}
+	
 \end{itemize}

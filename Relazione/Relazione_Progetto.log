@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  19 JAN 2017 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  20 JAN 2017 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1818,6 +1818,9 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 ))
 (./Relazione_Progetto.aux
 
+LaTeX Warning: Label `eq:fatturato_teorico_anno_netto' multiply defined.
+
+
 LaTeX Warning: Label `eq:consumo_acqua_giorno_azienda' multiply defined.
 
 )
@@ -2126,27 +2129,23 @@ Package acronym Info: Label `acro:QKB' newly defined as it shall be overridden
 although it is yet undefined on input line 143.
  [10]) [11] (./elenco_costi.tex
 Capitolo 4.
-(./analisi_metodo_abc.tex) (./analisi_CAPEX.tex) (./analisi_OPEX.tex [12
+(./analisi_metodo_abc.tex) (./analisi_CAPEX.tex) (./analisi_OPEX.tex
+Package acronym Info: Label `acro:Fibank Albania' newly defined as it shall be 
+overridden
+although it is yet undefined on input line 1.
+ [12
 
 ]
 [13])) [14] [15] (./analisi_VAN_WACC.tex
 Capitolo 5.
-(./analisi_WACC.tex
-Package acronym Info: Label `acro:Fibank Albania' newly defined as it shall be 
-overridden
-although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:WACC' newly defined as it shall be overridden
 
-although it is yet undefined on input line 24.
-) (./analisi_VAN.tex
-Package acronym Info: Label `acro:TIR' newly defined as it shall be overridden
-although it is yet undefined on input line 8.
- [16
-
-]
+although it is yet undefined on input line 40.
 Package acronym Info: Label `acro:VAN' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
+although it is yet undefined on input line 40.
+(./analisi_WACC.tex [16
 
+]) (./analisi_VAN.tex [17]
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fi
 llbetween.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillb
@@ -2163,10 +2162,10 @@ ations.softclip.code.tex
 tween.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.de
 corations.softclip.code.tex))
-Package pgfplots info on input line 80: fill between: found 'clip=true'. Prepar
-ing pgfplotsextra instruction with clip path for layer 'pre main'...
-Package pgfplots info on input line 82: fill between: activating layered graphi
-cs
+Package pgfplots info on input line 132: fill between: found 'clip=true'. Prepa
+ring pgfplotsextra instruction with clip path for layer 'pre main'...
+Package pgfplots info on input line 134: fill between: activating layered graph
+ics
 \pgf@layerbox@axis background=\box166
 \pgf@layerboxsaved@axis background=\box167
 \pgf@layerbox@axis grid=\box168
@@ -2183,15 +2182,15 @@ cs
 \pgf@layerboxsaved@axis descriptions=\box179
 \pgf@layerbox@axis foreground=\box180
 \pgf@layerboxsaved@axis foreground=\box181
-Package pgfplots info on input line 82: Setting layers 'axis background,axis gr
-id,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis 
-foreground'...
+Package pgfplots info on input line 134: Setting layers 'axis background,axis g
+rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
+ foreground'...
 
-Overfull \hbox (47.50967pt too wide) in paragraph at lines 99--107
+Overfull \hbox (47.50967pt too wide) in paragraph at lines 151--159
  [][] 
  []
 
-[17])) [18] (./analisi_rischi.tex
+[18])) [19] (./analisi_rischi.tex
 Capitolo 6.
 Package acronym Info: Label `acro:UPS' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
@@ -2315,7 +2314,7 @@ Overfull \hbox (9.1388pt too wide) detected at line 28
  
  []
 
-[19
+[20
 
 ]
 Overfull \hbox (7.52457pt too wide) in paragraph at lines 118--137
@@ -2327,7 +2326,7 @@ Overfull \hbox (47.50967pt too wide) in paragraph at lines 149--160
  [][] 
  []
 
-[20]
+[21]
 Overfull \hbox (5.87494pt too wide) detected at line 178
 $[]\OT1/cmr/m/n/12 078$ 
  []
@@ -2337,37 +2336,37 @@ Overfull \hbox (47.50967pt too wide) in paragraph at lines 173--181
  [][] 
  []
 
-) (./analisi_rischi_tassocambio.tex [21] [22] [23] [24])
+) (./analisi_rischi_tassocambio.tex [22] [23] [24] [25])
 (./analisi_rischi_diagramma_tornado.tex
-<immagini/Tornado.png, id=531, 536.75531pt x 325.215pt>
+<immagini/Tornado.png, id=552, 536.75531pt x 325.215pt>
 File: immagini/Tornado.png Graphic file (type png)
 
 <use immagini/Tornado.png>
 Package pdftex.def Info: immagini/Tornado.png used on input line 4.
 (pdftex.def)             Requested size: 375.72614pt x 227.64894pt.
-)) [25] [26] (./conclusioni_sviluppi_futuri.tex
-[27 <./immagini/Tornado.png>]
+)) [26] [27] (./conclusioni_sviluppi_futuri.tex
+[28 <./immagini/Tornado.png>]
 Capitolo 7.
-) [28
+) [29
 
-] (./appendici.tex [29
+] (./appendici.tex [30
 
 
 ] (./appendici_variabile_aleatoria.tex
 Appendice A.
-) (./appendici_stimatori.tex [30
+) (./appendici_stimatori.tex [31
 
 ]
 Appendice B.
-) (./appendici_calcolo_stimatori_tasso_cambio.tex [31
+) (./appendici_calcolo_stimatori_tasso_cambio.tex [32
 
 ]
 Appendice C.
-) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [32
+) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [33
 
 ]
 Appendice D.
-)) [33
+)) [34
 
 ] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
@@ -2389,7 +2388,7 @@ Overfull \vbox (3.61339pt too high) has occurred while \output is active []
 Overfull \vbox (17.2134pt too high) has occurred while \output is active []
 
 
-[34]) [35] (./bibliografia.tex
+[35]) [36] (./bibliografia.tex
 Overfull \hbox (63.70374pt too wide) in paragraph at lines 6--8
 [][]\T1/ptm/m/n/12 http://www.ambtirana.esteri.it/ambasciata_tirana/it/i_rappor
 ti_bilaterali/cooperazione_politica/accordi[][] 
@@ -2401,7 +2400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 _in_Albania_2015_-
  []
 
-) [36
+) [37
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
@@ -2410,20 +2409,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-(rerunfilecheck)             Checksum: 85490CED860DFEE17F89F072CD267CD6;3121.
+(rerunfilecheck)             Checksum: BEE901A6EC9632833BA241EAA62BF9EA;3134.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46865 strings out of 493029
- 1084104 string characters out of 6136235
- 1362817 words of memory out of 5000000
- 49352 multiletter control sequences out of 15000+600000
- 66943 words of font info for 91 fonts, out of 8000000 for 9000
+ 46896 strings out of 493029
+ 1084773 string characters out of 6136235
+ 1363549 words of memory out of 5000000
+ 49374 multiletter control sequences out of 15000+600000
+ 70569 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,20n,107p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,29n,107p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -2456,10 +2455,10 @@ texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (38 pages, 239036 bytes).
+Output written on Relazione_Progetto.pdf (39 pages, 250278 bytes).
 PDF statistics:
- 726 PDF objects out of 1000 (max. 8388607)
- 646 compressed objects within 7 object streams
- 201 named destinations out of 1000 (max. 500000)
+ 748 PDF objects out of 1000 (max. 8388607)
+ 667 compressed objects within 7 object streams
+ 210 named destinations out of 1000 (max. 500000)
  490 words of extra memory for PDF output out of 10000 (max. 10000000)
 

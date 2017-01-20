@@ -25,28 +25,28 @@
 \contentsline {subsection}{\numberline {4.3.1}Acqua}{13}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Luce}{14}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Gas}{14}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Indicatori WACC-VAN}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}WACC}{16}{section.5.1}
-\contentsline {section}{\numberline {5.2}VAN}{16}{section.5.2}
-\contentsline {chapter}{\numberline {6}Analisi Rischi}{19}{chapter.6}
-\contentsline {section}{\numberline {6.1}Malattia Dipendenti}{20}{section.6.1}
-\contentsline {section}{\numberline {6.2}Caso di Studio}{21}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Caso Uniforme}{21}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Caso Ottimo}{21}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Caso Peggiore}{21}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Variazione Tasso Cambio}{21}{section.6.3}
-\contentsline {section}{\numberline {6.4}Diagramma Tornado}{26}{section.6.4}
-\contentsline {chapter}{\numberline {7}Conclusioni e Sviluppi Futuri}{28}{chapter.7}
-\contentsline {chapter}{Appendici}{29}{section*.13}
+\contentsline {chapter}{\numberline {5}Valutazione Teorica Investimento}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}WACC}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}VAN}{17}{section.5.2}
+\contentsline {chapter}{\numberline {6}Analisi Rischi}{20}{chapter.6}
+\contentsline {section}{\numberline {6.1}Malattia Dipendenti}{21}{section.6.1}
+\contentsline {section}{\numberline {6.2}Caso di Studio}{22}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Caso Uniforme}{22}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Caso Ottimo}{22}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Caso Peggiore}{22}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Variazione Tasso Cambio}{22}{section.6.3}
+\contentsline {section}{\numberline {6.4}Diagramma Tornado}{27}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusioni e Sviluppi Futuri}{29}{chapter.7}
+\contentsline {chapter}{Appendici}{30}{section*.12}
 \setcounter {tocdepth}{2}
 \begingroup \let \l@chapter \l@section \let \l@section \l@subsection 
-\contentsline {chapter}{\numberline {A}Variabile Aleatoria t di Student}{30}{Appendice.1.Alph1}
-\contentsline {chapter}{\numberline {B}Stimatori}{31}{Appendice.1.Alph2}
-\contentsline {section}{\numberline {B.1}Media Campionaria}{31}{section.1.Alph2.1}
-\contentsline {section}{\numberline {B.2}Varianza e Deviazione Standard Campionaria Corretta}{31}{section.1.Alph2.2}
-\contentsline {section}{\numberline {B.3}Intervalli di Confidenza}{31}{section.1.Alph2.3}
-\contentsline {chapter}{\numberline {C}Calcolo Stimatori Tasso di Cambio}{32}{Appendice.1.Alph3}
-\contentsline {chapter}{\numberline {D}Calcolo Stimatori Malattie Dipendenti}{33}{Appendice.1.Alph4}
+\contentsline {chapter}{\numberline {A}Variabile Aleatoria t di Student}{31}{Appendice.1.Alph1}
+\contentsline {chapter}{\numberline {B}Stimatori}{32}{Appendice.1.Alph2}
+\contentsline {section}{\numberline {B.1}Media Campionaria}{32}{section.1.Alph2.1}
+\contentsline {section}{\numberline {B.2}Varianza e Deviazione Standard Campionaria Corretta}{32}{section.1.Alph2.2}
+\contentsline {section}{\numberline {B.3}Intervalli di Confidenza}{32}{section.1.Alph2.3}
+\contentsline {chapter}{\numberline {C}Calcolo Stimatori Tasso di Cambio}{33}{Appendice.1.Alph3}
+\contentsline {chapter}{\numberline {D}Calcolo Stimatori Malattie Dipendenti}{34}{Appendice.1.Alph4}
 \endgroup 
-\contentsline {chapter}{Elenco Acronimi}{34}{Appendice.1.Alph4}
-\contentsline {chapter}{Bibliografia}{36}{section*.14}
+\contentsline {chapter}{Elenco Acronimi}{35}{Appendice.1.Alph4}
+\contentsline {chapter}{Bibliografia}{37}{section*.13}
