@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  22 JAN 2017 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  23 JAN 2017 09:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2215,11 +2215,6 @@ Capitolo 6.
 Package acronym Info: Label `acro:UPS' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
 (./analisi_rischi_malattiadipendenti.tex
-Overfull \hbox (9.1388pt too wide) detected at line 5
- 
- []
-
-
 Overfull \hbox (9.1388pt too wide) detected at line 6
  
  []
@@ -2334,31 +2329,36 @@ Overfull \hbox (9.1388pt too wide) detected at line 28
  
  []
 
+
+Overfull \hbox (9.1388pt too wide) detected at line 29
+ 
+ []
+
 [23
 
 ]
-Overfull \hbox (7.52457pt too wide) in paragraph at lines 118--137
+Overfull \hbox (7.52457pt too wide) in paragraph at lines 119--138
  [][] 
  []
 
 
-Overfull \hbox (47.50967pt too wide) in paragraph at lines 149--160
+Overfull \hbox (47.50967pt too wide) in paragraph at lines 150--161
  [][] 
  []
 
 [24]
-Overfull \hbox (5.87494pt too wide) detected at line 178
+Overfull \hbox (5.87494pt too wide) detected at line 179
 $[]\OT1/cmr/m/n/12 078$ 
  []
 
 
-Overfull \hbox (47.50967pt too wide) in paragraph at lines 173--181
+Overfull \hbox (47.50967pt too wide) in paragraph at lines 174--182
  [][] 
  []
 
 ) (./analisi_rischi_tassocambio.tex [25] [26] [27] [28])
 (./analisi_rischi_diagramma_tornado.tex
-<immagini/Tornado.png, id=588, 536.75531pt x 325.215pt>
+<immagini/Tornado.png, id=590, 536.75531pt x 325.215pt>
 File: immagini/Tornado.png Graphic file (type png)
 
 <use immagini/Tornado.png>
@@ -2378,11 +2378,11 @@ Appendice A.
 
 ]
 Appendice B.
-) (./appendici_calcolo_stimatori_tasso_cambio.tex [35
+) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [35
 
 ]
 Appendice C.
-) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [36
+) (./appendici_calcolo_stimatori_tasso_cambio.tex [36
 
 ]
 Appendice D.
@@ -2427,18 +2427,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (./Relazione_Progetto.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
-Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-(rerunfilecheck)             Checksum: 9FE50C2CFF6067AD8BDEE3D275EA6EBC;3232.
 
+
+Package rerunfilecheck Warning: File `Relazione_Progetto.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Relazione_Progetto.out':
+(rerunfilecheck)             Before: 9FE50C2CFF6067AD8BDEE3D275EA6EBC;3232
+(rerunfilecheck)             After:  07A3B72FD3CA237C0C35570C096FF4B2;3232.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 47003 strings out of 493029
- 1086424 string characters out of 6136235
- 1388612 words of memory out of 5000000
- 49456 multiletter control sequences out of 15000+600000
+ 47007 strings out of 493029
+ 1086550 string characters out of 6136235
+ 1388681 words of memory out of 5000000
+ 49460 multiletter control sequences out of 15000+600000
  70367 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,29n,107p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2474,10 +2480,10 @@ texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (43 pages, 262935 bytes).
+Output written on Relazione_Progetto.pdf (43 pages, 263286 bytes).
 PDF statistics:
- 807 PDF objects out of 1000 (max. 8388607)
- 721 compressed objects within 8 object streams
+ 809 PDF objects out of 1000 (max. 8388607)
+ 723 compressed objects within 8 object streams
  231 named destinations out of 1000 (max. 500000)
  498 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -30,7 +30,7 @@
 \contentsline {section}{\numberline {5.2}VAN}{17}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Caso di Studio Realistico}{21}{subsection.5.2.1}
 \contentsline {chapter}{\numberline {6}Analisi Rischi}{23}{chapter.6}
-\contentsline {section}{\numberline {6.1}Malattia Dipendenti}{24}{section.6.1}
+\contentsline {section}{\numberline {6.1}Malattia Dipendenti}{23}{section.6.1}
 \contentsline {section}{\numberline {6.2}Caso di Studio}{25}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Caso Uniforme}{25}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Caso Ottimo}{25}{subsection.6.2.2}
@@ -46,8 +46,8 @@
 \contentsline {section}{\numberline {B.1}Media Campionaria}{35}{section.1.Alph2.1}
 \contentsline {section}{\numberline {B.2}Varianza e Deviazione Standard Campionaria Corretta}{35}{section.1.Alph2.2}
 \contentsline {section}{\numberline {B.3}Intervalli di Confidenza}{35}{section.1.Alph2.3}
-\contentsline {chapter}{\numberline {C}Calcolo Stimatori Tasso di Cambio}{36}{Appendice.1.Alph3}
-\contentsline {chapter}{\numberline {D}Calcolo Stimatori Malattie Dipendenti}{37}{Appendice.1.Alph4}
+\contentsline {chapter}{\numberline {C}Calcolo Stimatori Malattie Dipendenti}{36}{Appendice.1.Alph3}
+\contentsline {chapter}{\numberline {D}Calcolo Stimatori Tasso di Cambio}{37}{Appendice.1.Alph4}
 \endgroup 
 \contentsline {chapter}{Elenco Acronimi}{38}{Appendice.1.Alph4}
 \contentsline {chapter}{Bibliografia}{40}{section*.14}
