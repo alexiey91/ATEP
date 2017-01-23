@@ -70,7 +70,7 @@ quota \: dip \:azienda = 0,167 \cdot S_i
 \end{equation}
 ma la (\ref{eq:quota_issh_dip_azienda}) \underline{non verrà detratta} dallo stipendio del dipendente i-esimo, ma verrà pagata come quota esterna ad esso.
 
-\subsection[Buste Paga Singolo Dipendente]{Buste Paga Singolo Dipendente}
+\subsection[Buste Paga Dipendenti]{Buste Paga Dipendenti}
 Tenendo conto, quindi, delle imposte (\ref{sec:imposta_redditi_albania}) e (\ref{sec:previdenza_sociale_albania}), la busta paga dei dipendenti che ricoprono il ruolo di \textit{Centralinista}, \textit{Manager} e \textit{CEO} sarà costituita rispettivamente dalle seguenti voci: 
 \begin{savenotes}
 \begin{table}[htb]
@@ -80,7 +80,7 @@ Tenendo conto, quindi, delle imposte (\ref{sec:imposta_redditi_albania}) e (\ref
  \toprule
  	& \multicolumn{1}{c}{Centralinista} & \multicolumn{1}{c}{Manager} & \multicolumn{1}{c}{CEO} \\
  \midrule
- 	Reddito Imponibile Mensile (\euro)& 459,67 & 947,90 & 5\thinspace 163,83 \\ 
+ 	\rowcolor[gray]{.7}Reddito Imponibile Mensile (\euro)& 459,67 & 947,90 & 5\thinspace 163,83 \\ 
  \midrule 	
  	Imposta sui Redditi (\euro)& 31,19\footnote{scaglione del 13,00\: \%} & 94,66\footnote{scaglione del 13,00\: \%} & 1\thinspace 063,88 \footnote{scaglione del 23,00\: \%}\\
 	Previdenza Sociale (11,20 \%)(\euro) & 51,48 & 106,16 & 578,35 \\
@@ -111,7 +111,44 @@ quota \: ceo & = & (5\thinspace 163,83-952,31) \cdot 0,23 + 95,23 \nonumber \\
 					 & = & 1\thinspace 063,8796 \: \mbox{\euro} \: \simeq 1\thinspace 063,88 \: \mbox{\euro}
 \end{eqnarray} 
 
+Dal punto di vista dell'azienda, invece, l'\textbf{\ac{ANV S.r.l.}} dovrà sostenere un costo per singolo \textit{centralinista}, \textit{manager} e per il \textit{ceo}, tenendo conto anche dell'imposta (\ref{eq:quota_issh_dip_azienda}), pari a:
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Costo Azienda Dipendenti}
+ \begin{tabular}{rD{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{Centralinista} & \multicolumn{1}{c}{Manager} & \multicolumn{1}{c}{CEO} \\
+ \midrule
+ 	Reddito Imponibile Mensile (\euro)& 459,67 & 947,90 & 5\thinspace 163,83 \\ 
+	Previdenza Sociale (16,70 \%)(\euro) & 76,76 & 158,30 & 862,36 \\
+	\rowcolor[gray]{.7}\textbf{Costo Mensile Singolo Dipendente} (\euro) & 536,43 & 1\thinspace 106,20 & 6\thinspace 026,19 \\
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
 
+quindi, considerando tutti i dipendenti, il costo \underline{complessivo} sarà pari a:
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Costo Azienda Dipendenti}
+ \begin{tabular}{rD{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{Centralinista} & \multicolumn{1}{c}{Manager} & \multicolumn{1}{c}{CEO} & \multicolumn{1}{c}{TOTALE} \\
+ \midrule
+	\textbf{Costo Mensile Singolo Dipendente} (\euro) & 536,43 & 1\thinspace 106,20 & 6\thinspace 026,19 & \\ 	
+	num. dipendenti & 30 & 3 & 1 & 34 \\
+	\rowcolor[gray]{.7}\textbf{Costo Mensile Dipendenti} (\euro) & 16\thinspace 092,90 & 3\thinspace 318,60 & 6\thinspace 026,19 & 25\thinspace 437,69\\
+	\textbf{Costo Annuale Dipendenti} (\euro) & 193\thinspace 114,80 & 39\thinspace 823,20 & 72\thinspace 314,28 & 305\thinspace 252,28\\ 	
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+
+quindi, in definitiva, soltanto per pagare i propri dipendenti,  dovrà sostenere mensilmente un costo pari a:
+\[ \mbox{\euro \: 25\thinspace 437,69}\]
+questa quota rappresenta un \textbf{OPEX} come evidenziato nella tabella \ref{table:opex}.
 \section[Persone Giuridiche]{Persone Giuridiche}
 Una persona giuridica, ovvero un ente il cui ordinamento giuridico attribuisce la \textit{capacità giuridica} (diventando, quindi, un \textbf{soggetto di diritto}) è considerata come residente in Albania se ha una struttura permanente, la sede principale, o una sede per la reale gestione degli affari nel Paese.
 \subsection[IVA]{IVA}
@@ -142,24 +179,3 @@ Tutte le imprese che siano albanesi o straniere registrate ai fini \ac{IVA} sono
 La costituzione di una società a responsabilità in Albania non prevede restrizioni in merito al numero, alla cittadinanza o alla forma giuridica adottata dai soci.\newline
 La società a responsabilità limitata che andrà a formarsi, deve avere, necessariamente, la sede legale in Albania ed un capitale sociale minimo di $ALL \:\: 100 \: (\simeq \: \mbox{\euro\: 0,73})$ ed acquisirà la capacità giuridica solamente dopo la sua registrazione presso il Registro delle Imprese tenuto presso il \ac{QKB}\cite{qkr}.
 La registrazione presso il \ac{QKB} si svolge in 24 \: ore ad un costo di $ALL \:\: 100 \: (\simeq \: \mbox{\euro\: 0,73})$ comporta anche l'iscrizione della società presso l'\textit{Ufficio delle tasse}, all'\textit{Autorità di Sicurezza}, alla \textit{Previdenza Sociale} e all'\textit{Ispettorato del Lavoro}\cite{studio_palmeri}.  
-
-\subsection[Costo Complessivo Dipendenti]{Costo Complessivo Dipendenti}
-Il costo che dovrà sostenere l'\textbf{\ac{ANV S.r.l.}} per ogni dipendente sarà, quindi, pari a:
-\begin{savenotes}
-\begin{table}[htb]
-\centering
- \caption{Costo Azienda Dipendenti}
- \begin{tabular}{rD{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
- \toprule
- 	& \multicolumn{1}{c}{Centralinista} & \multicolumn{1}{c}{Manager} & \multicolumn{1}{c}{CEO} & \multicolumn{1}{c}{TOTALE} \\
- \midrule
- 	Reddito Imponibile Mensile (\euro)& 459,67 & 947,90 & 5\thinspace 163,83 & \\ 
-	Previdenza Sociale (16,70 \%)(\euro) & 76,76 & 158,30 & 862,36 & \\
-	\textbf{Costo Mensile Singolo Dipendente} (\euro) & 536,43 & 1\thinspace 106,20 & 6\thinspace 026,19 & \\ 	
-	num. dipendenti & 30 & 3 & 1 & 34 \\
-	\textbf{Costo Mensile Dipendenti} (\euro) & 16\thinspace 092,90 & 3\thinspace 318,60 & 6\thinspace 026,19 & 25\thinspace 437,69\\
-	\textbf{Costo Annuale Dipendenti} (\euro) & 193\thinspace 114,80 & 39\thinspace 823,20 & 72\thinspace 314,28 & 305\thinspace 252,28\\ 	
- \bottomrule
- \end{tabular} 
-\end{table}
-\end{savenotes}

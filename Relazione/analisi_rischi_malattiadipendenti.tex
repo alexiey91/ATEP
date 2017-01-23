@@ -30,8 +30,8 @@ L'impatto dei giorni di malattia sull'analisi dei flussi mensili è stato valuta
 
  \bottomrule
  \end{tabular} 
-
-Le principali grandezze che lo caratterizzano assumono i seguenti valori (i calcoli sono illustrati all'appendice \ref{sec:stimatori_malattie_dipendenti}):
+\newline
+Le principali grandezze ad esso associato (i calcoli sono illustrati all'appendice \ref{sec:stimatori_malattie_dipendenti}sono pari a:
 
 \begin{savenotes}
 \begin{table}[htb]
@@ -54,18 +54,19 @@ L'intervallo di confidenza, di livello $0,99$ ad esse associato è pari a:
 \[	\left [ 11,4184 ; 12,6598 \right]		\] 
  
  
-consideriamo le seguenti ipotesi per ogni singolo centralinista: 
+Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo mese: 
+  
 \begin{savenotes}
 \begin{table}[htb]
 \centering
- \caption{Assunzioni iniziali in un singolo mese}
+ \caption{Assunzioni Centralinista}
  \begin{tabular}{p{7cm}D{,}{,}{5.2}}
  \toprule
  	& \multicolumn{1}{c}{\textbf{Quantita'}} \\
  \midrule 	
 	\makebox[7cm][r]{Giorni lavorativi in un mese} & 18,50\\
 	\makebox[7cm][r]{Giorni lavorativi in un anno} & 222,00\\
-	\makebox[7cm][r]{Giorni assenza} & 12,00\\	
+	\makebox[7cm][r]{Giorni assenza\footnote{pari alla media campionaria $ 12,03913 \simeq 12,00 $}} & 12,00\\	
  	\makebox[7cm][r]{Probabilita' di stipulare un contratto (\%)\footnote{dati istat}} & 15,60\\
  \bottomrule
  \end{tabular} 
