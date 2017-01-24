@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  24 JAN 2017 01:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  24 JAN 2017 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1828,6 +1828,9 @@ LaTeX Warning: Label `eq:consumo_acqua_giorno_azienda' multiply defined.
 
 LaTeX Warning: Label `eq:flussi_netti' multiply defined.
 
+
+LaTeX Warning: Label `eq:van_dicembre' multiply defined.
+
 )
 \openout1 = `Relazione_Progetto.aux'.
 
@@ -2174,9 +2177,9 @@ ations.softclip.code.tex
 tween.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.de
 corations.softclip.code.tex))
-Package pgfplots info on input line 142: fill between: found 'clip=true'. Prepa
+Package pgfplots info on input line 132: fill between: found 'clip=true'. Prepa
 ring pgfplotsextra instruction with clip path for layer 'pre main'...
-Package pgfplots info on input line 146: fill between: activating layered graph
+Package pgfplots info on input line 136: fill between: activating layered graph
 ics
 \pgf@layerbox@axis background=\box166
 \pgf@layerboxsaved@axis background=\box167
@@ -2194,27 +2197,27 @@ ics
 \pgf@layerboxsaved@axis descriptions=\box179
 \pgf@layerbox@axis foreground=\box180
 \pgf@layerboxsaved@axis foreground=\box181
-Package pgfplots info on input line 146: Setting layers 'axis background,axis g
+Package pgfplots info on input line 136: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
  [20]
-Overfull \hbox (19.05692pt too wide) in paragraph at lines 179--188
+Overfull \hbox (19.05692pt too wide) in paragraph at lines 169--178
  [][] 
  []
 
 
-Overfull \hbox (19.05692pt too wide) in paragraph at lines 196--208
+Overfull \hbox (19.05692pt too wide) in paragraph at lines 186--197
  [][] 
  []
 
-Package pgfplots info on input line 231: fill between: found 'clip=true'. Prepa
+Package pgfplots info on input line 220: fill between: found 'clip=true'. Prepa
 ring pgfplotsextra instruction with clip path for layer 'pre main'...
-Package pgfplots info on input line 233: fill between: activating layered graph
+Package pgfplots info on input line 222: fill between: activating layered graph
 ics
-Package pgfplots info on input line 233: Setting layers 'axis background,axis g
+Package pgfplots info on input line 222: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
-[21])) [22] [23] (./analisi_rischi.tex
+[21])) [22] (./analisi_rischi.tex [23]
 Capitolo 6.
 Package acronym Info: Label `acro:UPS' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
@@ -2340,60 +2343,51 @@ Overfull \hbox (9.1388pt too wide) detected at line 29
 
 [24
 
-]
-Overfull \hbox (7.52457pt too wide) in paragraph at lines 120--139
+] [25]
+Overfull \hbox (47.50967pt too wide) in paragraph at lines 220--228
  [][] 
  []
 
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
-Overfull \hbox (47.50967pt too wide) in paragraph at lines 151--162
- [][] 
  []
 
-[25]
-Overfull \hbox (5.87494pt too wide) detected at line 180
-$[]\OT1/cmr/m/n/12 078$ 
- []
-
-
-Overfull \hbox (47.50967pt too wide) in paragraph at lines 175--183
- [][] 
- []
-
-) (./analisi_rischi_tassocambio.tex
+[27] [28]) (./analisi_rischi_tassocambio.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
 
-[26] [27] [28] [29] [30]) (./analisi_rischi_diagramma_tornado.tex
-<immagini/Tornado.png, id=609, 536.75531pt x 325.215pt>
+[29] [30] [31] [32]) (./analisi_rischi_diagramma_tornado.tex
+<immagini/Tornado.png, id=647, 536.75531pt x 325.215pt>
 File: immagini/Tornado.png Graphic file (type png)
 
 <use immagini/Tornado.png>
 Package pdftex.def Info: immagini/Tornado.png used on input line 4.
 (pdftex.def)             Requested size: 375.72614pt x 227.64894pt.
-)) [31] (./conclusioni_sviluppi_futuri.tex [32 <./immagini/Tornado.png>]
+)) [33] [34 <./immagini/Tornado.png>]
+(./conclusioni_sviluppi_futuri.tex
 Capitolo 7.
-) [33
+) [35
 
-] (./appendici.tex [34
+] (./appendici.tex [36
 
 
 ] (./appendici_variabile_aleatoria.tex
 Appendice A.
-) (./appendici_stimatori.tex [35
+) (./appendici_stimatori.tex [37
 
 ]
 Appendice B.
-) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [36
+) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [38
 
 ]
 Appendice C.
-) (./appendici_calcolo_stimatori_tasso_cambio.tex [37
+) (./appendici_calcolo_stimatori_tasso_cambio.tex [39
 
 ]
 Appendice D.
-)) [38
+)) [40
 
 ] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
@@ -2408,7 +2402,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 \T1/ptm/m/n/10.95 l'equivalente al-ba-ne-se del-l'i-ta-lia-na
  []
 
-[39]) [40] (./bibliografia.tex
+[41]) [42] (./bibliografia.tex
 Overfull \hbox (63.70374pt too wide) in paragraph at lines 6--8
 [][]\T1/ptm/m/n/12 http://www.ambtirana.esteri.it/ambasciata_tirana/it/i_rappor
 ti_bilaterali/cooperazione_politica/accordi[][] 
@@ -2426,7 +2420,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
 nts/Tax/dttl-tax-
  []
 
-[41
+[43
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 48--50
@@ -2434,14 +2428,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--50
 Of-Capital-
  []
 
-) [42]
+) [44]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (./Relazione_Progetto.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-(rerunfilecheck)             Checksum: B8D98BB8F4C67E5FDBA1F0D2A56FB4CA;3142.
+(rerunfilecheck)             Checksum: 7085446BA43355DF3538DA8D062CCE0B;3178.
 
 
 LaTeX Warning: There were undefined references.
@@ -2451,18 +2445,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 47019 strings out of 493029
- 1086776 string characters out of 6136235
- 1383439 words of memory out of 5000000
- 49467 multiletter control sequences out of 15000+600000
+ 47083 strings out of 493029
+ 1088432 string characters out of 6136235
+ 1382516 words of memory out of 5000000
+ 49514 multiletter control sequences out of 15000+600000
  70367 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,29n,107p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
-t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
 , replaced by a fixed one
@@ -2482,23 +2473,21 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (44 pages, 283524 bytes).
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Relazione_Progetto.pdf (46 pages, 274901 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 742 compressed objects within 8 object streams
- 236 named destinations out of 1000 (max. 500000)
+ 866 PDF objects out of 1000 (max. 8388607)
+ 777 compressed objects within 8 object streams
+ 253 named destinations out of 1000 (max. 500000)
  490 words of extra memory for PDF output out of 10000 (max. 10000000)
 
