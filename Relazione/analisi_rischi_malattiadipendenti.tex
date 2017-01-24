@@ -31,47 +31,33 @@ L'impatto dei giorni di malattia sull'analisi dei flussi mensili è stato valuta
  \bottomrule
  \end{tabular} 
 \newline
-Le principali grandezze ad esso associato (i calcoli sono illustrati all'appendice \ref{sec:stimatori_malattie_dipendenti}sono pari a:
+Le principali grandezze ad esso associato (i calcoli sono illustrati all'appendice \ref{sec:stimatori_malattie_dipendenti}) sono pari a:
 
 \begin{savenotes}
 \begin{table}[htb]
 \centering
  \caption{Statistiche}
- \begin{tabular}{p{5cm}D{,}{,}{5.5}}
+ \begin{tabular}{p{6cm}D{,}{,}{5.5}}
  \toprule
- 	\multicolumn{1}{c}{\textbf{Statistica}} & \multicolumn{1}{c}{\textbf{Valore}} \\
+ 	\multicolumn{1}{c}{\textbf{Grandezza}} & \multicolumn{1}{c}{\textbf{Valore}} \\
  \midrule 		
-	\makebox[5cm][r]{Media Campionaria} & 12,03913\\
- 	\makebox[5cm][r]{Varianza Campionaria Corretta} & 0,38525\\
- 	\makebox[5cm][r]{Deviazione Standard Corretta} & 0,62068\\	
+	\makebox[6cm][r]{Media Campionaria} & 12,03913\\
+ 	\makebox[6cm][r]{Varianza Campionaria Corretta} & 0,38525\\
+ 	\makebox[6cm][r]{Deviazione Standard Corretta} & 0,62068\\	
  \bottomrule
  \end{tabular} 
+ \label{table:numero_medio_malattia}
 \end{table}
 \end{savenotes} 
 
 L'intervallo di confidenza, di livello $0,99$ ad esse associato è pari a:
-
-\[	\left [ 11,4184 ; 12,6598 \right]		\] 
- 
- 
-Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo mese: 
-  
-\begin{savenotes}
-\begin{table}[htb]
-\centering
- \caption{Assunzioni Centralinista}
- \begin{tabular}{p{7cm}D{,}{,}{5.2}}
- \toprule
- 	& \multicolumn{1}{c}{\textbf{Quantita'}} \\
- \midrule 	
-	\makebox[7cm][r]{Giorni lavorativi in un mese} & 18,50\\
-	\makebox[7cm][r]{Giorni lavorativi in un anno} & 222,00\\
-	\makebox[7cm][r]{Giorni assenza\footnote{pari alla media campionaria $ 12,03913 \simeq 12,00 $}} & 12,00\\	
- 	\makebox[7cm][r]{Probabilita' di stipulare un contratto (\%)\footnote{dati istat}} & 15,60\\
- \bottomrule
- \end{tabular} 
-\end{table}
-\end{savenotes}
+\begin{equation}
+	\label{eq:intervallo_confidenza_num_malattia}
+	\begin{split}
+		\left [ 11,4184 ; 12,6598 \right]	 
+	\end{split}
+\end{equation}
+\begin{comment}
 %
 %	Numero chiamate centralinisti
 %
@@ -83,15 +69,15 @@ Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo me
  \toprule
  	& \multicolumn{1}{c}{\textbf{Quantità}} \\
  \midrule 		
-	\makebox[5cm][r]{Numero chiamate annuali} & 605172,00\\
- 	\makebox[5cm][r]{Numero contratti annuali} & 94406,83 \\
- 	\makebox[5cm][r]{Numero contratti mensili} & 7867,24\\  	
+	\makebox[5cm][r]{Numero chiamate annuali} & 605\thinspace 172,00\\
+ 	\makebox[5cm][r]{Numero contratti annuali} & 94\thinspace 406,83 \\
+ 	\makebox[5cm][r]{Numero contratti mensili} & 7\thinspace 867,24\\  	
  \bottomrule
  \end{tabular} 
 \end{table}
 \end{savenotes}
 
-\begin{comment}
+
 
 \begin{savenotes}
 \begin{table}[htb]
@@ -110,8 +96,6 @@ Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo me
  \end{tabular} 
 \end{table}
 \end{savenotes}
-
-\end{comment}
  
 \begin{savenotes}
 \begin{table}[htb]
@@ -136,14 +120,45 @@ Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo me
 	\makebox[8cm][r]{Fatturato Netto (\euro) (30 malati in 1 mese)} & 22953,69 & 29835,81\\	
  \bottomrule
  \end{tabular} 
-\end{table}\
+\end{table}
 \end{savenotes}
 
+\end{comment}
+
 \section[Caso di Studio]{Caso di Studio}
+\begin{comment}
+Tenendo conto i giorni lavorativi mensili pari a:
+  
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Giorni Lavoro}
+ \begin{tabular}{p{5cm}D{,}{,}{5.2}D{,}{,}{5.2}}
+ \toprule
+ 	& \multicolumn{1}{c}{\textbf{Annuali}} & \multicolumn{1}{c}{\textbf{Mensili}} \\
+ \midrule 	
+	\makebox[5cm][r]{Giorni lavorativi} & 222,00 & 18,50\\
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+\end{comment}
+
+Si sono analizzati, nel dettaglio l'impatto dei dipendenti che si assentano per malattia:
+\begin{itemize}
+\item \textbf{uniformemente} durante l'arco dell'anno (\textbf{CASO MEDIO});
+\item \textbf{concentrati} nel mese di Dicembre (\textbf{CASO MIGLIORE});
+\item \textbf{concentrati} nel mese di Gennaio (\textbf{CASO PEGGIORE});
+\end{itemize} 
+
+
+
 
 %
 %	Tabella relativa al caso teorico in cui non ci siano malati durante un anno
 %
+
+\begin{comment}
 \begin{savenotes}
 \begin{table}[htb]
 \centering
@@ -161,10 +176,40 @@ Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo me
  \end{tabular} 
 \end{table}
 \end{savenotes}
-
+\end{comment}
 
 \subsection[Caso Uniforme]{Caso Uniforme}
-
+Si suppone che i giorni di malattia (\ref{table:numero_medio_malattia}) annuali per singolo dipendente siano distribuiti in maniera uniforme durante l'arco dell'anno, quindi, è (ripetendo questo ragionamento per tutti i 30 centralinisti) come se un centralinista si assentasse per un giorno al mese. \newline
+La squadra di centralinisti pienamente operativa è quindi costituita da 29 persone. \newline
+Tenendo conto che un singolo centralinista è in grado potenzialmente di contattare un numero di clienti interessati (in un mese di 30 giorni) pari a:
+	\begin{equation}
+	\label{eq:chiamate_1_dipendente}
+	\begin{split}
+		30 \cdot 94 \cdot 0,156 = 439,92
+	\end{split}
+	\end{equation}
+ogni mese, il numero di potenziali clienti contattati teoricamente sarà pari a:
+	\begin{equation}
+	\label{eq:chiamate_29_dipendenti}
+	\begin{split}
+		\underbrace{8\thinspace 138,52}_{chiamate\: 30 \: centralinisti} - 439,92 = 7\thinspace 698,60
+ 	\end{split}
+	\end{equation}
+quindi, il fatturato mensile al netto dell'IVA sarà pari a:
+	\begin{equation}
+	\label{eq:fatturato_mensile_29_dipendenti}
+	\begin{split}
+		7\thinspace 698,60 \cdot 80,00 \:\mbox{\euro} \: \cdot 0,8 = 492\thinspace 710,40 \: \:\mbox{\euro}
+ 	\end{split}
+	\end{equation}	
+dato (\ref{eq:fatturato_mensile_29_dipendenti}) il valore del \textbf{\ac{VAN}}(\ref{eq:van_caso_studio_2}) corrispodente sarà pari a:
+	\begin{eqnarray}
+	\label{eq:van_fatturato_mensile_29_dipendenti}
+		y(492\thinspace 710,40) & = & -565\thinspace 875,32 + 8,47654 \cdot 492\thinspace 710,40 \nonumber \\
+								 & = & 3\thinspace 610\thinspace 604,09 
+	\end{eqnarray}	
+Un discorso analogo lo si può attuare nel caso di studio del 15 \%. \newline
+In sintesi, si registrano i seguenti valori:
 %
 %	Tabella relativa al caso in cui il numero di malati si distribuisce in maniera uniforme durante l'anno
 %
@@ -174,16 +219,77 @@ Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo me
  \caption{Variazione VAN (Malati distribuiti uniformemente)}
  \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{7.4}}
  \toprule
- 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
+ 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN (\euro)}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
  \midrule	 
-	\makebox[4cm][r]{Ottimo} & 615\thinspace 888,00 & 7\thinspace 698,60 & 4\thinspace 926\thinspace 392,37 & 1,0000\\
-	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 92\thinspace 406,24 & 1\thinspace 155,078 & 141\thinspace 831,90 & 0,1500 \\
+	\makebox[4cm][r]{Ottimo} & 492\thinspace 710,40 & 7\thinspace 698,60 & 3\thinspace 610\thinspace 604,09 & 1,0000\\
+	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 73\thinspace 925,12 & 1\thinspace 155,08 & 60\thinspace 753,92 & 0,1500 \\
  \bottomrule
  \end{tabular} 
 \end{table}
 \end{savenotes}
 
-\subsection[Caso Ottimo]{Caso Ottimo} 
+\subsection[Caso Migliore - Mese Dicembre]{Caso Migliore - Mese Dicembre} 
+La situazione migliore, si registra quando tutti i centralinisti si assentano per 11 giorni (pari al limite inferiore dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_num_malattia}) arrotondato per difetto) nel mese di Dicembre. \newline
+Il numero totale di chiamate \underline{non effettuate}, questo mese, sarà pari quindi a: 
+	\begin{equation}
+	\label{eq:totale_chiamate_non_effettuate_dicembre}
+	\begin{split}
+		\underbrace{11}_{giorni \: malattia} \cdot \underbrace{30}_{num\: dipendenti} \cdot \underbrace{94}_{num \: medio \: chiamate} \cdot 0,156 \cdot 0,15 = 725,87 
+ 	\end{split}
+	\end{equation}
+quelle realizzate sarà uguale a:
+	\begin{equation}
+	\label{eq:totale_chiamate_effettuate_dicembre}
+	\begin{split}
+		\underbrace{1\thinspace 220,78}_{numero\: chiamate \: 30 \: dipendenti} - 725,87 = 494,98
+ 	\end{split}
+	\end{equation}
+ed, infine, il fatturato, al netto dell'IVA:
+	\begin{equation}
+	\label{eq:fatturato_dicembre}
+	\begin{split}
+		494,98 \cdot 80,00 \cdot 0,8 = 31\thinspace 678,72 \: \mbox{\euro}
+ 	\end{split}
+	\end{equation}
+Il calcolo del VAN ad esso associato non è pari all'applicazione della formula (\ref{eq:van_caso_studio_2}), ma la formula da utilizzare è la seguente:
+	\begin{equation}
+	\label{eq:van_caso_dicembre}
+	\begin{split}
+		y(x) = -56\thinspace 170,20 + \frac{31\thinspace 678,72 - 60\thinspace 131,27}{(1+0,058)^{12}} + \sum_{k=1}^{11} \frac{x - 60\thinspace 131,27} {(1+0,058)^{k}}
+ 	\end{split}
+	\end{equation}
+dove la quantità:
+	\begin{equation}
+	\label{eq:attualizzazione_dicembre}
+	\begin{split}
+		\frac{31\thinspace 678,72 - 60\thinspace 131,27}{(1+0,058)^{12}} = -14\thinspace 464,1589 \simeq -14\thinspace 464,16
+ 	\end{split}
+	\end{equation}
+è pari all'attualizzazione dell'utile del mese di Dicembre al 1 Gennaio 2016, 
+\newline mentre la quantità: 
+	\begin{eqnarray}
+	\label{eq:attualizzazione_utile_mesi}
+		\sum_{k=1}^{11} \frac{x - 60\thinspace 131,27} {(1+0,058)^{k}} & = & \nonumber \\
+		& = & (x - 60\thinspace 131,27) \cdot \underbrace{\sum_{k=1}^{11}\frac{1}{(1+0,058)^{k}}}_{{}=7,9682} \nonumber \\
+		& = & (x - 60\thinspace 131,27) \cdot 7,9682 
+	\end{eqnarray}
+rappresenta l'attualizzazione al 1 Gennaio 2016 dell'utile realizzato negli 11 mesi precedenti (Gennaio \ldots Novembre).\newline
+Combinando (\ref{eq:attualizzazione_dicembre}) e (\ref{eq:attualizzazione_utile_mesi}), la (\ref{eq:van_caso_dicembre}) diventa:
+	\begin{eqnarray}
+	\label{eq:van_caso_dicembre_finale}
+		y(x) & = & -56\thinspace 170,20 - 14\thinspace 464,16 + (x - 60\thinspace 131,27) \cdot 7,9682 \nonumber \\
+			 & = & -70\thinspace 634,36 + (x - 60\thinspace 131,27) \cdot 7,9682  \nonumber \\
+			 & = & -549\thinspace 772,3456 + x \cdot 7,9682 
+	\end{eqnarray}
+\newline
+
+la (\ref{eq:van_caso_dicembre_finale}) calcolata per $ x = 78\thinspace 129,81 \: \mbox{\euro}$ (tabella \ref{table:stime_guadagni}) è pari a:
+	\begin{eqnarray}
+	\label{eq:van_dicembre}
+		y(78\thinspace 129,81) & = & -549\thinspace 772,3456 + 78\thinspace 129,81 \cdot 7,9682 \nonumber \\
+								& = & 7\thinspace 278,6064 \: \mbox{\euro} \simeq 72\thinspace 781,61 \: \mbox{\euro}  
+	\end{eqnarray}
+ 	
 
 %
 %	Tabella relativa al caso in cui il numero di malati si concentra nel mese di Dicembre
@@ -194,16 +300,75 @@ Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo me
  \caption{Variazione VAN (Malati nel mese di Dicembre)}
  \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
  \toprule
- 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}} \\
+ 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN (\euro)}} \\
  \midrule	 
-	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 39\thinspace 592,80 & 494,91 & 150\thinspace 010,00 \\
+	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 31\thinspace 678,72 & 494,98 & 72\thinspace 781,61 \\
  \bottomrule
  \end{tabular} 
 \end{table}
 \end{savenotes}
 
-\subsection[Caso Peggiore]{Caso Peggiore}
-
+\subsection[Caso Peggiore - Mese di Gennaio]{Caso Peggiore - Mese di Gennaio}
+La situazione peggiore, si registra, invece, quando tutti i centralinisti si assentano per 13 giorni (pari al limite superiore dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_num_malattia}) arrotondato per eccesso) nel mese di Gennaio.
+\newline
+Il numero totale di chiamate \underline{non effettuate}, questo mese, sarà pari quindi a: 
+	\begin{equation}
+	\label{eq:totale_chiamate_non_effettuate_gennaio}
+	\begin{split}
+		\underbrace{13}_{giorni \: malattia} \cdot \underbrace{30}_{num\: dipendenti} \cdot \underbrace{94}_{num \: medio \: chiamate} \cdot 0,156 \cdot 0,15 = 857,844 
+ 	\end{split}
+	\end{equation}
+quelle realizzate sarà uguale a:
+	\begin{equation}
+	\label{eq:totale_chiamate_effettuate_gennaio}
+	\begin{split}
+		\underbrace{1\thinspace 220,78}_{numero\: chiamate \: 30 \: dipendenti} - \: 857,84 = 362,94
+ 	\end{split}
+	\end{equation}	
+ed, infine, il fatturato, al netto dell'IVA:
+	\begin{equation}
+	\label{eq:fatturato_gennaio}
+	\begin{split}
+		362,94 \cdot 80,00 \cdot 0,8 = 23\thinspace 228,16 \: \mbox{\euro}
+ 	\end{split}
+	\end{equation}
+Il calcolo del VAN ad esso associato non è pari all'applicazione della formula (\ref{eq:van_caso_studio_2}), ma la formula da utilizzare è la seguente:
+	\begin{equation}
+	\label{eq:van_caso_gennaio}
+	\begin{split}
+		y(x) = -56\thinspace 170,20 + \frac{23\thinspace 228,16 - 60\thinspace 131,27}{1+0,058} + \sum_{k=2}^{12} \frac{x - 60\thinspace 131,27} {(1+0,058)^{k}}
+ 	\end{split}
+	\end{equation}
+dove il valore:
+	\begin{equation}
+	\label{eq:attualizzazione_gennaio}
+	\begin{split}
+		\frac{23\thinspace 228,16 - 60\thinspace 131,27}{1+0,058} = -34\thinspace 880,0662 \simeq -34\thinspace 880,07
+ 	\end{split}
+	\end{equation}
+è pari all'attualizzazione dell'utile del 31 Gennaio al 1 Gennaio 2016, 
+\newline mentre la quantità: 
+	\begin{eqnarray}
+	\label{eq:attualizzazione_utile_mesi_succ}
+		\sum_{k=2}^{12} \frac{x - 60\thinspace 131,27} {(1+0,058)^{k}} & = & \nonumber \\
+		& = & (x - 60\thinspace 131,27) \cdot \underbrace{\sum_{k=2}^{12}\frac{1}{(1+0,058)^{k}}}_{{}=7,5314} \nonumber \\
+		& = & (x - 60\thinspace 131,27) \cdot 7,5314 
+	\end{eqnarray}
+rappresenta l'attualizzazione al 1 Gennaio 2016 dell'utile realizzato negli 11 mesi successivi (Febbraio \ldots Dicembre).\newline
+Combinando (\ref{eq:attualizzazione_gennaio}) e (\ref{eq:attualizzazione_utile_mesi_succ}), la (\ref{eq:van_caso_gennaio}) diventa:
+	\begin{eqnarray}
+	\label{eq:van_caso_gennaio_finale}
+		y(x) & = & -56\thinspace 170,20 - 34\thinspace 880,07 + (x - 60\thinspace 131,27) \cdot 7,5314 \nonumber \\
+			 & = & -91\thinspace 050,27 + (x - 60\thinspace 131,27) \cdot 7,5314  \nonumber \\
+			 & = & -543\thinspace 922,9169 + x \cdot 7,5314 
+	\end{eqnarray}
+\newline
+la (\ref{eq:van_caso_gennaio_finale}) calcolata per $ x = 78\thinspace 129,81 \: \mbox{\euro}$ (tabella \ref{table:stime_guadagni}) è pari a:
+	\begin{eqnarray}
+	\label{eq:van_dicembre}
+		y(78\thinspace 129,81) & = & -543\thinspace 922,9169 + 78\thinspace 129,81 \cdot 7,5314 \nonumber \\
+								& = & 44\thinspace 503,9341 \: \mbox{\euro} \simeq 44\thinspace 503,93 \: \mbox{\euro}  
+	\end{eqnarray}
 %
 %	Tabella relativa al caso in cui il numero di malati si concentra nel mese di Gennaio
 %
@@ -213,9 +378,9 @@ Per un singolo centralinista, consideriamo le seguenti ipotesi per un singolo me
  \caption{Variazione VAN (Malati nel mese di Gennaio)}
  \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
  \toprule
- 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}} \\
+ 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN (\euro)}} \\
  \midrule	 
-	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 29\thinspace 034,40 & 362,93 & 132\thinspace 972,00 \\
+	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 23\thinspace 228,16 & 362,94 & 44\thinspace 503,93 \\
  \bottomrule
  \end{tabular} 
 \end{table}

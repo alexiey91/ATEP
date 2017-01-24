@@ -10,7 +10,7 @@
 	\begin{equation}
 	\label{eq:van_caso_studio}
 	\begin{split}
- 		w = - C_0 + \sum_{k=1}^{12} \frac{CF_k}{(1+0,01726)^k}
+ 		w = - C_0 + \sum_{k=1}^{12} \frac{CF_k}{(1+0,058)^k}
 	\end{split}
 	\end{equation}	
 	Il valore $C_0$ corrisponde all'investimento iniziale del nostro progetto, quindi, pari al \textbf{CAPEX} $ 56\thinspace 170,20 \: \mbox{\euro}$.
@@ -18,28 +18,18 @@
 	\begin{equation}
 	\label{eq:flussi_cassa_mensili}
 	\begin{split}
- 		CF = x \:(fatturato \: mensile) - 60\thinspace 131,27 \: (OPEX)
+ 		CF = \underbrace{x}_{fatturato \: mensile} - \underbrace{60\thinspace 131,27}_{OPEX}
 	\end{split}
 	\end{equation}	  	
 la (\ref{eq:van_caso_studio}) diventa (il VAN diventa funzione dei flussi di cassa lordi $x$ quindi $w = y(x)$):	
 	\begin{eqnarray}
 	\label{eq:van_caso_studio_2}
- 		y(x) & = & - 56\thinspace 170,20 + \sum_{k=1}^{12} \frac{x - 60\thinspace 131,27}{(1+0,01726)^k} \nonumber \\
- 		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27) \cdot \underbrace{\sum_{k=1}^{12} \frac{1} {(1+0,01726)^{k}}}_{{}=10,7528} \nonumber \\
- 		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27) \cdot 10,7528 \nonumber \\
- 		 & = & -702\thinspace 749,72 + 10,7528 \cdot x 		
+ 		y(x) & = & - 56\thinspace 170,20 + \sum_{k=1}^{12} \frac{x - 60\thinspace 131,27}{(1+0,0058)^k} \nonumber \\
+ 		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27) \cdot \underbrace{\sum_{k=1}^{12} \frac{1} {(1+0,0058)^{k}}}_{{}=8,47654} \nonumber \\
+ 		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27) \cdot 8,47654 \nonumber \\
+ 		 & = & -565\thinspace 875,32 + 8,47654 \cdot x 		
 	\end{eqnarray}  		
 
-	\begin{comment}	
-	ci possiamo, quindi, calcolare il valore del \ac{TIR} corrispondente. Per definizione il \ac{TIR} è pari a:
-	\begin{equation}
-	\label{eq:tir}
-	\begin{split}
- 		\sum_{k=0}^n \frac{C_k}{(1+i)^k} = 0
-	\end{split}
-	\end{equation}	 
-
-	\end{comment}
  \begin{tikzpicture}[scale=1.2]
  \pgfkeys {
 			/pgf/number format/.cd,
@@ -49,7 +39,7 @@ la (\ref{eq:van_caso_studio}) diventa (il VAN diventa funzione dei flussi di cas
 				   ylabel=$VAN$, 
 				   grid=major ]
 		
-		\addplot[domain=0:160000, color=blue, line width=1pt]{10.7528 * x - 702749.72};
+		\addplot[domain=0:160000, color=blue, line width=1pt]{8.47654 * x - 565875.32};
 		
 	\end{axis}
 \end{tikzpicture}
@@ -67,21 +57,21 @@ Il valore $x$ per cui (\ref{eq:van_zero}) è soddisfatta
 	\begin{equation}
 	\label{eq:van_pareggio_1}
 	\begin{split}
- 		10,7528 \cdot x - 702\thinspace 749,72 = 0	
+ 		8,47654 \cdot x - 565\thinspace 875,32 = 0	
  	\end{split}
 	\end{equation}
 è pari a:
 	\begin{eqnarray}
 	\label{eq:van_pareggio_2}
-		x & = & \frac{702\thinspace 749,72	}{10,7528}	 	\nonumber \\[1.5ex] 
-		  & = &  65\thinspace 355,04 \: \mbox{\euro} 
+		x & = & \frac{565\thinspace 875,32	}{8,47654}	 	\nonumber \\[1.5ex] 
+		  & = &  66\thinspace 757,82 \: \mbox{\euro} 
 	\end{eqnarray}
 Il valore di $x$ rappresenta, da un punto di vista fisico, il flusso minimo di cassa mensile affinchè il progetto risulti remunerativo alla fine del periodo in esame (12 mesi nel caso di studio proposto). \newline
 Considerando il fatturato mensile pari a (\ref{eq:van_pareggio_2}), gli utili saranno pari a:
 	\begin{equation}
 	\label{eq:flussi_netti}
 	\begin{split}
- 		65\thinspace 355,04 \: \mbox{\euro} - \underbrace{60\thinspace 131,27 \: \mbox{\euro}}_{OPEX} = 5\thinspace 223,80 \: \mbox{\euro}	
+ 		66\thinspace 757,82 \: \mbox{\euro} - \underbrace{60\thinspace 131,27 \: \mbox{\euro}}_{OPEX} = 6\thinspace 626,55 \: \mbox{\euro}	
  	\end{split}
 	\end{equation}
 fissando un tasso di sconto pari a (\ref{eq:wacc_tax_value}), si può osservare la seguente situazione:
@@ -91,33 +81,33 @@ fissando un tasso di sconto pari a (\ref{eq:wacc_tax_value}), si può osservare 
 \begin{savenotes}
 \begin{table}[htb]
 \centering
- \caption{VAN (Fatturato Mensile pari a $\mbox{\euro \:65\thinspace 355,04}$)}
- \begin{tabular}{p{5cm}D{,}{,}{7.2}D{,}{,}{7.2}D{,}{,}{7.2}}
+ \caption{VAN (Fatturato Mensile pari a $\mbox{\euro \:66\thinspace 757,82}$)}
+ \begin{tabular}{p{7cm}D{,}{,}{7.2}D{,}{,}{7.2}D{,}{,}{7.2}}
  \toprule
  	\multicolumn{1}{c}{\textbf{Mese}} & \multicolumn{3}{c}{\textbf{Flussi di cassa (\euro)}} \\
  	& \multicolumn{1}{c}{Netti (\euro)} & \multicolumn{1}{c}{Attualizzati (\euro)} & \multicolumn{1}{c}{Totale (\euro)} \\
  \midrule
- 	\makebox[5cm][r]{\textbf{Investimento Iniziale (CAPEX)}} & & & -56\thinspace 170,20 \\
+ 	\makebox[7cm][r]{\textbf{Investimento Iniziale (CAPEX)}} & & & -56\thinspace 170,20 \\
  \midrule
- 	\makebox[5cm][r]{Gennaio} & 5\thinspace 223,80 & 5\thinspace 134,97 & -51\thinspace 035,23\\ 
- 	\makebox[5cm][r]{Febbraio} & 5\thinspace 223,80 & 5\thinspace 047,67 & -45\thinspace 987,59\\
- 	\makebox[5cm][r]{Marzo} & 5\thinspace 223,80 & 4\thinspace 961,80 & -41\thinspace 025,79\\ 
- 	\makebox[5cm][r]{Aprile} & 5\thinspace 223,80 & 4\thinspace 877,42 & -36\thinspace 148,37\\
- 	\makebox[5cm][r]{Maggio} & 5\thinspace 223,80 & 4\thinspace 794,48 & -31\thinspace 353,89\\ 
- 	\makebox[5cm][r]{Giugno} & 5\thinspace 223,80 & 4\thinspace 712,94 & -26\thinspace 640,95\\
- 	\makebox[5cm][r]{Luglio} & 5\thinspace 223,80 & 4\thinspace 632,80 & -22\thinspace 008,15\\ 
- 	\makebox[5cm][r]{Agosto} & 5\thinspace 223,80 & 4\thinspace 554,01 & -17\thinspace 454,14\\
- 	\makebox[5cm][r]{Settembre} & 5\thinspace 223,80 & 4\thinspace 476,57 & -12\thinspace 977,57\\ 
- 	\makebox[5cm][r]{Ottobre} & 5\thinspace 223,80 & 4\thinspace 400,44 & -8\thinspace 577,13\\
- 	\makebox[5cm][r]{Novembre} & 5\thinspace 223,80 & 4\thinspace 325,61 & -4\thinspace 251,52\\ 
- 	\makebox[5cm][r]{Dicembre} & 5\thinspace 223,80 & 4\thinspace 252,05 & 0,52\\ 
+ 	\makebox[7cm][r]{Gennaio} & 6\thinspace 626,55 & 6\thinspace 263,28 & -49\thinspace 906,92\\ 
+ 	\makebox[7cm][r]{Febbraio} & 6\thinspace 626,55 & 5\thinspace 919,92 & -43\thinspace 987,00\\
+ 	\makebox[7cm][r]{Marzo} & 6\thinspace 626,55 & 5\thinspace 595,39 & -38\thinspace 391,60\\ 
+ 	\makebox[7cm][r]{Aprile} & 6\thinspace 626,55 & 5\thinspace 288,65 & -33\thinspace 102,95\\
+ 	\makebox[7cm][r]{Maggio} & 6\thinspace 626,55 & 4\thinspace 998,72 & -28\thinspace 104,23\\ 
+ 	\makebox[7cm][r]{Giugno} & 6\thinspace 626,55 & 4\thinspace 724,69 & -23\thinspace 379,54\\
+ 	\makebox[7cm][r]{Luglio} & 6\thinspace 626,55 & 4\thinspace 465,68 & -18\thinspace 913,86\\ 
+ 	\makebox[7cm][r]{Agosto} & 6\thinspace 626,55 & 4\thinspace 220,87 & -14\thinspace 692,99\\
+ 	\makebox[7cm][r]{Settembre} & 6\thinspace 626,55 & 3\thinspace 989,48 & -10\thinspace 703,50\\ 
+ 	\makebox[7cm][r]{Ottobre} & 6\thinspace 626,55 & 3\thinspace 770,78 & -6\thinspace 932,73\\
+ 	\makebox[7cm][r]{Novembre} & 6\thinspace 626,55 & 3\thinspace 564,06 & -3\thinspace 368,67\\ 
+ 	\makebox[7cm][r]{Dicembre} & 6\thinspace 626,55 & 3\thinspace 368,67 & 0,00\\ 
  	
  \bottomrule
  \end{tabular} 
 \end{table}
 \end{savenotes}
 ovvero il 31 Dicembre i soci fondatori riescono a recuperare la somma investita il 1 Gennaio. 
-Da un punto di vista grafico si osserva come il punto di coordinate \textbf{\textcolor{blue}{( 65355,04 ; 0 )}} rappresenti il \textit{punto di frontiera} tra due aree che presentano delle caratteristiche diverse, quella:
+Da un punto di vista grafico si osserva come il punto di coordinate \textbf{\textcolor{blue}{( 66\thinspace 757,82 ; 0 )}} rappresenti il \textit{punto di frontiera} tra due aree che presentano delle caratteristiche diverse, quella:
 \begin{itemize}
 \item \textbf{\color{red}{rossa}} è caratterizzata da tutti i flussi di cassa che \underline{non} permettono di rientrare dell'investimento ( pertanto il VAN è negativo );
 \item \textbf{\color{green}{verde}} da tutti quei flussi per cui è possibile recuperare i CAPEX sostenuti all'avvio della società. Ovviamente maggiore saranno i flussi più breve risulterà il \textbf{periodo di pareggio}.
@@ -133,30 +123,30 @@ Da un punto di vista grafico si osserva come il punto di coordinate \textbf{\tex
 
     \begin{axis}[thick,smooth, xlabel=$Flussi \: mensili \:(\mbox{\euro})$, ylabel=$VAN$, grid=major]    
 
-		\addplot coordinates{( 65355.04, 0) };
+		\addplot coordinates{( 66757.82, 0) };
 							  
-        \addplot+[domain=0:65355.04, name path=A,red,line width=1pt, no markers] {10.7528 * x - 702749.72};
-        \addplot+[domain=65355.04:160000, name path=C,green,line width=1pt, no markers] {10.7528 * x - 702749.72};
+        \addplot+[domain=0:66757.82, name path=A,red,line width=1pt, no markers] {8.47654 * x - 565875.32};
+        \addplot+[domain=66757.82:160000, name path=C,green,line width=1pt, no markers] {8.47654 * x - 565875.32};
         \addplot+[domain=0:160000, name path=B, draw=none,black, no markers] {0};
 
-        \addplot[domain=0:65355.04, red!20] fill between[of=A and B];
-        \addplot[domain=65355.04:160000, green!20] fill between[of=C and B];
+        \addplot[domain=0:66757.82, red!20] fill between[of=A and B];
+        \addplot[domain=66757.82:160000, green!20] fill between[of=C and B];
         
-        \coordinate[label=above left:\textcolor{blue}{$ P(65355.04,0)$}](a) at (65355.04,0);
+        \coordinate[label=above left:\textcolor{blue}{$ P(66\thinspace 757.82,0)$}](a) at (66757.82,0);
     \end{axis}
 \end{tikzpicture}
 \newline
 Da un punto di vista matematico, la (\ref{eq:van_caso_studio_2}) ammette come dominio tutto l'asse reale, ciò però \textit{fisicamente} non è possibile, perchè sarà vincolata \textit{a sinistra} dal valore del VAN in corrispondenza di $\mbox{\euro \: 0,00}$ flussi di entrate mensili (non è possibile avere entrate negative):  
 	\begin{eqnarray}
 	\label{eq:limite_sinistro}
- 		y(0) & = & -702\thinspace 749,72 + 10,7528 \cdot 0 \nonumber \\
- 								& = & -702\thinspace 749,72
+ 		y(0) & = & -565\thinspace 875,32 + 8,47654 \cdot 0 \nonumber \\
+ 								& = & -565\thinspace 875,32
 	\end{eqnarray}
-e come limite destro dal flusso di cassa mensile massimo raggiungibile $649\thinspace 001,60 \: \mbox{\euro}$ (corrispondenti a 8\thinspace 112,52 contratti):
+e come limite destro dal flusso di cassa mensile massimo raggiungibile $520\thinspace 865,39 \: \mbox{\euro}$ (corrispondenti a 8\thinspace 138,52 contratti):
 	\begin{eqnarray}
 	\label{eq:limite_superiore}
- 		y(649\thinspace 001,60) & = & -702\thinspace 749,72 + 10,7528 \cdot 649\thinspace 001,60 \nonumber \\
- 								& = & 6\thinspace 275\thinspace 834,68
+ 		y(520\thinspace 865,39) & = & -565\thinspace 875,32 + 8,47654 \cdot 520\thinspace 865,39 \nonumber \\
+ 								& = & 3\thinspace 849\thinspace 260,99
 	\end{eqnarray}
 	
 	\begin{tcolorbox}[colframe=blue!75!black,adjusted title=\textbf{Osservazione!}]
@@ -164,9 +154,9 @@ e come limite destro dal flusso di cassa mensile massimo raggiungibile $649\thin
 		\newline Il \textbf{limite sinistro}, invece, per quanto improbabile, può sempre verificarsi.
 	\end{tcolorbox}	
 in definitiva il dominio di (\ref{eq:van_caso_studio_2}) è pari a:
-\[ Dom(y(x)) =	\left [ 0,00 ; 649\thinspace 001,60 \right)		\]
+\[ Dom(y(x)) =	\left [ 0,00 ; 520\thinspace 865,39 \right)		\]
 mentre il codominio di (\ref{eq:van_caso_studio_2}) è pari a:
-\[ Codom(y(x)) =	\left [ -702\thinspace 749,72 ; 6\thinspace 275\thinspace 834,68 \right)		\]
+\[ Codom(y(x)) =	\left [ -565\thinspace 875,32 ; 3\thinspace 849\thinspace 260,99 \right)		\]
 
 
 %
@@ -178,11 +168,11 @@ mentre il codominio di (\ref{eq:van_caso_studio_2}) è pari a:
  \caption{Variazione VAN}
  \begin{tabular}{p{3cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{7.4}}
  \toprule
- 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
+ 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN (\euro)}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
  \midrule	
-	\makebox[3cm][r]{Ottimo} & 649\thinspace 001,60 & 8\thinspace 112,52 & 6\thinspace 275\thinspace 834,68 & 1,0000\\
- 	\rowcolor[gray]{.7} \makebox[3cm][r]{Pareggio} & 65\thinspace 355,04 & 816,94 & 0,00 & 0,1007\\
- 	\makebox[3cm][r]{Peggiore} &  0,00 & 0,00 & -702\thinspace 749,72 & 0,0000\\ 
+	\makebox[3cm][r]{Ottimo} & 520\thinspace 865,39 & 8\thinspace 138,52 & 3\thinspace 849\thinspace 260,99 & 1,0000\\
+ 	\rowcolor[gray]{.7} \makebox[3cm][r]{Pareggio} & 66\thinspace 757,82 & 1\thinspace 043,09 & 0,00 & 0,1282\\
+ 	\makebox[3cm][r]{Peggiore} &  0,00 & 0,00 & -565\thinspace 875,32 & 0,0000\\ 
  \bottomrule
  \end{tabular} 
 \end{table}
@@ -195,14 +185,13 @@ mentre il codominio di (\ref{eq:van_caso_studio_2}) è pari a:
  \caption{Variazione VAN (Casi di Studio)}
  \begin{tabular}{p{3cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{7.4}}
  \toprule
- 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
+ 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN (\euro)}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
  \midrule	
-	\makebox[3cm][r]{Ottimo} & 649\thinspace 001,60 & 8\thinspace 112,52 & 6\thinspace 275\thinspace 834,68 & 1,0000\\
-	\makebox[3cm][r]{Caso di Studio \# 3} & 129\thinspace 800,32 & 1\thinspace 622,50 & 692\thinspace 967,16 & 0,2000\\	
-	 \rowcolor[gray]{.7} \makebox[3cm][r]{Caso di Studio} & 97\thinspace 350,24 & 1\thinspace 216,88 & 344\thinspace 037,94 & 0,1500\\
-	 \makebox[3cm][r]{Caso di Studio \# 2} & 81\thinspace 125,20 & 1\thinspace 014,07 & 169\thinspace 573,33 & 0,1250\\
- 	\makebox[3cm][r]{Pareggio} & 65\thinspace 355,04 & 816,94 & 0,00 & 0,1007\\
- 	\makebox[3cm][r]{Peggiore} &  0,00 & 0,00 & -702\thinspace 749,72 & 0,0000\\ 
+	\makebox[3cm][r]{Ottimo} & 520\thinspace 865,39 & 8\thinspace 138,52 & 3\thinspace 849\thinspace 260,99 & 1,0000\\
+	\makebox[3cm][r]{Caso di Studio \# 2} & 104\thinspace 172,80 & 1\thinspace 627,70 & 317\thinspace 149,59 & 0,2000\\	
+	 \rowcolor[gray]{.7} \makebox[3cm][r]{Caso di Studio} & 78\thinspace 129,81 & 1\thinspace 220,78 & 96\thinspace 395,14 & 0,1500\\
+ 	\makebox[3cm][r]{Pareggio} & 66\thinspace 757,82 & 1\thinspace 043,09 & 0,00 & 0,1282\\
+ 	\makebox[3cm][r]{Peggiore} &  0,00 & 0,00 & -565\thinspace 875,32 & 0,0000\\ 
  \bottomrule
  \end{tabular} 
 \end{table}
@@ -218,26 +207,26 @@ mentre il codominio di (\ref{eq:van_caso_studio_2}) è pari a:
 
     \begin{axis}[thick,smooth, xlabel=$Flussi \: mensili \:(\mbox{\euro})$, ylabel=$VAN$]    
 
-		\addplot coordinates{( 65355.04, 0) };
-		\addplot coordinates{( 97350.24, 344037.94) };
+		\addplot coordinates{( 66757.82, 0) };
+		\addplot coordinates{( 78129.81, 96395.14) };
 
-        \coordinate[label=above left:\textcolor{blue}{$ P(65\thinspace 355.04,0)$}](a) at (65355.04,0);
-        \coordinate[label=above left:\textcolor{red}{$ CS(97\thinspace 350.24,344\thinspace037.94)$}](a) at (97350.24,344037.94);        
+        \coordinate[label=above left:\textcolor{blue}{$ P(66\thinspace 757.82,0)$}](a) at (66757.82,0);
+        \coordinate[label=above left:\textcolor{red}{$ CS(78\thinspace 129.81,96\thinspace395.14)$}](a) at (78129.81,96395.14);        
 							  
-        \addplot+[domain=0:65355.04, name path=A,red,line width=1pt, no markers] {10.7528 * x - 702749.72};
-        \addplot+[domain=65355.04:160000, name path=C,green,line width=1pt, no markers] {10.7528 * x - 702749.72};
-        \addplot+[domain=0:160000, name path=B, draw=none,black, no markers] {0};
+        \addplot+[domain=0:66757.82, name path=A,red,line width=1pt, no markers] {8.47654 * x - 565875.32};
+        \addplot+[domain=66757.82:130000, name path=C,green,line width=1pt, no markers] {8.47654 * x - 565875.32};
+        \addplot+[domain=0:130000, name path=B, draw=none,black, no markers] {0};
 
-        \addplot[domain=0:65355.04, red!20] fill between[of=A and B];
-        \addplot[domain=65355.04:160000, green!20] fill between[of=C and B];
+        \addplot[domain=0:66757.82, red!20] fill between[of=A and B];
+        \addplot[domain=66757.82:130000, green!20] fill between[of=C and B];
     \end{axis}
 \end{tikzpicture}
 
-Considerando il fatturato mensile pari a $\mbox{\euro \: 97\thinspace 350,24}$, gli utili saranno pari a:
+Considerando il fatturato mensile netto pari a $\mbox{\euro \: 78\thinspace 129,81}$, gli utili saranno pari a:
 	\begin{equation}
 	\label{eq:flussi_netti}
 	\begin{split}
- 		97\thinspace 350,24 \: \mbox{\euro} - \underbrace{60\thinspace 131,27 \: \mbox{\euro}}_{OPEX} = 37\thinspace 218,97 \: \mbox{\euro}	
+ 		78\thinspace 129,81 \: \mbox{\euro} - \underbrace{60\thinspace 131,27 \: \mbox{\euro}}_{OPEX} = 17\thinspace 998,57 \: \mbox{\euro}	
  	\end{split}
 	\end{equation}
 fissando il tasso di sconto pari a (\ref{eq:wacc_tax_value}), si può osservare la seguente situazione:
@@ -247,7 +236,7 @@ fissando il tasso di sconto pari a (\ref{eq:wacc_tax_value}), si può osservare 
 \begin{savenotes}
 \begin{table}[htb]
 \centering
- \caption{VAN (Fatturato Mensile pari a $\mbox{\euro \:97\thinspace 350,24}$)}
+ \caption{VAN (Fatturato Mensile pari a $\mbox{\euro \:78\thinspace 129,81}$)}
  \begin{tabular}{p{5cm}D{,}{,}{7.2}D{,}{,}{7.2}D{,}{,}{7.2}}
  \toprule
  	\multicolumn{1}{c}{\textbf{Mese}} & \multicolumn{3}{c}{\textbf{Flussi di cassa (\euro)}} \\
@@ -255,20 +244,20 @@ fissando il tasso di sconto pari a (\ref{eq:wacc_tax_value}), si può osservare 
  \midrule
  	\makebox[5cm][r]{\textbf{Investimento Iniziale (CAPEX)}} & & & -56\thinspace 170,20 \\
  \midrule
- 	\makebox[5cm][r]{Gennaio} & 37\thinspace 218,95 & 36\thinspace 586,00 & -19\thinspace 584,20\\ 
- 	\makebox[5cm][r]{Febbraio} & 37\thinspace 218,95 & 35\thinspace 963,83 & 16\thinspace 379,63\\
- 	\makebox[5cm][r]{Marzo} & 37\thinspace 218,95 & 35\thinspace 352,23 & 51\thinspace 731,86\\ 
- 	\makebox[5cm][r]{Aprile} & 37\thinspace 218,95 & 34\thinspace 751,04 & 86\thinspace 482,91\\
- 	\makebox[5cm][r]{Maggio} & 37\thinspace 218,95 & 34\thinspace 160,07 & 120\thinspace 642,98\\ 
- 	\makebox[5cm][r]{Giugno} & 37\thinspace 218,95 & 33\thinspace 579,15 & 154\thinspace 222,13\\
- 	\makebox[5cm][r]{Luglio} & 37\thinspace 218,95 & 33\thinspace 008,11 & 187\thinspace 230,24\\ 
- 	\makebox[5cm][r]{Agosto} & 37\thinspace 218,95 & 32\thinspace 446,78 & 219\thinspace 677,03\\
- 	\makebox[5cm][r]{Settembre} & 37\thinspace 218,95 & 31\thinspace 895,00 & 251\thinspace 572,03\\ 
- 	\makebox[5cm][r]{Ottobre} & 37\thinspace 218,95 & 31\thinspace 352,60 & 282\thinspace 924,62\\
- 	\makebox[5cm][r]{Novembre} & 37\thinspace 218,95 & 30\thinspace 819,42 & 313\thinspace 744,05\\ 
- 	\makebox[5cm][r]{Dicembre} & 37\thinspace 218,95 & 30\thinspace 295,31 & 344\thinspace 039,36\\ 
+ 	\makebox[5cm][r]{Gennaio} & 17\thinspace 998,54 & 17\thinspace 011,85 & -39\thinspace 158,35\\ 
+ 	\makebox[5cm][r]{Febbraio} & 17\thinspace 998,54 & 16\thinspace 079,26 & -23\thinspace 079,09\\
+ 	\makebox[5cm][r]{Marzo} & 17\thinspace 998,54 & 15\thinspace 197,78 & -7\thinspace 881,31\\ 
+ 	\makebox[5cm][r]{Aprile} & 17\thinspace 998,54 & 14\thinspace 364,64 & 6\thinspace 483,33\\
+ 	\makebox[5cm][r]{Maggio} & 17\thinspace 998,54 & 13\thinspace 577,16 & 20\thinspace 060,49\\ 
+ 	\makebox[5cm][r]{Giugno} & 17\thinspace 998,54 & 12\thinspace 832,85 & 32\thinspace 893,34\\
+ 	\makebox[5cm][r]{Luglio} & 17\thinspace 998,54 & 12\thinspace 129,35 & 45\thinspace 022,69\\ 
+ 	\makebox[5cm][r]{Agosto} & 17\thinspace 998,54 & 11\thinspace 464,42 & 56\thinspace 487,11\\
+ 	\makebox[5cm][r]{Settembre} & 17\thinspace 998,54 & 10\thinspace 835,93 & 67\thinspace 323,04\\ 
+ 	\makebox[5cm][r]{Ottobre} & 17\thinspace 998,54 & 10\thinspace 241,90 & 77\thinspace 564,94\\
+ 	\makebox[5cm][r]{Novembre} & 17\thinspace 998,54 & 9\thinspace 680,44 & 87\thinspace 245,38\\ 
+ 	\makebox[5cm][r]{Dicembre} & 17\thinspace 998,54 & 9\thinspace 149,75 & 96\thinspace 395,13\\ 
  \bottomrule
  \end{tabular} 
 \end{table}
 \end{savenotes}
-quindi si può osservare come già nel mese di Febbraio riusciamo ad avere il \textbf{pareggio} con l'investimento iniziale!
+quindi si può osservare come già nel mese di Aprile riusciamo ad avere il \textbf{pareggio} con l'investimento iniziale!
