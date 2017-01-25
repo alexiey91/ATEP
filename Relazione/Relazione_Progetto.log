@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.24)  24 JAN 2017 23:28
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.7)  24 JAN 2017 23:16
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.11.24)  25 JAN 2017 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2127,37 +2123,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 [3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 77.
-<<<<<<< HEAD
  <./immagini/Full.PNG, id=320, 367.3725pt x 416.30531pt>
 File: ./immagini/Full.PNG Graphic file (type png)
-=======
- <immagini/Full.png, id=318, 367.3725pt x 416.30531pt>
-File: immagini/Full.png Graphic file (type png)
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 
 <use ./immagini/Full.PNG>
 Package pdftex.def Info: ./immagini/Full.PNG used on input line 82.
 (pdftex.def)             Requested size: 312.26808pt x 353.86118pt.
 
-<<<<<<< HEAD
 <./immagini/Postazioni.PNG, id=324, 286.06876pt x 172.39406pt>
 File: ./immagini/Postazioni.PNG Graphic file (type png)
-=======
-<immagini/Postazioni.png, id=322, 286.06876pt x 172.39406pt>
-File: immagini/Postazioni.png Graphic file (type png)
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 
 <use ./immagini/Postazioni.PNG>
 Package pdftex.def Info: ./immagini/Postazioni.PNG used on input line 94.
 (pdftex.def)             Requested size: 257.45949pt x 155.15321pt.
 
-<<<<<<< HEAD
 <./immagini/serviziplus.PNG, id=325, 962.09438pt x 162.6075pt>
 File: ./immagini/serviziplus.PNG Graphic file (type png)
-=======
-<immagini/serviziplus.png, id=323, 962.09438pt x 162.6075pt>
-File: immagini/serviziplus.png Graphic file (type png)
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 
 <use ./immagini/serviziplus.PNG>
 Package pdftex.def Info: ./immagini/serviziplus.PNG used on input line 99.
@@ -2285,21 +2266,12 @@ s/tikzlibraryintersections.code.tex
 ctions.code.tex
 \pgf@intersect@solutions=\count380
 ))
-<<<<<<< HEAD
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
 decorations.softclip.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryf
 illbetween.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
 ts.decorations.softclip.code.tex))
-=======
-(C:\Users\alessandro\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfcontrib
-\tikzlibrarydecorations.softclip.code.tex
-(C:\Users\alessandro\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\pgfcontrib
-\pgflibraryfillbetween.code.tex)))
-(C:\Users\alessandro\AppData\Roaming\MiKTeX\2.9\tex\generic\pgfplots\libs\tikzl
-ibrarypgfplots.decorations.softclip.code.tex))
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 Package pgfplots info on input line 136: fill between: activating layered graph
 ics
 \pgf@layerbox@axis background=\box169
@@ -2336,11 +2308,7 @@ ics
 Package pgfplots info on input line 222: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
-<<<<<<< HEAD
 [24])) [25] (./analisi_rischi.tex [26]
-=======
-[24])) [25] (analisi_rischi.tex [26]
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 Capitolo 6.
 Package acronym Info: Label `acro:UPS' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
@@ -2476,36 +2444,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
 
-<<<<<<< HEAD
 [30] [31]) (./analisi_rischi_tassocambio.tex
-=======
-[30] [31]) (analisi_rischi_tassocambio.tex
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
 
-<<<<<<< HEAD
 [32] [33] [34] [35]) (./analisi_rischi_diagramma_tornado.tex
-<./immagini/Tornado.png, id=697, 536.75531pt x 325.215pt>
+<./immagini/Tornado.png, id=697, 542.025pt x 315.42844pt>
 File: ./immagini/Tornado.png Graphic file (type png)
 
 <use ./immagini/Tornado.png>
 Package pdftex.def Info: ./immagini/Tornado.png used on input line 4.
-(pdftex.def)             Requested size: 375.72614pt x 227.64894pt.
-)) [36] [37 <./immagini/Tornado.png>]
-(./conclusioni_sviluppi_futuri.tex
-=======
-[32] [33] [34] [35]) (analisi_rischi_diagramma_tornado.tex
-<immagini/Tornado.png, id=691, 542.025pt x 315.42844pt>
-File: immagini/Tornado.png Graphic file (type png)
-
-<use immagini/Tornado.png>
-Package pdftex.def Info: immagini/Tornado.png used on input line 4.
 (pdftex.def)             Requested size: 379.4149pt x 220.79839pt.
 )) [36] [37 <./immagini/Tornado.png>]
-(conclusioni_sviluppi_futuri.tex
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
+(./conclusioni_sviluppi_futuri.tex
 Capitolo 7.
 Package acronym Info: Label `acro:OPEX' newly defined as it shall be overridden
 
@@ -2515,36 +2467,22 @@ n
 although it is yet undefined on input line 5.
 ) [38
 
-<<<<<<< HEAD
 ] (./appendici.tex [39
-=======
-] (appendici.tex [39
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 
 
 ] (./appendici_variabile_aleatoria.tex
 Appendice A.
-<<<<<<< HEAD
 ) (./appendici_stimatori.tex [40
 
 ]
 Appendice B.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
 ) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [41
 
 ]
 Appendice C.
 ) (./appendici_calcolo_stimatori_tasso_cambio.tex [42
-=======
-) (appendici_stimatori.tex [40
-
-]
-Appendice B.
-) (appendici_calcolo_stimatori_malattie_dipendenti.tex [41
-
-]
-Appendice C.
-) (appendici_calcolo_stimatori_tasso_cambio.tex [42
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 
 ]
 Appendice D.
@@ -2563,11 +2501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 \T1/ptm/m/n/10.95 l'equivalente al-ba-ne-se del-l'i-ta-lia-na
  []
 
-<<<<<<< HEAD
 [44]) [45] (./bibliografia.tex
-=======
-[44]) [45] (bibliografia.tex
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 Overfull \hbox (63.70374pt too wide) in paragraph at lines 6--8
 [][]\T1/ptm/m/n/12 http://www.ambtirana.esteri.it/ambasciata_tirana/it/i_rappor
 ti_bilaterali/cooperazione_politica/accordi[][] 
@@ -2623,11 +2557,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `Relazione_Progetto.out' has not changed.
-<<<<<<< HEAD
 (rerunfilecheck)             Checksum: E0CFC75CB94C48411510598231F6A760;3180.
-=======
-(rerunfilecheck)             Checksum: 049A6EE5CD7926E5E6E5172F54DA2E9B;3227.
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 
 
 LaTeX Warning: There were undefined references.
@@ -2637,23 +2567,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 48203 strings out of 493013
- 1118062 string characters out of 6133327
- 1418438 words of memory out of 5000000
- 50595 multiletter control sequences out of 15000+600000
- 72011 words of font info for 94 fonts, out of 8000000 for 9000
+ 48212 strings out of 493013
+ 1118181 string characters out of 6133327
+ 1418568 words of memory out of 5000000
+ 50601 multiletter control sequences out of 15000+600000
+ 74814 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,29n,122p,10415b,2168s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
- 47944 strings out of 493673
- 1118932 string characters out of 3143946
- 1412967 words of memory out of 3000000
- 50149 multiletter control sequences out of 15000+200000
- 72011 words of font info for 94 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 76i,29n,122p,10415b,2168s stack positions out of 5000i,500n,10000p,200000b,50000s
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -2690,45 +2610,27 @@ pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 , replaced by a fixed one
 
-<<<<<<< HEAD
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/t
-imes/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (49 pages, 374446 bytes).
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/eurosym/feybr10.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/
+utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Relazione_Progetto.pdf (49 pages, 395404 bytes).
 PDF statistics:
- 934 PDF objects out of 1000 (max. 8388607)
- 835 compressed objects within 9 object streams
-=======
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/eurosym/feybr10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
-/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (49 pages, 481324 bytes).
-PDF statistics:
- 924 PDF objects out of 1000 (max. 8388607)
->>>>>>> 506207bb62be15fadebdcd0a6a836208ad9f4371
- 272 named destinations out of 1000 (max. 500000)
+ 946 PDF objects out of 1000 (max. 8388607)
+ 845 compressed objects within 9 object streams
+ 274 named destinations out of 1000 (max. 500000)
  505 words of extra memory for PDF output out of 10000 (max. 10000000)
 
