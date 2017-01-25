@@ -1,4 +1,4 @@
-L'impatto della variazione del tasso di cambio sull'analisi dei flussi mensili è stato valutato, considerando il tasso medio giornaliero, esaminando un campione dei tassi dal 07/07/2016 al 02/01/2017.
+L'impatto della variazione del tasso di cambio sull'analisi dei flussi mensili è stato valutato, considerando il tasso medio giornaliero, esaminando un campione dei tassi dal 07/07/2016 al 02/01/2017 (nell'analisi proposta è stato preso come riferimento il tasso di cambio del 15/12/2016 pari a $ \mbox{\ 1\: \euro \: = 136,51 ALL} $ evidenziato in \textbf{\textcolor{gray}{grigio}} nella tabella seguente).
 \newline
 \begin{longtable}{p{3cm}D{,}{,}{5.2}}
 % didascalia ed etichetta
@@ -7,6 +7,7 @@ L'impatto della variazione del tasso di cambio sull'analisi dei flussi mensili �
 \toprule
 	\makebox[3cm][c]{\textbf{Data}} & \multicolumn{1}{c}{\textbf{LEK}} \\
 \midrule
+\label{cambio_euro_lek}
 \endfirsthead
 % intestazione normale
 \multicolumn{2}{l}{\footnotesize\itshape\tablename~\thetable:
@@ -164,7 +165,7 @@ si conclude dalla pagina precedente} \\
 	\makebox[3cm][c]{$12/12/2016$} & 135,81\\
 	\makebox[3cm][c]{$13/12/2016$} & 135,63\\
 	\makebox[3cm][c]{$14/12/2016$} & 134,65\\
-	\makebox[3cm][c]{$15/12/2016$} & 135,50\\
+	\rowcolor[gray]{.7}\makebox[3cm][c]{$15/12/2016$} & 136,51\\
 	\makebox[3cm][c]{$16/12/2016$} & 135,73\\
 	\makebox[3cm][c]{$18/12/2016$} & 135,66\\
 	\makebox[3cm][c]{$19/12/2016$} & 135,17\\
@@ -181,15 +182,16 @@ si conclude dalla pagina precedente} \\
 	\makebox[3cm][c]{$01/01/2017$} & 134,95\\
 	\makebox[3cm][c]{$02/01/2017$} & 134,39\\				
 \end{longtable}
-Le principali grandezze ad esso associato (i calcoli sono illustrati all'appendice \ref{sec:stimatori_tasso_cambio})sono pari a:
+Le principali grandezze ad esso associato (i calcoli sono illustrati all'appendice \ref{sec:stimatori_tasso_cambio}) sono pari a:
 
 \begin{savenotes}
 \begin{table}[htb]
 \centering
- \caption{Statistiche}
+ \caption{Grandezze}
+ \label{table:grandezze_cambio}
  \begin{tabular}{p{5cm}D{,}{,}{5.5}}
  \toprule
- 	\multicolumn{1}{c}{\textbf{Statistica}} & \multicolumn{1}{c}{\textbf{Valore}} \\
+ 	\multicolumn{1}{c}{\textbf{Grandezza}} & \multicolumn{1}{c}{\textbf{Valore}} \\
  \midrule 		
 	\makebox[5cm][r]{Media Campionaria} & 136,47083\\
  	\makebox[5cm][r]{Varianza Campionaria Corretta} & 0,88366\\
@@ -198,12 +200,162 @@ Le principali grandezze ad esso associato (i calcoli sono illustrati all'appendi
  \end{tabular} 
 \end{table}
 \end{savenotes}
+L'intervallo di confidenza, di livello $0,9$ ad esse associato è pari a:
+\begin{equation}
+	\label{eq:intervallo_confidenza_tasso_cambio}
+	\begin{split}
+		\left [ 135,53 ; 137,41 \right]	 
+	\end{split}
+\end{equation}
 
-Da questi valori si può determinare il seguente intervallo di confidenza con il 95 \% di attendibilità
+\subsection[Casi di Studio]{Casi di Studio}
+Si è analizzato, nel dettaglio, l'impatto che può presentare una variazione del tasso di cambio nel caso realistico in cui i dipendenti si possano assentare per malattia, in maniera uniforme durante l'arco dell'anno lavorativo (non si sono considerati i casi limite, ovvero la situazione per cui gli assenti per malattia si concentrano nei mesi di Gennaio e Dicembre). \newline Si è studiato, in particolare, il caso in cui il \emph{lek} possa subire, rispetto all'\emph{euro}:
+\begin{itemize}
+\item un \textbf{rafforzamento}, quindi si dovranno spendere \underline{più} \textit{euro} per acquistare la stessa quantità di \textit{lek} (\textbf{CASO PEGGIORE});
+\item un \textbf{deprezzamento}, viceversa si dovranno utilizzare \underline{meno} \textit{euro} per acquistare la stessa quantità di \textit{lek} (\textbf{CASO MIGLIORE});
+\end{itemize} 
+Per tener conto di questo fenomeno si introduce l'elemento adimensionale $ f $ ($fattore \thinspace di \thinspace aggiustamento$) definito come il rapporto tra un tasso di cambio \emph{euro-lek} di riferimento fisso $x$ ed uno variabile $y$:
+\begin{equation}
+\label{eq:fattore_aggiustamento}
+\begin{split}
+	f = \frac{x}{y}
+\end{split}
+\end{equation}
+questo fattore terrà conto, di conseguenza delle variazioni del tasso di cambio rispetto ad uno ben definito.
+Nell'analisi proposta il valore di riferimento $x$, è quello del tasso di cambio al 15/12/2016:
+\begin{equation}
+\label{eq:fattore_aggiustamento_rif}
+\begin{split}
+	x = 136,51
+\end{split}
+\end{equation}
+A titolo di esempio si consideri la seguente sezione della tabella (\ref{cambio_euro_lek}):
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Tasso di Cambio (\euro -LEK)}
+ \begin{tabular}{p{5cm}D{,}{,}{5.5}}
+ \toprule
+ 	\multicolumn{1}{c}{\textbf{Giorno}} & \multicolumn{1}{c}{\textbf{Valore Cambio}} \\
+ \midrule 		
+	\makebox[3cm][c]{$06/12/2016$} & 137,10\\
+	\makebox[3cm][c]{$07/12/2016$} & 135,81\\
+	\makebox[3cm][c]{$08/12/2016$} & 135,78\\
+	\makebox[3cm][c]{$09/12/2016$} & 135,86\\
+	\makebox[3cm][c]{$11/12/2016$} & 135,65\\
+	\makebox[3cm][c]{$12/12/2016$} & 135,81\\
+	\makebox[3cm][c]{$13/12/2016$} & 135,63\\
+	\makebox[3cm][c]{$14/12/2016$} & 134,65\\
+	\rowcolor[gray]{.7}\makebox[3cm][c]{$15/12/2016$} & 136,51\\
+	\makebox[3cm][c]{$16/12/2016$} & 135,73\\
+	\makebox[3cm][c]{$18/12/2016$} & 135,66\\
+	\makebox[3cm][c]{$19/12/2016$} & 135,17\\
+	\makebox[3cm][c]{$20/12/2016$} & 134,45\\
+	\makebox[3cm][c]{$21/12/2016$} & 134,37\\
+ \bottomrule
+ \end{tabular} 
+\end{table}
+\end{savenotes}
+Il \emph{fattore di aggiustamento} calcolato con il tasso del $06/12/2016$ è pari a:
+\begin{equation}
+\label{eq:example_1_fattore_aggiustamento}
+\begin{split}
+	f = \frac{tasso \thinspace cambio \thinspace 15/12/2016}{tasso \thinspace cambio \thinspace 06/12/2016} = \frac{136,51}{137,10} = 0,9956
+\end{split}
+\end{equation}
 
-\[	\left [ 135,53 ; 137,41 \right]		\]
+calcolando il prodotto tra (\ref{eq:example_1_fattore_aggiustamento}) ed una certa quantità di \emph{euro}, ad esempio $ z = \mbox{\euro \thinspace 100}$:
 
-possiamo calcolare, quindi, il valore del VAN nel punto di pareggio (\euro 78545,304) con i seguenti fattori di aggiustamento del tasso di cambio in corrispondenza degli estremi dell'intervallo di confidenza preso in esame:
+\begin{eqnarray}
+\label{eq:euro_example1}
+	\gamma _1 (\mbox{\euro})& = & 0,9956 \cdot z 	\nonumber \\
+			  & = & 0,9956 \cdot 100,00 \thinspace \mbox{\euro} \nonumber \\
+			  & = & 99,56 \thinspace \mbox{\euro}
+\end{eqnarray}
+si ottiene il valore di $z = \mbox{\euro \thinspace 100}$ con un cambio \underline{sfavorevole} rispetto a quello di riferimento (ovvero quello del $06/12/2016$). A parità di prezzo in lek, quindi, dovremmo spendere più \textit{euro} per acquistare un certo bene.\newline
+Analogamente, ripetendo i calcoli precedenti con il tasso del $02/01/2017$:
+\begin{equation}
+\label{eq:example_2_fattore_aggiustamento}
+\begin{split}
+	f = \frac{tasso \thinspace cambio \thinspace 15/12/2016}{tasso \thinspace cambio \thinspace 20/01/2016} = \frac{136,51}{134,45} = 1,015
+\end{split}
+\end{equation}
+\begin{eqnarray}
+\label{eq:euro_example2}
+	\gamma _2 (\mbox{\euro})& = & 1,015 \cdot z 	\nonumber \\
+			  & = & 1,015 \cdot 100,00 \thinspace \mbox{\euro} \nonumber \\
+			  & = & 101,50 \thinspace \mbox{\euro}
+\end{eqnarray}
+La formula del calcolo del VAN dovrà tener conto di queste variazioni, pertanto la (\ref{eq:van_caso_studio_2}) assumerà la seguente forma:
+	\begin{eqnarray}
+	\label{eq:van_caso_studio_tassocambio}
+ 		y(x) & = & - 56\thinspace 170,20 + \sum_{k=1}^{12} \frac{x - 60\thinspace 131,27 \cdot f}{(1+0,058)^k} \nonumber \\
+ 		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27 \cdot f) \cdot \underbrace{\sum_{k=1}^{12} \frac{1} {(1+0,058)^{k}}}_{{}=8,47654} \nonumber \\
+ 		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27 \cdot f) \cdot 8,47654		
+	\end{eqnarray}  		
+
+	\begin{tcolorbox}[colframe=blue!75!black,adjusted title=\textbf{Osservazione!}]
+		Nella formula (\ref{eq:van_caso_studio_tassocambio}) si è considerato la variazione del tasso \emph{euro}-\emph{lek} soltanto per gli \emph{\ac{OPEX}}. \newline Rispetto a (\ref{eq:van_caso_studio_2}) il \emph{peso} quest'ultimi sono modificati in:
+		\[ 60\thinspace 131,27 \cdot f \] 
+	In linea teorica anche i \emph{\ac{CAPEX}} e le entrate mensile nette \emph{x} dovranno tener conto di questo fattore. Nel caso analizzato, ciò non si verifica, perchè, per quanto riguarda le entrate \emph{x}, Sistelia retribuisce direttamente in \emph{euro}, pertanto questa quantità non è influita dal cambio.\newline Un discorso analogo riguarda i \emph{\ac{CAPEX}}, in quanto i prezzi delle attrezzature sono fornite da Sistelia e sono forniti anch'essi in \emph{euro}.
+	\end{tcolorbox} 
+\subsubsection[Caso Migliore - Deprezzamento del lek]{Caso Migliore - Deprezzamento del lek}
+\label{sec:cambio_favorevole}
+La situazione migliore si presenta, quando l'\emph{euro} vale $135,53 \thinspace lek$, ovvero quando il tasso \emph{euro-lek} presenta un valore pari al limite sinistro dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_tasso_cambio}). Il tasso di cambio risulterebbe favorevole rispetto al caso medio (ovvero alla \textit{media campionaria} (\ref{table:grandezze_cambio})) in cui, invece, l'euro è scambiato con $136,47 \thinspace lek$.\newline
+In queste condizioni il valore del \textit{fattore di aggiustamento}  (\ref{eq:fattore_aggiustamento}) è uguale a:
+\begin{equation}
+\label{eq:fattore_aggiustamento_caso_migliore}
+\begin{split}
+f = \frac{136,47}{135,35} = 1,007
+\end{split}
+\end{equation}
+quindi la formula del \emph{\ac{VAN}} (\ref{eq:van_caso_studio_tassocambio}) diventa:
+
+\begin{eqnarray}
+\label{eq:van_caso_migliore}
+ 		y(x) & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27 \cdot f) \cdot 8,47654 \nonumber \\
+ 			 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27 \cdot 1,007) \cdot 8,47654 \nonumber \\
+ 			 & = & -569\thinspace 443,25 + x \cdot 8,47654
+\end{eqnarray}
+
+Il valore di (\ref{eq:van_caso_migliore}) in corrispondenza del flusso di cassa mensile $ x = \mbox{73\thinspace 925,12 \euro}$ (\ref{table:van_malati_uniforme_anno}):
+\begin{eqnarray}
+\label{eq:van_flusso_cassa_malati_uniforme_caso_migliore}
+ 		y(x) & = & -569\thinspace 443,25 + x \cdot 8,47654 \nonumber \\
+ 			 & = & -569\thinspace 443,25 + 73\thinspace 925,12 \cdot 8,47654 \nonumber \\
+ 			 & = & 57\thinspace 185,985 \simeq 57\thinspace 185,99
+\end{eqnarray}
+
+\subsubsection[Caso Peggiore - Rafforzamento del lek]{Caso Peggiore - Rafforzamento del lek}
+\label{sec:cambio_sfavorevole}
+La situazione peggiore si presenta, invece, quando l'\emph{euro} vale $137,41 \thinspace lek$, ovvero quando il tasso \emph{euro-lek} presenta un valore pari al limite destro dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_tasso_cambio}). Il tasso di cambio risulterebbe sfavorevole rispetto al caso medio (ovvero alla \textit{media campionaria} (\ref{table:grandezze_cambio})) in cui, invece, l'euro è scambiato con $136,47 \thinspace lek$.\newline
+In queste condizioni il valore del \textit{fattore di aggiustamento}  (\ref{eq:fattore_aggiustamento}) è uguale a:
+\begin{equation}
+\label{eq:fattore_aggiustamento_caso_peggiore}
+\begin{split}
+f = \frac{136,47}{137,41} = 0,993
+\end{split}
+\end{equation}
+quindi la formula del \emph{\ac{VAN}} (\ref{eq:van_caso_studio_tassocambio}) diventa:
+
+\begin{eqnarray}
+\label{eq:van_caso_peggiore}
+ 		y(x) & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27 \cdot f) \cdot 8,47654 \nonumber \\
+ 			 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27 \cdot 0,993) \cdot 8,47654 \nonumber \\
+ 			 & = & -562\thinspace 307,38 + x \cdot 8,47654
+\end{eqnarray}
+
+Il valore di (\ref{eq:van_caso_peggiore}) in corrispondenza del flusso di cassa mensile $ x = \mbox{73\thinspace 925,12 \euro}$ (\ref{table:van_malati_uniforme_anno}):
+\begin{eqnarray}
+\label{eq:van_flusso_cassa_malati_uniforme_caso_peggiore}
+ 		y(x) & = & -562\thinspace 307,38 + x \cdot 8,47654 \nonumber \\
+ 			 & = & -562\thinspace 307,38 + 73\thinspace 925,12 \cdot 8,47654 \nonumber \\
+ 			 & = & 64\thinspace 321,8567 \simeq 64\thinspace 321,86
+\end{eqnarray}
+
+
+\section[Sintesi Risultati]{Sintesi Risultati}
+I risultati ottenuti in (\ref{sec:cambio_favorevole}) e in (\ref{sec:cambio_sfavorevole}) possono essere riassunti nella seguente tabella:
 
 \begin{savenotes}
 \begin{table}[htb]
@@ -211,12 +363,12 @@ possiamo calcolare, quindi, il valore del VAN nel punto di pareggio (\euro 78545
  \caption{Variazione VAN (Caso di studio 15 \% comprensivo del rischio malattie)}
  \begin{tabular}{D{,}{,}{5.2}D{,}{,}{4.3}D{,}{,}{7.2}}
  \toprule
- 	\multicolumn{1}{c}{\textbf{Estremo Intervallo Confidenza}} & 
+ 	\multicolumn{1}{c}{\textbf{Cambio \emph{euro-lek}}} & 
  	\multicolumn{1}{c}{\textbf{Aggiustamento}}			&
- 	\multicolumn{1}{c}{\textbf{Valore VAN}} \\
+ 	\multicolumn{1}{c}{\textbf{Valore VAN (\euro)}} \\
  \midrule 		
-	135,53 & 1,007 & 137\thinspace 667,00 \\
-	137,41 & 0,993 & 146\thinspace 736,00 \\	
+	135,53 & 1,007 & 57\thinspace 185,99 \\
+	137,41 & 0,993 & 64\thinspace 321,86 \\	
  \bottomrule
  \end{tabular} 
 \end{table}
