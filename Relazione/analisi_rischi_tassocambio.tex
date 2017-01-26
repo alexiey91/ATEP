@@ -272,7 +272,7 @@ calcolando il prodotto tra (\ref{eq:example_1_fattore_aggiustamento}) ed una cer
 			  & = & 0,9956 \cdot 100,00 \thinspace \mbox{\euro} \nonumber \\
 			  & = & 99,56 \thinspace \mbox{\euro}
 \end{eqnarray}
-si ottiene il valore di $z = \mbox{\euro \thinspace 100}$ con un cambio \underline{sfavorevole} rispetto a quello di riferimento (ovvero quello del $06/12/2016$). A parità di prezzo in lek, quindi, dovremmo spendere più \textit{euro} per acquistare un certo bene.\newline
+si ottiene il valore di $z = \mbox{\euro \thinspace 100}$ con un cambio \underline{favorevole} rispetto a quello di riferimento (ovvero quello del $15/12/2016$). A parità di prezzo in lek, quindi, dovremmo spendere meno \textit{euro} per acquistare un certo bene.\newline
 Analogamente, ripetendo i calcoli precedenti con il tasso del $02/01/2017$:
 \begin{equation}
 \label{eq:example_2_fattore_aggiustamento}
@@ -297,16 +297,16 @@ La formula del calcolo del VAN dovrà tener conto di queste variazioni, pertanto
 	\begin{tcolorbox}[colframe=blue!75!black,adjusted title=\textbf{Osservazione!}]
 		Nella formula (\ref{eq:van_caso_studio_tassocambio}) si è considerato la variazione del tasso \emph{euro}-\emph{lek} soltanto per gli \emph{\ac{OPEX}}. \newline Rispetto a (\ref{eq:van_caso_studio_2}) il \emph{peso} quest'ultimi sono modificati in:
 		\[ 60\thinspace 131,27 \cdot f \] 
-	In linea teorica anche i \emph{\ac{CAPEX}} e le entrate mensile nette \emph{x} dovranno tener conto di questo fattore. Nel caso analizzato, ciò non si verifica, perchè, per quanto riguarda le entrate \emph{x}, Sistelia retribuisce direttamente in \emph{euro}, pertanto questa quantità non è influita dal cambio.\newline Un discorso analogo riguarda i \emph{\ac{CAPEX}}, in quanto i prezzi delle attrezzature sono fornite da Sistelia e sono forniti anch'essi in \emph{euro}.
+	In linea teorica anche i \emph{\ac{CAPEX}} e le entrate mensili nette \emph{x} dovranno tener conto di questo fattore. Nel caso analizzato, ciò non si verifica, perchè, per quanto riguarda le entrate \emph{x}, Sistelia retribuisce direttamente in \emph{euro}, pertanto questa quantità non è influita dal cambio.\newline Un discorso analogo riguarda i \emph{\ac{CAPEX}}, in quanto i prezzi delle attrezzature sono fornite da Sistelia e sono forniti anch'essi in \emph{euro}.
 	\end{tcolorbox} 
 \subsubsection[Caso Peggiore - Deprezzamento dell'euro]{Caso Peggiore - Deprezzamento dell'euro}
 \label{sec:cambio_favorevole}
-La situazione migliore si presenta, quando l'\emph{euro} vale $135,53 \thinspace lek$, ovvero quando il tasso \emph{euro-lek} presenta un valore pari al limite sinistro dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_tasso_cambio}). Il tasso di cambio risulterebbe sfavorevole rispetto al caso medio (ovvero alla \textit{media campionaria} (\ref{table:grandezze_cambio})) in cui, invece, l'euro è scambiato con $136,47 \thinspace lek$.\newline
+La situazione peggiore si presenta, quando l'\emph{euro} vale $135,53 \thinspace lek$, ovvero quando il tasso \emph{euro-lek} presenta un valore pari al limite sinistro dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_tasso_cambio}). Il tasso di cambio risulterebbe sfavorevole rispetto al caso medio (ovvero alla \textit{media campionaria} (\ref{table:grandezze_cambio})) in cui, invece, l'euro è scambiato con $136,47 \thinspace lek$.\newline
 In queste condizioni il valore del \textit{fattore di aggiustamento}  (\ref{eq:fattore_aggiustamento}) è uguale a:
 \begin{equation}
 \label{eq:fattore_aggiustamento_caso_migliore}
 \begin{split}
-f = \frac{136,47}{135,35} = 1,007
+f = \frac{136,47}{135,53} = 1,007
 \end{split}
 \end{equation}
 quindi la formula del \emph{\ac{VAN}} (\ref{eq:van_caso_studio_tassocambio}) diventa:
@@ -328,7 +328,7 @@ Il valore di (\ref{eq:van_caso_migliore}) in corrispondenza del flusso di cassa 
 
 \subsubsection[Caso Migliore - Rafforzamento dell'euro]{Caso Migliore - Rafforzamento dell'euro}
 \label{sec:cambio_sfavorevole}
-La situazione peggiore si presenta, invece, quando l'\emph{euro} vale $137,41 \thinspace lek$, ovvero quando il tasso \emph{euro-lek} presenta un valore pari al limite destro dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_tasso_cambio}). Il tasso di cambio risulterebbe sfavorevole rispetto al caso medio (ovvero alla \textit{media campionaria} (\ref{table:grandezze_cambio})) in cui, invece, l'euro è scambiato con $136,47 \thinspace lek$.\newline
+La situazione migliore si presenta, invece, quando l'\emph{euro} vale $137,41 \thinspace lek$, ovvero quando il tasso \emph{euro-lek} presenta un valore pari al limite destro dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_tasso_cambio}). Il tasso di cambio risulterebbe favorevole rispetto al caso medio (ovvero alla \textit{media campionaria} (\ref{table:grandezze_cambio})) in cui, invece, l'euro è scambiato con $136,47 \thinspace lek$.\newline
 In queste condizioni il valore del \textit{fattore di aggiustamento}  (\ref{eq:fattore_aggiustamento}) è uguale a:
 \begin{equation}
 \label{eq:fattore_aggiustamento_caso_peggiore}
