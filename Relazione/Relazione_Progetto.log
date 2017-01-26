@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.7)  26 JAN 2017 16:52
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  26 JAN 2017 17:12
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.7)  26 JAN 2017 11:25
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  26 JAN 2017 12:15
->>>>>>> 00da2a330099787e9071a71dddd1fadd9c22cba1
->>>>>>> 2d50952ccdc330046619b53bae023bf963f9494e
->>>>>>> 082809725d7949d1d70136c95308eddb82f6f0f1
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.7)  26 JAN 2017 17:44
 entering extended mode
 **Relazione_Progetto.tex
 (Relazione_Progetto.tex
@@ -2088,6 +2076,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
 
+
+Overfull \hbox (18.52771pt too wide) detected at line 22
+$[]\OT1/cmr/m/n/12 20[[]]$ 
+ []
+
+
+Overfull \hbox (18.52771pt too wide) detected at line 23
+$[]\OT1/cmr/m/n/12 10[[]]$ 
+ []
+
+
+Overfull \hbox (18.52771pt too wide) detected at line 24
+$[]\OT1/cmr/m/n/12 38[[]]$ 
+ []
+
+
+Overfull \hbox (18.52771pt too wide) detected at line 25
+$[]\OT1/cmr/m/n/12 50[[]]$ 
+ []
+
 [7
 
 ]
@@ -2163,13 +2171,8 @@ Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
 although it is yet undefined on input line 177.
  [15]
 Package acronym Info: Label `acro:QKB' newly defined as it shall be overridden
-<<<<<<< HEAD
-although it is yet undefined on input line 195.
-) [15] [16] (elenco_costi.tex
-=======
 although it is yet undefined on input line 198.
-) [16] (./elenco_costi.tex
->>>>>>> 082809725d7949d1d70136c95308eddb82f6f0f1
+) [16] (elenco_costi.tex
 Capitolo 4.
 (analisi_CAPEX.tex) (analisi_OPEX.tex [17
 
@@ -2322,7 +2325,7 @@ Package acronym Info: Label `acro:CAPEX' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 300.
  [40] [41]) (analisi_rischi_diagramma_tornado.tex
-<./immagini/Tornado.png, id=790, 543.53062pt x 321.45094pt>
+<./immagini/Tornado.png, id=798, 543.53062pt x 321.45094pt>
 File: ./immagini/Tornado.png Graphic file (type png)
 
 <use ./immagini/Tornado.png>
@@ -2437,7 +2440,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--77
 File:Half-
  []
 
-) [52]
+
+Overfull \hbox (42.46407pt too wide) in paragraph at lines 78--80
+[][]\T1/ptm/m/n/12 http://www.istat.it/it/files/2013/02/Statistica_reportViaggi
+evacanze.pdf?title=Viaggi+e+vacanze+-
+ []
+
+
+Overfull \hbox (240.83388pt too wide) in paragraph at lines 84--86
+[][]\T1/ptm/m/n/12 http://www.istat.it/it/files/2015/02/Statistica_reportViaggi
+evacanze2014.pdf?title=Viaggi+e+vacanze+in+Italia+e+all%E2%80%99estero+-
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+[][]\T1/ptm/m/n/12 http://www.istat.it/it/files/2016/11/Movimento-turistico_Ann
+o-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+\T1/ptm/m/n/12 2015.pdf?title=Movimento+turistico+in+Italia+-+22%2Fnov%2F2016+-
+
+ []
+
+) [53]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (Relazione_Progetto.aux)
@@ -2451,10 +2478,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 48034 strings out of 493673
- 1120847 string characters out of 3143946
- 1404969 words of memory out of 3000000
- 50204 multiletter control sequences out of 15000+200000
+ 48047 strings out of 493673
+ 1120998 string characters out of 3143946
+ 1405097 words of memory out of 3000000
+ 50212 multiletter control sequences out of 15000+200000
  74814 words of font info for 96 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  76i,29n,122p,10415b,2168s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2510,36 +2537,9 @@ etic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/urw/times/utmri8a.pfb>
-<<<<<<< HEAD
-Output written on Relazione_Progetto.pdf (54 pages, 530440 bytes).
-=======
-Output written on Relazione_Progetto.pdf (53 pages, 529008 bytes).
-=======
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/eurosym/feybr10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-<<<<<<< HEAD
-Output written on Relazione_Progetto.pdf (54 pages, 410613 bytes).
-=======
-Output written on Relazione_Progetto.pdf (54 pages, 409864 bytes).
->>>>>>> 00da2a330099787e9071a71dddd1fadd9c22cba1
->>>>>>> 2d50952ccdc330046619b53bae023bf963f9494e
->>>>>>> 082809725d7949d1d70136c95308eddb82f6f0f1
+Output written on Relazione_Progetto.pdf (55 pages, 536360 bytes).
 PDF statistics:
- 1032 PDF objects out of 1200 (max. 8388607)
- 305 named destinations out of 1000 (max. 500000)
+ 1054 PDF objects out of 1200 (max. 8388607)
+ 310 named destinations out of 1000 (max. 500000)
  497 words of extra memory for PDF output out of 10000 (max. 10000000)
 
