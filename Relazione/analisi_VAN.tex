@@ -1,11 +1,12 @@
 \section[VAN]{VAN}
+	Il \ac{VAN} è definito formalmente come: 
 	\begin{equation}
 	\label{eq:van}
 	\begin{split}
  		w = - C_0 + \sum_{k=1}^n \frac{CF_k}{(1+r)^k}
 	\end{split}
 	\end{equation}
-	Consideriamo, quindi, il valore del \ac{VAN} su $12$ flussi di cassa (\textit{cashflow}), corrispondenti alle stime sull'utile realizzato alla fine di ogni mese ed un \textbf{tasso di sconto} $r$ pari al \textbf{\ac{WACC}} (\ref{eq:wacc_tax_value}).\newline
+	Consideriamo, quindi, il valore del \ac{VAN} su $12$ flussi di cassa (\textit{cashflow} o \textit{CF}), corrispondenti alle stime sull'utile realizzato alla fine di ogni mese ed un \textbf{tasso di sconto} $r$ pari al \textbf{\ac{WACC}} (\ref{eq:wacc_tax_value}).\newline
 	La formula (\ref{eq:van}) diventa, quindi:	
 	\begin{equation}
 	\label{eq:van_caso_studio}
@@ -13,8 +14,8 @@
  		w = - C_0 + \sum_{k=1}^{12} \frac{CF_k}{(1+0,058)^k}
 	\end{split}
 	\end{equation}	
-	Il valore $C_0$ corrisponde all'investimento iniziale del nostro progetto, quindi, pari al \textbf{CAPEX} $ 56\thinspace 170,20 \: \mbox{\euro}$.
-	Assumiamo, inoltre, che i flussi mensili siano costanti nell'arco di un anno, quindi la quantità $CF_k$ non è più legata al k-esimo mese, si può esprimere, quindi, come $CF$:
+	Il valore $C_0$ corrisponde all'investimento iniziale del nostro progetto, quindi, pari al \textbf{CAPEX} $\:(\mbox{\euro\: 56\thinspace 170,20})$.
+	Assumiamo, inoltre, che i flussi mensili siano costanti nell'arco di un anno, quindi, la quantità $CF_k$ non è più legata al k-esimo mese, ma si può esprimere come:
 	\begin{equation}
 	\label{eq:flussi_cassa_mensili}
 	\begin{split}
@@ -24,8 +25,8 @@
 la (\ref{eq:van_caso_studio}) diventa (il VAN diventa funzione dei flussi di cassa lordi $x$ quindi $w = y(x)$):	
 	\begin{eqnarray}
 	\label{eq:van_caso_studio_2}
- 		y(x) & = & - 56\thinspace 170,20 + \sum_{k=1}^{12} \frac{x - 60\thinspace 131,27}{(1+0,0058)^k} \nonumber \\
- 		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27) \cdot \underbrace{\sum_{k=1}^{12} \frac{1} {(1+0,0058)^{k}}}_{{}=8,47654} \nonumber \\
+ 		y(x) & = & - 56\thinspace 170,20 + \sum_{k=1}^{12} \frac{x - 60\thinspace 131,27}{(1+0,058)^k} \nonumber \\
+ 		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27) \cdot \underbrace{\sum_{k=1}^{12} \frac{1} {(1+0,058)^{k}}}_{{}=8,47654} \nonumber \\
  		 & = & -56\thinspace 170,20 + (x - 60\thinspace 131,27) \cdot 8,47654 \nonumber \\
  		 & = & -565\thinspace 875,32 + 8,47654 \cdot x 		
 	\end{eqnarray}  		
@@ -179,6 +180,8 @@ mentre il codominio di (\ref{eq:van_caso_studio_2}) è pari a:
 \end{savenotes}
 
 \subsection[Caso di Studio Realistico]{Caso di Studio Realistico}
+Si assume, in questo caso, che i vari flussi di cassa $CF$ siano pari al $15 \%$ rispetto al caso ottimistico precedente, in modo tale da simulare il caso in cui solamente una piccola parte dei potenziali clienti sia effettivamente interessata a firmare il contratto. \newline
+Sotto quest'ipotesi, si osserva una variazione del VAN come riportato nella tabella seguente: 
 \begin{savenotes}
 \begin{table}[htb]
 \centering
@@ -196,7 +199,7 @@ mentre il codominio di (\ref{eq:van_caso_studio_2}) è pari a:
  \end{tabular} 
 \end{table}
 \end{savenotes}
-
+da un punto di vista grafico, quindi, si osserva uno spostamento nell'area \textit{remunerativa}:
 
 
 \begin{tikzpicture}[scale=1.2]
@@ -237,25 +240,25 @@ fissando il tasso di sconto pari a (\ref{eq:wacc_tax_value}), si può osservare 
 \begin{table}[htb]
 \centering
  \caption{VAN (Fatturato Mensile pari a $\mbox{\euro \:78\thinspace 129,81}$)}
- \begin{tabular}{p{5cm}D{,}{,}{7.2}D{,}{,}{7.2}D{,}{,}{7.2}}
+ \begin{tabular}{p{7cm}D{,}{,}{7.2}D{,}{,}{7.2}D{,}{,}{7.2}}
  \toprule
  	\multicolumn{1}{c}{\textbf{Mese}} & \multicolumn{3}{c}{\textbf{Flussi di cassa (\euro)}} \\
  	& \multicolumn{1}{c}{Netti (\euro)} & \multicolumn{1}{c}{Attualizzati (\euro)} & \multicolumn{1}{c}{Totale (\euro)} \\
  \midrule
- 	\makebox[5cm][r]{\textbf{Investimento Iniziale (CAPEX)}} & & & -56\thinspace 170,20 \\
+ 	\makebox[7cm][r]{\textbf{Investimento Iniziale (CAPEX)}} & & & -56\thinspace 170,20 \\
  \midrule
- 	\makebox[5cm][r]{Gennaio} & 17\thinspace 998,54 & 17\thinspace 011,85 & -39\thinspace 158,35\\ 
- 	\makebox[5cm][r]{Febbraio} & 17\thinspace 998,54 & 16\thinspace 079,26 & -23\thinspace 079,09\\
- 	\makebox[5cm][r]{Marzo} & 17\thinspace 998,54 & 15\thinspace 197,78 & -7\thinspace 881,31\\ 
- 	\makebox[5cm][r]{Aprile} & 17\thinspace 998,54 & 14\thinspace 364,64 & 6\thinspace 483,33\\
- 	\makebox[5cm][r]{Maggio} & 17\thinspace 998,54 & 13\thinspace 577,16 & 20\thinspace 060,49\\ 
- 	\makebox[5cm][r]{Giugno} & 17\thinspace 998,54 & 12\thinspace 832,85 & 32\thinspace 893,34\\
- 	\makebox[5cm][r]{Luglio} & 17\thinspace 998,54 & 12\thinspace 129,35 & 45\thinspace 022,69\\ 
- 	\makebox[5cm][r]{Agosto} & 17\thinspace 998,54 & 11\thinspace 464,42 & 56\thinspace 487,11\\
- 	\makebox[5cm][r]{Settembre} & 17\thinspace 998,54 & 10\thinspace 835,93 & 67\thinspace 323,04\\ 
- 	\makebox[5cm][r]{Ottobre} & 17\thinspace 998,54 & 10\thinspace 241,90 & 77\thinspace 564,94\\
- 	\makebox[5cm][r]{Novembre} & 17\thinspace 998,54 & 9\thinspace 680,44 & 87\thinspace 245,38\\ 
- 	\makebox[5cm][r]{Dicembre} & 17\thinspace 998,54 & 9\thinspace 149,75 & 96\thinspace 395,13\\ 
+ 	\makebox[7cm][r]{Gennaio} & 17\thinspace 998,54 & 17\thinspace 011,85 & -39\thinspace 158,35\\ 
+ 	\makebox[7cm][r]{Febbraio} & 17\thinspace 998,54 & 16\thinspace 079,26 & -23\thinspace 079,09\\
+ 	\makebox[7cm][r]{Marzo} & 17\thinspace 998,54 & 15\thinspace 197,78 & -7\thinspace 881,31\\ 
+ 	\makebox[7cm][r]{Aprile} & 17\thinspace 998,54 & 14\thinspace 364,64 & 6\thinspace 483,33\\
+ 	\makebox[7cm][r]{Maggio} & 17\thinspace 998,54 & 13\thinspace 577,16 & 20\thinspace 060,49\\ 
+ 	\makebox[7cm][r]{Giugno} & 17\thinspace 998,54 & 12\thinspace 832,85 & 32\thinspace 893,34\\
+ 	\makebox[7cm][r]{Luglio} & 17\thinspace 998,54 & 12\thinspace 129,35 & 45\thinspace 022,69\\ 
+ 	\makebox[7cm][r]{Agosto} & 17\thinspace 998,54 & 11\thinspace 464,42 & 56\thinspace 487,11\\
+ 	\makebox[7cm][r]{Settembre} & 17\thinspace 998,54 & 10\thinspace 835,93 & 67\thinspace 323,04\\ 
+ 	\makebox[7cm][r]{Ottobre} & 17\thinspace 998,54 & 10\thinspace 241,90 & 77\thinspace 564,94\\
+ 	\makebox[7cm][r]{Novembre} & 17\thinspace 998,54 & 9\thinspace 680,44 & 87\thinspace 245,38\\ 
+ 	\makebox[7cm][r]{Dicembre} & 17\thinspace 998,54 & 9\thinspace 149,75 & 96\thinspace 395,13\\ 
  \bottomrule
  \end{tabular} 
 \end{table}

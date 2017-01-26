@@ -1,8 +1,15 @@
-L'impatto dei giorni di malattia sull'analisi dei flussi mensili è stato valutato, considerando il numero medio di malati durante un anno solare.\newline A tal proposito è stato preso in esame un campione di 24 elementi corrispondenti al numero medio di giorni di malattia nell'\ac{UE} nel periodo dal 1990 al 2014.\newline
- \begin{tabular}{SS[table-format=2]}
+L'impatto dei giorni di malattia sull'analisi dei flussi mensili è stato valutato, considerando il numero medio di malati durante un anno solare.\newline A tal proposito è stato preso in esame un campione di 23 elementi corrispondenti al numero medio di giorni di malattia nell'\ac{UE} nel periodo dal 1990 al 2014.\newline
+%
+%	Campione del numero di malati nell'ambito dell'Unione Europea
+%
+\begin{savenotes}
+\begin{table}[htb]
+\centering
+ \caption{Distribuzione Numero Giorni Malattia \ac{UE}}
+ \begin{tabular}{D{,}{,}{5.1}D{,}{,}{5.1}}
  \toprule
- 	{Anno} & {Giorni Malattia} \\
- \midrule
+ 	\multicolumn{1}{c}{\textbf{Anno}} & \multicolumn{1}{c}{\textbf{Giorni Malattia (in media)}} \\
+ \midrule 		
  	1990 & 10,7 \\
  	1991 & 11,1 \\
  	1992 & 11,1 \\
@@ -27,16 +34,17 @@ L'impatto dei giorni di malattia sull'analisi dei flussi mensili è stato valuta
 	2012 & 11,7 \\							  
 	2013 & 11,8 \\
 	2014 & 11,8 \\
-
  \bottomrule
  \end{tabular} 
-\newline
+\end{table}
+\end{savenotes}
+
 Le principali grandezze ad esso associato (i calcoli sono illustrati all'appendice \ref{sec:stimatori_malattie_dipendenti}) sono pari a:
 
 \begin{savenotes}
 \begin{table}[htb]
 \centering
- \caption{Statistiche}
+ \caption{Grandezze}
  \begin{tabular}{p{6cm}D{,}{,}{5.5}}
  \toprule
  	\multicolumn{1}{c}{\textbf{Grandezza}} & \multicolumn{1}{c}{\textbf{Valore}} \\
@@ -50,114 +58,23 @@ Le principali grandezze ad esso associato (i calcoli sono illustrati all'appendi
 \end{table}
 \end{savenotes} 
 
-L'intervallo di confidenza, di livello $0,99$ ad esse associato è pari a:
+L'intervallo di confidenza, di livello $0,9$ ad esse associato è pari a:
 \begin{equation}
 	\label{eq:intervallo_confidenza_num_malattia}
 	\begin{split}
 		\left [ 11,4184 ; 12,6598 \right]	 
 	\end{split}
 \end{equation}
-\begin{comment}
-%
-%	Numero chiamate centralinisti
-%
-\begin{savenotes}
-\begin{table}[htb]
-\centering
- \caption{Numero contratti 29 centralinisti}
- \begin{tabular}{p{5cm}D{,}{,}{5.2}}
- \toprule
- 	& \multicolumn{1}{c}{\textbf{Quantità}} \\
- \midrule 		
-	\makebox[5cm][r]{Numero chiamate annuali} & 605\thinspace 172,00\\
- 	\makebox[5cm][r]{Numero contratti annuali} & 94\thinspace 406,83 \\
- 	\makebox[5cm][r]{Numero contratti mensili} & 7\thinspace 867,24\\  	
- \bottomrule
- \end{tabular} 
-\end{table}
-\end{savenotes}
-
-
-
-\begin{savenotes}
-\begin{table}[htb]
-\centering
- \caption{Numero contratti centralinisti}
- \begin{tabular}{p{7cm}D{,}{,}{5.2}D{,}{,}{5.2}}
- \toprule
- 	& \multicolumn{1}{c}{\textbf{Singolo Centralinista}} & \multicolumn{1}{c}{\textbf{29 Centralinisti}} \\
- \midrule 		
-	\makebox[7cm][r]{Numero chiamate giornaliere} & 94,00 & 2820\\
- 	\makebox[7cm][r]{Numero chiamate mensili} & 1739,00\footnote{(94,00*18,50)} & 52170\\
- 	\makebox[7cm][r]{Contratti stipulati mensilmente} & 271,29 & 8138,52\\ 	
- 	\makebox[7cm][r]{Chiamate mensili in caso di assenza per 12 giorni} & 611,00\footnote{(94,00*(18,50-12,00))} & 18330\\
- 	\makebox[7cm][r]{Contratti stipulati in caso di assenza per 12 giorni} & 95,32\footnote{(611*0,156)} & 2859,48\\ 	
- \bottomrule
- \end{tabular} 
-\end{table}
-\end{savenotes}
- 
-\begin{savenotes}
-\begin{table}[htb]
-\centering
- \caption{Variazione Fatturato}
- \begin{tabular}{p{8cm}D{,}{,}{5.2}D{,}{,}{5.2}}
- \toprule
- 	& \multicolumn{1}{c}{\textbf{VAN PAREGGIO}} & \multicolumn{1}{c}{\textbf{VAN CASO REALE}} \\
- \midrule
- 	\makebox[8cm][r]{Probabilita' di successo di un contratto (\%)} & 11,54 & 15,00\\
- \midrule
-	\makebox[8cm][r]{Numero contratti stipulati (1 mese)} & 8138,52 & 8138,52\\
-	\makebox[8cm][r]{Numero contratti stipulati (30 malati in 1 mese)} & 2859,48 & 2859,48\\
- \midrule	
-	\makebox[8cm][r]{Numero contratti successo (1 mese)} & 939,50 & 1220,78\\
-	\makebox[8cm][r]{Numero contratti successo (30 malati in 1 mese)} & 329,98 & 428,92\\
- \midrule	
-	\makebox[8cm][r]{Fatturato Lordo (\euro) (1 mese)} & 75160,00 & 97662,40\\
-	\makebox[8cm][r]{Fatturato Lordo (\euro) (30 malati in 1 mese)} & 26398,72 & 34313,76\\	
- \midrule	
-	\makebox[8cm][r]{Fatturato Netto (\euro) (1 mese)} & 65314,04 & 84917,46\\
-	\makebox[8cm][r]{Fatturato Netto (\euro) (30 malati in 1 mese)} & 22953,69 & 29835,81\\	
- \bottomrule
- \end{tabular} 
-\end{table}
-\end{savenotes}
-
-\end{comment}
-
-\section[Caso di Studio]{Caso di Studio}
-\begin{comment}
-Tenendo conto i giorni lavorativi mensili pari a:
-  
-\begin{savenotes}
-\begin{table}[htb]
-\centering
- \caption{Giorni Lavoro}
- \begin{tabular}{p{5cm}D{,}{,}{5.2}D{,}{,}{5.2}}
- \toprule
- 	& \multicolumn{1}{c}{\textbf{Annuali}} & \multicolumn{1}{c}{\textbf{Mensili}} \\
- \midrule 	
-	\makebox[5cm][r]{Giorni lavorativi} & 222,00 & 18,50\\
- \bottomrule
- \end{tabular} 
-\end{table}
-\end{savenotes}
-\end{comment}
-
+\subsection[Casi di Studio]{Casi di Studio}
 Si sono analizzati, nel dettaglio l'impatto dei dipendenti che si assentano per malattia:
 \begin{itemize}
 \item \textbf{uniformemente} durante l'arco dell'anno (\textbf{CASO MEDIO});
 \item \textbf{concentrati} nel mese di Dicembre (\textbf{CASO MIGLIORE});
 \item \textbf{concentrati} nel mese di Gennaio (\textbf{CASO PEGGIORE});
 \end{itemize} 
-
-
-
-
 %
 %	Tabella relativa al caso teorico in cui non ci siano malati durante un anno
 %
-
 \begin{comment}
 \begin{savenotes}
 \begin{table}[htb]
@@ -178,7 +95,7 @@ Si sono analizzati, nel dettaglio l'impatto dei dipendenti che si assentano per 
 \end{savenotes}
 \end{comment}
 
-\subsection[Caso Uniforme]{Caso Uniforme}
+\subsubsection[Caso Medio]{Caso Medio}
 Si suppone che i giorni di malattia (\ref{table:numero_medio_malattia}) annuali per singolo dipendente siano distribuiti in maniera uniforme durante l'arco dell'anno, quindi, è (ripetendo questo ragionamento per tutti i 30 centralinisti) come se un centralinista si assentasse per un giorno al mese. \newline
 La squadra di centralinisti pienamente operativa è quindi costituita da 29 persone. \newline
 Tenendo conto che un singolo centralinista è in grado potenzialmente di contattare un numero di clienti interessati (in un mese di 30 giorni) pari a:
@@ -217,6 +134,7 @@ In sintesi, si registrano i seguenti valori:
 \begin{table}[htb]
 \centering
  \caption{Variazione VAN (Malati distribuiti uniformemente)}
+ \label{table:van_malati_uniforme_anno}
  \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{7.4}}
  \toprule
  	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN (\euro)}}&\multicolumn{1}{c}{\textbf{ \% Contratti}} \\
@@ -228,7 +146,7 @@ In sintesi, si registrano i seguenti valori:
 \end{table}
 \end{savenotes}
 
-\subsection[Caso Migliore - Mese Dicembre]{Caso Migliore - Mese Dicembre} 
+\subsubsection[Caso Migliore - Mese Dicembre]{Caso Migliore - Mese Dicembre} 
 La situazione migliore, si registra quando tutti i centralinisti si assentano per 11 giorni (pari al limite inferiore dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_num_malattia}) arrotondato per difetto) nel mese di Dicembre. \newline
 Il numero totale di chiamate \underline{non effettuate}, questo mese, sarà pari quindi a: 
 	\begin{equation}
@@ -300,7 +218,7 @@ la (\ref{eq:van_caso_dicembre_finale}) calcolata per $ x = 78\thinspace 129,81 \
  \caption{Variazione VAN (Malati nel mese di Dicembre)}
  \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
  \toprule
- 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN (\euro)}} \\
+ 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili} &\multicolumn{1}{c}{\textbf{VAN (\euro)}} \\
  \midrule	 
 	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 31\thinspace 678,72 & 494,98 & 72\thinspace 781,61 \\
  \bottomrule
@@ -308,7 +226,7 @@ la (\ref{eq:van_caso_dicembre_finale}) calcolata per $ x = 78\thinspace 129,81 \
 \end{table}
 \end{savenotes}
 
-\subsection[Caso Peggiore - Mese di Gennaio]{Caso Peggiore - Mese di Gennaio}
+\subsubsection[Caso Peggiore - Mese di Gennaio]{Caso Peggiore - Mese di Gennaio}
 La situazione peggiore, si registra, invece, quando tutti i centralinisti si assentano per 13 giorni (pari al limite superiore dell'intervallo di confidenza (\ref{eq:intervallo_confidenza_num_malattia}) arrotondato per eccesso) nel mese di Gennaio.
 \newline
 Il numero totale di chiamate \underline{non effettuate}, questo mese, sarà pari quindi a: 
@@ -378,7 +296,7 @@ la (\ref{eq:van_caso_gennaio_finale}) calcolata per $ x = 78\thinspace 129,81 \:
  \caption{Variazione VAN (Malati nel mese di Gennaio)}
  \begin{tabular}{p{4cm}D{,}{,}{5.2}D{,}{,}{5.2}D{,}{,}{5.2}}
  \toprule
- 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili } &\multicolumn{1}{c}{\textbf{VAN (\euro)}} \\
+ 	& \multicolumn{1}{c}{Flusso di cassa mensile (\euro)} & \multicolumn{1}{c}{Contratti Mensili} &\multicolumn{1}{c}{\textbf{VAN (\euro)}} \\
  \midrule	 
 	\makebox[4cm][r]{Caso di Studio 15,0 \%} & 23\thinspace 228,16 & 362,94 & 44\thinspace 503,93 \\
  \bottomrule
