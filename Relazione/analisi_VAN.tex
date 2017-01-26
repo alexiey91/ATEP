@@ -1,11 +1,12 @@
 \section[VAN]{VAN}
+	Il \ac{VAN} è definito formalmente come: 
 	\begin{equation}
 	\label{eq:van}
 	\begin{split}
  		w = - C_0 + \sum_{k=1}^n \frac{CF_k}{(1+r)^k}
 	\end{split}
 	\end{equation}
-	Consideriamo, quindi, il valore del \ac{VAN} su $12$ flussi di cassa (\textit{cashflow}), corrispondenti alle stime sull'utile realizzato alla fine di ogni mese ed un \textbf{tasso di sconto} $r$ pari al \textbf{\ac{WACC}} (\ref{eq:wacc_tax_value}).\newline
+	Consideriamo, quindi, il valore del \ac{VAN} su $12$ flussi di cassa (\textit{cashflow} o \textit{CF}), corrispondenti alle stime sull'utile realizzato alla fine di ogni mese ed un \textbf{tasso di sconto} $r$ pari al \textbf{\ac{WACC}} (\ref{eq:wacc_tax_value}).\newline
 	La formula (\ref{eq:van}) diventa, quindi:	
 	\begin{equation}
 	\label{eq:van_caso_studio}
@@ -179,6 +180,8 @@ mentre il codominio di (\ref{eq:van_caso_studio_2}) è pari a:
 \end{savenotes}
 
 \subsection[Caso di Studio Realistico]{Caso di Studio Realistico}
+Si assume, in questo caso, che i vari flussi di cassa $CF$ siano pari al $15 \%$ rispetto al caso ottimistico precedente, in modo tale da simulare il caso in cui solamente una piccola parte dei potenziali clienti sia effettivamente interessata a firmare il contratto. \newline
+Sotto quest'ipotesi, si osserva una variazione del VAN come riportato nella tabella seguente: 
 \begin{savenotes}
 \begin{table}[htb]
 \centering
@@ -196,7 +199,7 @@ mentre il codominio di (\ref{eq:van_caso_studio_2}) è pari a:
  \end{tabular} 
 \end{table}
 \end{savenotes}
-
+da un punto di vista grafico, quindi, si osserva uno spostamento nell'area \textit{remunerativa}:
 
 
 \begin{tikzpicture}[scale=1.2]

@@ -13,15 +13,34 @@
 	\begin{split}
 		WACC = \frac{D}{D+E} \cdot K_d \cdot ( 1 - t ) + \frac{E}{D+E} \cdot K_e 
 	\end{split}
-	\end{equation}	
-	A fronte del finanziamento di $\mbox{\euro} \: 85\thinspace 000,00$ richiesto, per fronteggiare le spese di installazione dei vari impianti il valore del \ac{WACC} è pari a:
-	\begin{equation}
-	\label{eq:wacc_tax_value}
-	\begin{split}
-		WACC = \frac{85\thinspace 000}{180\thinspace 000} \cdot 0,044 \cdot ( 1 - 0,20 ) + \frac{95\thinspace 000}{180\thinspace 000} \cdot 0,07774 = 0,0576517 \simeq 0,058
-	\end{split}
 	\end{equation}
-	Il valore del \ac{ROD}, definito come:
+	Il valore $K_e$, ovvero il \textbf{costo del capitale proprio} (\textit{equity}) è stato considerato pari a  quello assunto dall'azienda italiana \textbf{Telecom Italia Spa} il giorno Martedì 24/01/2017\cite{wacc_ke}:
+	\begin{equation}
+	\label{eq:ke_telecom}
+	\begin{split}
+		K_e = 0,07774
+	\end{split}
+	\end{equation} 
+		
+	\begin{tcolorbox}[colframe=blue!75!black,adjusted title=\textbf{Osservazione!}]
+		Nel calcolo del valore di $K_e$ si è assunto che i tre soci si comportino come se costituissero un unico proprietario, quindi è come se ci fosse un unico investimento iniziale eseguito da una sola persona fisica su cui è determinato il costo relativo. In realtà si può sperimentare che i tre soci possano avere dei costi $K_e$ differenti.
+	\end{tcolorbox}	
+	
+	A fronte del finanziamento di $\mbox{\euro} \: 85\thinspace 000,00$ richiesto, per fronteggiare le spese di installazione dei vari impianti, il valore del parametro $K_d$, che tiene conto del \textbf{costo del debito} è pari al tasso d'interesse applicato dalla \ac{Fibank Albania}, ovvero il $4,4 \%$, quindi:  
+	\begin{equation}
+	\label{eq:kd_fibank}
+	\begin{split}
+		K_e = 0,044
+	\end{split}
+	\end{equation} 	
+	 il valore del \ac{WACC} è pari a:
+	\begin{eqnarray}
+	\label{eq:wacc_tax_value}
+		\mbox{WACC} & = & \frac{85\thinspace 000}{180\thinspace 000} \cdot 0,044 \cdot ( 1 - 0,20 ) + \frac{95\thinspace 000}{180\thinspace 000} \cdot 0,07774 \nonumber \\
+		\nonumber \\
+			 & = & 0,0576517 \simeq 0,058
+	\end{eqnarray}
+	Infine, il valore del \ac{ROD} relativo, definito come:
 	\begin{equation}
 	\label{eq:rod_definizione}
 	\begin{split}
@@ -32,5 +51,6 @@
 	\begin{eqnarray}
 	\label{eq:rod_calcolo}	
 		ROD & = & \frac{0,044 \cdot D}{D} \nonumber \\
+										   \nonumber \\
 			& = & 0,044	
 	\end{eqnarray}
