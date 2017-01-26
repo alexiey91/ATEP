@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  26 JAN 2017 01:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.5)  26 JAN 2017 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2166,41 +2166,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
 [9]) [10] (./sistema_fiscale_albania.tex [11]
 Capitolo 3.
+[12
 
-Overfull \hbox (38.13351pt too wide) in paragraph at lines 15--25
+]
+Overfull \hbox (38.13351pt too wide) in paragraph at lines 27--37
  [][] 
  []
 
 Package acronym Info: Label `acro:ISSH' newly defined as it shall be overridden
 
-although it is yet undefined on input line 48.
-[12
+although it is yet undefined on input line 60.
+[13
 
 ]
-Overfull \hbox (4.5pt too wide) detected at line 88
+Overfull \hbox (4.5pt too wide) detected at line 100
 $[]\OT1/cmr/m/n/12 19[][][]$ 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 88
+Overfull \hbox (4.5pt too wide) detected at line 100
 $[]\OT1/cmr/m/n/12 66[][][]$ 
  []
 
 
-Overfull \hbox (4.5pt too wide) detected at line 89
+Overfull \hbox (4.5pt too wide) detected at line 101
 $[]\OT1/cmr/m/n/12 88[][][]$ 
  []
 
-[13] [14]
+[14]
 Package acronym Info: Label `acro:IVA' newly defined as it shall be overridden
-although it is yet undefined on input line 162.
+although it is yet undefined on input line 174.
 Package acronym Info: Label `acro:QKB' newly defined as it shall be overridden
-although it is yet undefined on input line 183.
-) [15] (./elenco_costi.tex
+although it is yet undefined on input line 195.
+) [15] [16] (./elenco_costi.tex
 Capitolo 4.
-(./analisi_CAPEX.tex) (./analisi_OPEX.tex [16
+(./analisi_CAPEX.tex) (./analisi_OPEX.tex [17
 
-] [17])) [18] [19]
+] [18])) [19] [20]
 (./analisi_VAN_WACC.tex
 Capitolo 5.
 Package acronym Info: Label `acro:Fibank Albania' newly defined as it shall be 
@@ -2219,12 +2221,12 @@ Package acronym Info: Label `acro:WACC' newly defined as it shall be overridden
 although it is yet undefined on input line 45.
 Package acronym Info: Label `acro:VAN' newly defined as it shall be overridden
 although it is yet undefined on input line 45.
-(./analisi_WACC.tex [20
+(./analisi_WACC.tex [21
 
 ]
 Package acronym Info: Label `acro:ROD' newly defined as it shall be overridden
 although it is yet undefined on input line 43.
- [21]) (./analisi_VAN.tex [22]
+ [22]) (./analisi_VAN.tex [23]
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fi
 llbetween.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillb
@@ -2264,7 +2266,7 @@ ics
 Package pgfplots info on input line 137: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
- [23] [24]
+ [24] [25]
 Overfull \hbox (19.05692pt too wide) in paragraph at lines 170--179
  [][] 
  []
@@ -2281,87 +2283,94 @@ ics
 Package pgfplots info on input line 225: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
-[25])) [26] (./analisi_rischi.tex [27]
+[26])) [27] (./analisi_rischi.tex [28]
 Capitolo 6.
 Package acronym Info: Label `acro:UPS' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
-(./analisi_rischi_malattiadipendenti.tex [28
+(./analisi_rischi_malattiadipendenti.tex [29
 
-] [29]
+] [30]
 Overfull \hbox (47.50967pt too wide) in paragraph at lines 138--146
  [][] 
  []
 
-[30]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
-[31] [32]) (./analisi_rischi_tassocambio.tex
+[32] [33]) (./analisi_rischi_tassocambio.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
  []
 
-[33] [34] [35] [36]
+[34] [35] [36] [37]
 Overfull \hbox (46.56195pt too wide) in paragraph at lines 217--218
 \T1/ptm/m/n/12 Per te-ner con-to di que-sto fe-no-me-no si in-tro-du-ce l'e-le-
 men-to adi-men-sio-na-le $\OML/cmm/m/it/12 f$ \T1/ptm/m/n/12 ($\OML/cmm/m/it/12
  fattore di aggiustamento$\T1/ptm/m/n/12 )
  []
 
-[37] [38]
+[38] [39]
 Package acronym Info: Label `acro:OPEX' newly defined as it shall be overridden
 
 although it is yet undefined on input line 298.
 Package acronym Info: Label `acro:CAPEX' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 300.
- [39]) (./analisi_rischi_diagramma_tornado.tex
-<./immagini/Tornado.png, id=765, 542.025pt x 315.42844pt>
+ [40]) (./analisi_rischi_diagramma_tornado.tex
+<./immagini/Tornado.png, id=776, 542.025pt x 315.42844pt>
 File: ./immagini/Tornado.png Graphic file (type png)
 
 <use ./immagini/Tornado.png>
 Package pdftex.def Info: ./immagini/Tornado.png used on input line 4.
 (pdftex.def)             Requested size: 379.4149pt x 220.79839pt.
-)) [40] (./conclusioni_sviluppi_futuri.tex [41 <./immagini/Tornado.png>]
+)) [41] (./conclusioni_sviluppi_futuri.tex [42 <./immagini/Tornado.png>]
 Capitolo 7.
-) [42
+) [43
 
-] (./appendici.tex [43
+] (./appendici.tex [44
 
 
 ] (./appendici_variabile_aleatoria.tex
 Appendice A.
-) (./appendici_stimatori.tex [44
+) (./appendici_stimatori.tex [45
 
 ]
 Appendice B.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
-) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [45
+) (./appendici_calcolo_stimatori_malattie_dipendenti.tex [46
 
 ]
 Appendice C.
-) (./appendici_calcolo_stimatori_tasso_cambio.tex [46
+) (./appendici_calcolo_stimatori_tasso_cambio.tex [47
 
 ]
 Appendice D.
-)) [47
+)) [48
 
 ] (./acronimi.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 21.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 18.
 Package acronym Info: Label `acro:S.r.l.' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 42.
+although it is yet undefined on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 \T1/ptm/m/n/10.95 l'equivalente al-ba-ne-se del-l'i-ta-lia-na
  []
 
-[48]) [49] (./bibliografia.tex
+
+Overfull \vbox (3.61339pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (17.2134pt too high) has occurred while \output is active []
+
+
+[49]) [50] (./bibliografia.tex
 Overfull \hbox (63.70374pt too wide) in paragraph at lines 6--8
 [][]\T1/ptm/m/n/12 http://www.ambtirana.esteri.it/ambasciata_tirana/it/i_rappor
 ti_bilaterali/cooperazione_politica/accordi[][] 
@@ -2379,7 +2388,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
 nts/Tax/dttl-tax-
  []
 
-[50
+[51
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 48--50
@@ -2410,7 +2419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--69
 \T1/ptm/m/n/12 8180-4602-a920-a51abf1c2ab5&pf_rd_p=161e1127-8180-4602-a920-
  []
 
-) [51]
+) [52]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
  (./Relazione_Progetto.aux)
@@ -2424,10 +2433,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 47732 strings out of 493029
- 1099474 string characters out of 6136235
- 1378193 words of memory out of 5000000
- 50089 multiletter control sequences out of 15000+600000
+ 47731 strings out of 493029
+ 1099472 string characters out of 6136235
+ 1386166 words of memory out of 5000000
+ 50088 multiletter control sequences out of 15000+600000
  73170 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,29n,107p,10415b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2483,10 +2492,10 @@ ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Relazione_Progetto.pdf (53 pages, 408579 bytes).
+Output written on Relazione_Progetto.pdf (54 pages, 409059 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
- 913 compressed objects within 10 object streams
+ 1026 PDF objects out of 1200 (max. 8388607)
+ 919 compressed objects within 10 object streams
  300 named destinations out of 1000 (max. 500000)
  497 words of extra memory for PDF output out of 10000 (max. 10000000)
 
