@@ -20,10 +20,10 @@
 \contentsline {subsection}{\numberline {3.2.3}Apertura Societ\IeC {\`a} a responsabilit\IeC {\`a} limitata}{16}{subsection.3.2.3}
 \contentsline {chapter}{\numberline {4}Analisi Costi}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}CAPEX}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}OPEX}{17}{section.4.2}
+\contentsline {section}{\numberline {4.2}OPEX}{18}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Acqua}{18}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Luce}{19}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Gas}{19}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Gas}{20}{subsection.4.2.3}
 \contentsline {chapter}{\numberline {5}Valutazione Preliminare Investimento}{21}{chapter.5}
 \contentsline {section}{\numberline {5.1}WACC}{22}{section.5.1}
 \contentsline {section}{\numberline {5.2}VAN}{23}{section.5.2}
